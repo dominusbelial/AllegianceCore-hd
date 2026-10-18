@@ -6,10 +6,12 @@ The base game is complete without it; with it installed, ships (later stations, 
 
 ## What this is (and isn't)
 
-- **Same models, same look, more detail.** Every asset keeps its native mesh, UVs, silhouette, colours and markings.
-  Meshy *retextures* the native mesh, guided by a per-model text prompt; a hybrid post-process then keeps the
-  **native colour** (ESRGAN ×4 of the original texture) and adds only Meshy's fine surface detail (capped at ±10%),
-  plus its normal/roughness/metallic maps. Glowing native areas stay matte and flat. See [METHOD.md](METHOD.md).
+- **Same models, same look, sharper.** Every asset keeps its native mesh, UVs, silhouette, colours and markings. The
+  method (since 2026-10-18) is **ESRGAN ×4 of each native texture atlas plus derived normal/roughness/metallic maps**
+  (`pipeline/esrgan_variant.py`): free and 100% faithful. Meshy retextures were tried (rounds 1–2, slice 20) and
+  dropped: at close range they invented stencil text, canopy frames and panel lines, and once those were filtered out
+  (`pipeline/hybrid_v4.py`) they added little over ESRGAN. See `review/sheets/SLICE20_V4_COMPARE_*.jpg` and
+  [METHOD.md](METHOD.md).
 - **No invented features.** No canopies, windows, lights, text or decals that the original doesn't have. Every model
   is reviewed side by side with the native one (`review/sheets/`).
 - **Nothing generated lives in git.** This repo holds the pipeline, prompts, manifest and review sheets. The
@@ -23,6 +25,12 @@ The base game is complete without it; with it installed, ships (later stations, 
 | `manifest.json` | jobs, Meshy task ids, credits, checks | yes |
 | `review/sheets/` | native vs HD comparison sheets (JPG) | yes |
 | `inputs/`, `variants/`, `models/`, `tasks/`, `validation/` | generated data | **no** |
+
+## Batch on the mini
+
+`deploy/mini/`: a Docker Compose ESRGAN worker for the UM690. It upscales every `inputs/<model>/native.png`
+that has no output yet and pauses while the test runner is busy. Natives are exported on the workstation
+(`pipeline/esrgan_batch.py ships.txt --export-only`) and synced over.
 
 ## Running
 

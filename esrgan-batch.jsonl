@@ -1,0 +1,158 @@
+{"model": "acs01", "status": "ok", "seconds": 362}
+{"model": "acs41", "status": "exported", "seconds": 0}
+{"model": "acs63", "status": "exported", "seconds": 0}
+{"model": "bom01b", "status": "exported", "seconds": 0}
+{"model": "bom03", "status": "exported", "seconds": 0}
+{"model": "bom05b", "status": "exported", "seconds": 0}
+{"model": "bom07b", "status": "exported", "seconds": 0}
+{"model": "bom20", "status": "exported", "seconds": 0}
+{"model": "bom30", "status": "exported", "seconds": 0}
+{"model": "bom400", "status": "exported", "seconds": 0}
+{"model": "cap01", "status": "exported", "seconds": 0}
+{"model": "cap02a", "status": "exported", "seconds": 0}
+{"model": "cap03", "status": "exported", "seconds": 0}
+{"model": "cap07", "status": "exported", "seconds": 0}
+{"model": "cap08", "status": "exported", "seconds": 0}
+{"model": "cap09", "status": "exported", "seconds": 0}
+{"model": "cap100", "status": "exported", "seconds": 0}
+{"model": "cap101", "status": "exported", "seconds": 0}
+{"model": "cap102", "status": "exported", "seconds": 0}
+{"model": "cap103", "status": "exported", "seconds": 0}
+{"model": "cap20", "status": "exported", "seconds": 0}
+{"model": "cap21", "status": "exported", "seconds": 0}
+{"model": "cap300", "status": "exported", "seconds": 0}
+{"model": "cap301", "status": "exported", "seconds": 0}
+{"model": "cap302", "status": "exported", "seconds": 0}
+{"model": "cap303", "status": "exported", "seconds": 0}
+{"model": "cap400", "status": "exported", "seconds": 0}
+{"model": "cap401", "status": "exported", "seconds": 0}
+{"model": "cap403", "status": "exported", "seconds": 0}
+{"model": "cap404", "status": "exported", "seconds": 0}
+{"model": "cap405", "status": "exported", "seconds": 0}
+{"model": "cap406", "status": "exported", "seconds": 1}
+{"model": "cap415", "status": "exported", "seconds": 0}
+{"model": "cap500", "status": "failed:    at Program.<Main>$(String[] args) in /home/domingo/Development/AllegianceCore-hd/pipeline/Program.cs:line 35", "seconds": 0}
+{"model": "cap501", "status": "failed:    at Program.<Main>$(String[] args) in /home/domingo/Development/AllegianceCore-hd/pipeline/Program.cs:line 35", "seconds": 0}
+{"model": "cap502", "status": "failed:    at Program.<Main>$(String[] args) in /home/domingo/Development/AllegianceCore-hd/pipeline/Program.cs:line 35", "seconds": 0}
+{"model": "cap503", "status": "exported", "seconds": 1}
+{"model": "cap504", "status": "failed:    at Program.<Main>$(String[] args) in /home/domingo/Development/AllegianceCore-hd/pipeline/Program.cs:line 35", "seconds": 0}
+{"model": "crus2", "status": "exported", "seconds": 0}
+{"model": "dcrus", "status": "exported", "seconds": 0}
+{"model": "dminr", "status": "exported", "seconds": 0}
+{"model": "dn_fadrshcon", "status": "failed:    at Program.<Main>$(String[] args) in /home/domingo/Development/AllegianceCore-hd/pipeline/Program.cs:line 35", "seconds": 0}
+{"model": "dn_fadrshfig", "status": "failed:    at Program.<Main>$(String[] args) in /home/domingo/Development/AllegianceCore-hd/pipeline/Program.cs:line 35", "seconds": 0}
+{"model": "dn_fadrshstl", "status": "failed:    at Program.<Main>$(String[] args) in /home/domingo/Development/AllegianceCore-hd/pipeline/Program.cs:line 35", "seconds": 0}
+{"model": "dn_faphshbmb", "status": "failed:    at Program.<Main>$(String[] args) in /home/domingo/Development/AllegianceCore-hd/pipeline/Program.cs:line 35", "seconds": 0}
+{"model": "dn_faphshbmbs", "status": "failed:    at Program.<Main>$(String[] args) in /home/domingo/Development/AllegianceCore-hd/pipeline/Program.cs:line 35", "seconds": 0}
+{"model": "dn_faphshcar", "status": "failed:    at Program.<Main>$(String[] args) in /home/domingo/Development/AllegianceCore-hd/pipeline/Program.cs:line 35", "seconds": 0}
+{"model": "dn_faphshcrs", "status": "failed:    at Program.<Main>$(String[] args) in /home/domingo/Development/AllegianceCore-hd/pipeline/Program.cs:line 35", "seconds": 0}
+{"model": "dn_faphshdst", "status": "failed:    at Program.<Main>$(String[] args) in /home/domingo/Development/AllegianceCore-hd/pipeline/Program.cs:line 35", "seconds": 0}
+{"model": "dn_faphshfig", "status": "failed:    at Program.<Main>$(String[] args) in /home/domingo/Development/AllegianceCore-hd/pipeline/Program.cs:line 35", "seconds": 0}
+{"model": "dn_faphshfrg", "status": "failed:    at Program.<Main>$(String[] args) in /home/domingo/Development/AllegianceCore-hd/pipeline/Program.cs:line 35", "seconds": 0}
+{"model": "dn_faphshint", "status": "failed:    at Program.<Main>$(String[] args) in /home/domingo/Development/AllegianceCore-hd/pipeline/Program.cs:line 35", "seconds": 0}
+{"model": "dn_faphshmnr", "status": "failed:    at Program.<Main>$(String[] args) in /home/domingo/Development/AllegianceCore-hd/pipeline/Program.cs:line 35", "seconds": 0}
+{"model": "dn_faphshpod", "status": "failed:    at Program.<Main>$(String[] args) in /home/domingo/Development/AllegianceCore-hd/pipeline/Program.cs:line 35", "seconds": 0}
+{"model": "dn_faphshrpb", "status": "exported", "seconds": 0}
+{"model": "dn_faphshsct", "status": "failed:    at Program.<Main>$(String[] args) in /home/domingo/Development/AllegianceCore-hd/pipeline/Program.cs:line 35", "seconds": 0}
+{"model": "dn_faphshstl", "status": "failed:    at Program.<Main>$(String[] args) in /home/domingo/Development/AllegianceCore-hd/pipeline/Program.cs:line 35", "seconds": 0}
+{"model": "dn_faphshvng", "status": "failed:    at Program.<Main>$(String[] args) in /home/domingo/Development/AllegianceCore-hd/pipeline/Program.cs:line 35", "seconds": 0}
+{"model": "dn_fateshbmb", "status": "exported", "seconds": 0}
+{"model": "dregcar", "status": "exported", "seconds": 2}
+{"model": "dreghpod", "status": "exported", "seconds": 0}
+{"model": "dregtt", "status": "failed:    at Program.<Main>$(String[] args) in /home/domingo/Development/AllegianceCore-hd/pipeline/Program.cs:line 35", "seconds": 0}
+{"model": "drgmf", "status": "exported", "seconds": 0}
+{"model": "drgtow", "status": "exported", "seconds": 0}
+{"model": "faohshafig", "status": "exported", "seconds": 1}
+{"model": "faohshass", "status": "exported", "seconds": 1}
+{"model": "faohshcar", "status": "exported", "seconds": 1}
+{"model": "faohshcon", "status": "exported", "seconds": 1}
+{"model": "faohshcrs", "status": "exported", "seconds": 1}
+{"model": "faohshcrv", "status": "exported", "seconds": 1}
+{"model": "faohshdev", "status": "exported", "seconds": 1}
+{"model": "faohshfig", "status": "exported", "seconds": 1}
+{"model": "faohshhint", "status": "exported", "seconds": 1}
+{"model": "faohshint", "status": "exported", "seconds": 1}
+{"model": "faohshmnr", "status": "exported", "seconds": 1}
+{"model": "faohshpod", "status": "exported", "seconds": 0}
+{"model": "faohshstl", "status": "exported", "seconds": 1}
+{"model": "fig02ops1", "status": "exported", "seconds": 0}
+{"model": "fig05ops1", "status": "exported", "seconds": 0}
+{"model": "fig07", "status": "exported", "seconds": 0}
+{"model": "fig12", "status": "exported", "seconds": 0}
+{"model": "fig13", "status": "exported", "seconds": 0}
+{"model": "fig15", "status": "failed:    at Program.<Main>$(String[] args) in /home/domingo/Development/AllegianceCore-hd/pipeline/Program.cs:line 37", "seconds": 0}
+{"model": "fig17", "status": "exported", "seconds": 0}
+{"model": "fig21", "status": "exported", "seconds": 0}
+{"model": "fig22", "status": "exported", "seconds": 0}
+{"model": "fig23", "status": "exported", "seconds": 0}
+{"model": "fig25", "status": "exported", "seconds": 0}
+{"model": "fig30", "status": "exported", "seconds": 0}
+{"model": "fig31", "status": "exported", "seconds": 0}
+{"model": "fig32", "status": "exported", "seconds": 0}
+{"model": "fig34", "status": "exported", "seconds": 0}
+{"model": "quizbbrv2", "status": "failed:    at Program.<Main>$(String[] args) in /home/domingo/Development/AllegianceCore-hd/pipeline/Program.cs:line 35", "seconds": 0}
+{"model": "quizfigv2", "status": "failed:    at Program.<Main>$(String[] args) in /home/domingo/Development/AllegianceCore-hd/pipeline/Program.cs:line 35", "seconds": 0}
+{"model": "quizintv2", "status": "failed:    at Program.<Main>$(String[] args) in /home/domingo/Development/AllegianceCore-hd/pipeline/Program.cs:line 35", "seconds": 0}
+{"model": "quizscoutv2", "status": "failed:    at Program.<Main>$(String[] args) in /home/domingo/Development/AllegianceCore-hd/pipeline/Program.cs:line 35", "seconds": 0}
+{"model": "quizsfv2", "status": "failed:    at Program.<Main>$(String[] args) in /home/domingo/Development/AllegianceCore-hd/pipeline/Program.cs:line 35", "seconds": 0}
+{"model": "raincarr", "status": "failed:    at Program.<Main>$(String[] args) in /home/domingo/Development/AllegianceCore-hd/pipeline/Program.cs:line 35", "seconds": 0}
+{"model": "rainintv2", "status": "exported", "seconds": 0}
+{"model": "rainscoutv2", "status": "exported", "seconds": 0}
+{"model": "rainsfv2", "status": "exported", "seconds": 0}
+{"model": "rescuedrone", "status": "exported", "seconds": 0}
+{"model": "ss20", "status": "exported", "seconds": 0}
+{"model": "tecdev", "status": "exported", "seconds": 0}
+{"model": "tfcon", "status": "exported", "seconds": 0}
+{"model": "tfdron", "status": "exported", "seconds": 0}
+{"model": "tffig", "status": "exported", "seconds": 0}
+{"model": "tfflagship", "status": "exported", "seconds": 0}
+{"model": "tfmnr", "status": "exported", "seconds": 0}
+{"model": "tfpod", "status": "exported", "seconds": 0}
+{"model": "tfsb2", "status": "failed:    at Program.<Main>$(String[] args) in /home/domingo/Development/AllegianceCore-hd/pipeline/Program.cs:line 35", "seconds": 0}
+{"model": "tftransport", "status": "exported", "seconds": 0}
+{"model": "utl01b", "status": "exported", "seconds": 0}
+{"model": "utl05", "status": "exported", "seconds": 0}
+{"model": "utl100", "status": "exported", "seconds": 0}
+{"model": "utl103", "status": "exported", "seconds": 0}
+{"model": "utl105", "status": "exported", "seconds": 0}
+{"model": "utl11", "status": "exported", "seconds": 0}
+{"model": "utl14a", "status": "exported", "seconds": 0}
+{"model": "utl17a", "status": "exported", "seconds": 0}
+{"model": "utl18a", "status": "exported", "seconds": 0}
+{"model": "utl19", "status": "exported", "seconds": 1}
+{"model": "utl200", "status": "exported", "seconds": 0}
+{"model": "utl201", "status": "exported", "seconds": 0}
+{"model": "utl202", "status": "exported", "seconds": 0}
+{"model": "utl203", "status": "exported", "seconds": 1}
+{"model": "utl205", "status": "exported", "seconds": 0}
+{"model": "utl22", "status": "failed:    at Program.<Main>$(String[] args) in /home/domingo/Development/AllegianceCore-hd/pipeline/Program.cs:line 31", "seconds": 0}
+{"model": "utl25", "status": "exported", "seconds": 0}
+{"model": "utl27b", "status": "exported", "seconds": 0}
+{"model": "utl400", "status": "exported", "seconds": 1}
+{"model": "utl403", "status": "exported", "seconds": 1}
+{"model": "utl666", "status": "exported", "seconds": 1}
+{"model": "utl90", "status": "exported", "seconds": 0}
+{"model": "utl91", "status": "exported", "seconds": 0}
+{"model": "utl92a", "status": "exported", "seconds": 0}
+{"model": "utl93b", "status": "exported", "seconds": 0}
+{"model": "utl94", "status": "exported", "seconds": 0}
+{"model": "utl95", "status": "exported", "seconds": 0}
+{"model": "utl99", "status": "exported", "seconds": 0}
+{"model": "wc_beomni", "status": "failed:    at Program.<Main>$(String[] args) in /home/domingo/Development/AllegianceCore-hd/pipeline/Program.cs:line 35", "seconds": 0}
+{"model": "wc_bifig", "status": "exported", "seconds": 0}
+{"model": "wc_gcbmbx", "status": "exported", "seconds": 0}
+{"model": "wc_gcfigx", "status": "exported", "seconds": 0}
+{"model": "wc_gchttx", "status": "exported", "seconds": 0}
+{"model": "wc_gchvy", "status": "exported", "seconds": 0}
+{"model": "wc_gchvyx", "status": "exported", "seconds": 1}
+{"model": "wc_gcint", "status": "exported", "seconds": 0}
+{"model": "wc_gtadv", "status": "exported", "seconds": 0}
+{"model": "wc_gtcon", "status": "exported", "seconds": 0}
+{"model": "wc_gthvy", "status": "exported", "seconds": 1}
+{"model": "wc_gtint", "status": "exported", "seconds": 0}
+{"model": "wc_gtsf", "status": "exported", "seconds": 0}
+{"model": "wc_gtstang", "status": "exported", "seconds": 1}
+{"model": "wc_icadv", "status": "exported", "seconds": 0}
+{"model": "wc_icbmb", "status": "exported", "seconds": 1}
+{"model": "wc_ichvy", "status": "exported", "seconds": 0}
+{"model": "wc_icsf", "status": "exported", "seconds": 0}

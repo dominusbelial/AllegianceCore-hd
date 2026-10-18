@@ -1,0 +1,19 @@
+# HD texture ESRGAN worker on the mini (Claude 2026-10-18). Inputs are synced from the workstation; outputs are
+# pulled back. Settings in .env.
+services:
+  esrgan:
+    build: .
+    image: allegiance-hd-esrgan:latest
+    restart: unless-stopped
+    pid: host
+    environment:
+      HD_ADDON_ROOT: /work
+      ESRGAN_WEIGHTS: /weights/RealESRGAN_x4plus.pth
+      OMP_NUM_THREADS: ${THREADS:-12}
+      MKL_NUM_THREADS: ${THREADS:-12}
+      PAUSE_FOR_RUNNER: ${PAUSE_FOR_RUNNER:-1}
+      NICE: ${NICE:-10}
+      TZ: ${TZ:-America/Bogota}
+    volumes:
+      - ${WORK_PATH}:/work
+      - ${WEIGHTS_DIR}:/weights:ro

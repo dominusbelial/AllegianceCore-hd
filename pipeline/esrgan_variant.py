@@ -4,8 +4,9 @@ import sys, numpy as np, torch
 from pathlib import Path
 from PIL import Image, ImageFilter
 from spandrel import ModelLoader
-addon = Path.home()/'Development/AllegianceCore-hd'
-weights = Path.home()/'Development/allegiance-tools/reference/esrgan-work/RealESRGAN_x4plus.pth'
+import os
+addon = Path(os.environ.get('HD_ADDON_ROOT', Path.home()/'Development/AllegianceCore-hd'))
+weights = Path(os.environ.get('ESRGAN_WEIGHTS', Path.home()/'Development/allegiance-tools/reference/esrgan-work/RealESRGAN_x4plus.pth'))
 model = ModelLoader().load_from_file(str(weights)).eval()
 def up4(img):
     x = torch.from_numpy(np.asarray(img.convert('RGB'), np.float32)/255).permute(2,0,1)[None]
