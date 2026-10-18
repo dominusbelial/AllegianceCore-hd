@@ -1,0 +1,34 @@
+{
+  "unused_single_atlas_candidates_removed": [
+    "tftransport",
+    "tfpod",
+    "tfmnr",
+    "tfflagship",
+    "tffig",
+    "tfdron",
+    "tfcon",
+    "rainsfv2",
+    "rainscoutv2",
+    "rainintv2",
+    "faohshstl",
+    "faohshpod",
+    "faohshmnr",
+    "faohshint",
+    "faohshhint",
+    "faohshfig",
+    "faohshdev",
+    "faohshcrv",
+    "faohshcrs",
+    "faohshcon",
+    "faohshcar",
+    "faohshass",
+    "faohshafig",
+    "dn_fateshbmb",
+    "dn_faphshrpb"
+  ],
+  "multiple_atlas_families_excluded": [
+    "quiz*",
+    "most dn_faphsh*"
+  ],
+  "reason": "Preserve native UVs; pilot uses one material atlas per hull"
+}

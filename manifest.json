@@ -1,0 +1,4075 @@
+{
+  "schema": 1,
+  "private": true,
+  "jobs": {
+    "wc_icfig:multiview": {
+      "status": "SUCCEEDED",
+      "task_id": "01a14a77-8a65-7598-8f59-01caa75bd5b4",
+      "reserved_credits": 10,
+      "balance_before": 4900,
+      "settings": {
+        "ai_model": "meshy-7",
+        "texture_resolution": "4k",
+        "enable_pbr": true,
+        "enable_original_uv": true,
+        "remove_lighting": true,
+        "target_formats": [
+          "glb"
+        ]
+      },
+      "variant": "multiview",
+      "conditioning": {
+        "native_reference_views": [
+          "front",
+          "three_quarter",
+          "side",
+          "top"
+        ]
+      },
+      "balance_after_submit": 4890,
+      "consumed_credits": 10,
+      "map_origins": {
+        "basecolor": "Meshy generated",
+        "normal": "Meshy generated",
+        "metallic": "Meshy generated",
+        "roughness": "Meshy generated",
+        "emission": "neutral black fallback; Meshy 7 supplies no emission"
+      },
+      "metrics": {
+        "map_sizes": {
+          "basecolor": [
+            4096,
+            4096
+          ],
+          "normal": [
+            4096,
+            4096
+          ],
+          "metallic": [
+            2048,
+            2048
+          ],
+          "roughness": [
+            2048,
+            2048
+          ],
+          "emission": [
+            4096,
+            4096
+          ]
+        },
+        "uv_coverage_fraction": 0.7069282531738281,
+        "coverage_iou": 1.0,
+        "edge_precision": 0.5500204792135982,
+        "edge_recall": 0.5928354946092314,
+        "edge_f1": 0.5706259936658458,
+        "palette_delta_e": 7.338485670537361,
+        "flat_panel_samples": 137,
+        "flat_panel_gradient_p95": 0.2411718787477317,
+        "wrapped_triangles_unmeasured": 0,
+        "thresholds": {
+          "coverage_iou_min": 0.98,
+          "edge_f1_min": 0.2,
+          "palette_delta_e_max": 25.0,
+          "flat_panel_gradient_p95_max": 0.18
+        },
+        "checks": {
+          "sizes": false,
+          "coverage": true,
+          "edges": true,
+          "palette": true,
+          "lighting": false,
+          "uv_range": true
+        },
+        "accepted": false,
+        "limitations": "Opaque coverage detects alpha holes only; edge/palette/gradient gates are heuristics. UV preservation relies on native geometry being retained for preview/runtime."
+      },
+      "map_sha256": {
+        "emission.png": "762b0a6da544ac84210872d26da7899b4a1aedcc14629dd00c78b395ee4ebbdf",
+        "roughness.png": "29ed8fca616e95c096ef4d780220edf5a6d436f241905c578e675f0231576edf",
+        "metallic.png": "9ccbfc62cebe54e1afd05a2abece9a0a11e01f0f33da33bc08e7d053b28e02f6",
+        "normal.png": "4303d2ffbeb0179d3e8bec76c74416be1c9a0852562a9518a498d7d74aa0743d",
+        "basecolor.png": "748917c77afe391be1fc39722e88b04964d3f9f284ab488a4e79495dfd1d47ec"
+      },
+      "balance_after": 4800,
+      "complete": true
+    },
+    "wc_icint:multiview": {
+      "status": "SUCCEEDED",
+      "task_id": "01a14a77-9881-74ac-a15c-ef69bd02edaf",
+      "reserved_credits": 10,
+      "balance_before": 4890,
+      "settings": {
+        "ai_model": "meshy-7",
+        "texture_resolution": "4k",
+        "enable_pbr": true,
+        "enable_original_uv": true,
+        "remove_lighting": true,
+        "target_formats": [
+          "glb"
+        ]
+      },
+      "variant": "multiview",
+      "conditioning": {
+        "native_reference_views": [
+          "front",
+          "three_quarter",
+          "side",
+          "top"
+        ]
+      },
+      "balance_after_submit": 4880,
+      "consumed_credits": 10,
+      "map_origins": {
+        "basecolor": "Meshy generated",
+        "normal": "Meshy generated",
+        "metallic": "Meshy generated",
+        "roughness": "Meshy generated",
+        "emission": "neutral black fallback; Meshy 7 supplies no emission"
+      },
+      "metrics": {
+        "map_sizes": {
+          "basecolor": [
+            4096,
+            4096
+          ],
+          "normal": [
+            4096,
+            4096
+          ],
+          "metallic": [
+            2048,
+            2048
+          ],
+          "roughness": [
+            2048,
+            2048
+          ],
+          "emission": [
+            4096,
+            4096
+          ]
+        },
+        "uv_coverage_fraction": 0.6244621276855469,
+        "coverage_iou": 1.0,
+        "edge_precision": 0.3670835550824907,
+        "edge_recall": 0.30613116855372785,
+        "edge_f1": 0.33384806876262996,
+        "palette_delta_e": 7.903381069643371,
+        "flat_panel_samples": 202,
+        "flat_panel_gradient_p95": 0.27933203095971787,
+        "wrapped_triangles_unmeasured": 0,
+        "thresholds": {
+          "coverage_iou_min": 0.98,
+          "edge_f1_min": 0.2,
+          "palette_delta_e_max": 25.0,
+          "flat_panel_gradient_p95_max": 0.18
+        },
+        "checks": {
+          "sizes": false,
+          "coverage": true,
+          "edges": true,
+          "palette": true,
+          "lighting": false,
+          "uv_range": true
+        },
+        "accepted": false,
+        "limitations": "Opaque coverage detects alpha holes only; edge/palette/gradient gates are heuristics. UV preservation relies on native geometry being retained for preview/runtime."
+      },
+      "map_sha256": {
+        "emission.png": "762b0a6da544ac84210872d26da7899b4a1aedcc14629dd00c78b395ee4ebbdf",
+        "roughness.png": "8f8b2b8e59d421f5b7dfc7a0d035566814569c6620cfcfb7d0fda9e1da0f3fc5",
+        "metallic.png": "4531ac4a0a5dec1db86641d2ef63407baf56559cd5fc38a304d881696c7f2ae6",
+        "normal.png": "ef1a731638daccd29b70b6c406e934cf9bbe51d4193fe87eed6868ebca1485c7",
+        "basecolor.png": "2d8bb7a91951eb47969078c02b912c1786076312db93547d4c3f3344e9ff5c6b"
+      },
+      "balance_after": 4800,
+      "complete": true
+    },
+    "wc_gtsct:multiview": {
+      "status": "SUCCEEDED",
+      "task_id": "01a14a77-a5e2-7267-a8ca-c260e5f82638",
+      "reserved_credits": 10,
+      "balance_before": 4880,
+      "settings": {
+        "ai_model": "meshy-7",
+        "texture_resolution": "4k",
+        "enable_pbr": true,
+        "enable_original_uv": true,
+        "remove_lighting": true,
+        "target_formats": [
+          "glb"
+        ]
+      },
+      "variant": "multiview",
+      "conditioning": {
+        "native_reference_views": [
+          "front",
+          "three_quarter",
+          "side",
+          "top"
+        ]
+      },
+      "balance_after_submit": 4870,
+      "consumed_credits": 10,
+      "map_origins": {
+        "basecolor": "Meshy generated",
+        "normal": "Meshy generated",
+        "metallic": "Meshy generated",
+        "roughness": "Meshy generated",
+        "emission": "neutral black fallback; Meshy 7 supplies no emission"
+      },
+      "metrics": {
+        "map_sizes": {
+          "basecolor": [
+            4096,
+            4096
+          ],
+          "normal": [
+            4096,
+            4096
+          ],
+          "metallic": [
+            2048,
+            2048
+          ],
+          "roughness": [
+            2048,
+            2048
+          ],
+          "emission": [
+            4096,
+            4096
+          ]
+        },
+        "uv_coverage_fraction": 0.4001960754394531,
+        "coverage_iou": 1.0,
+        "edge_precision": 0.5286993154291733,
+        "edge_recall": 0.23445894090560246,
+        "edge_f1": 0.3248560322163744,
+        "palette_delta_e": 4.370442216924912,
+        "flat_panel_samples": 248,
+        "flat_panel_gradient_p95": 0.18205079472698657,
+        "wrapped_triangles_unmeasured": 0,
+        "thresholds": {
+          "coverage_iou_min": 0.98,
+          "edge_f1_min": 0.2,
+          "palette_delta_e_max": 25.0,
+          "flat_panel_gradient_p95_max": 0.18
+        },
+        "checks": {
+          "sizes": false,
+          "coverage": true,
+          "edges": true,
+          "palette": true,
+          "lighting": false,
+          "uv_range": true
+        },
+        "accepted": false,
+        "limitations": "Opaque coverage detects alpha holes only; edge/palette/gradient gates are heuristics. UV preservation relies on native geometry being retained for preview/runtime."
+      },
+      "map_sha256": {
+        "emission.png": "762b0a6da544ac84210872d26da7899b4a1aedcc14629dd00c78b395ee4ebbdf",
+        "roughness.png": "9a73d8aba6f70f6c9f9dc8837a725047edc5b0e05cb0bfd11c1f70cd9665cbbc",
+        "metallic.png": "1c41b7c940968f7680abfd7a4db018ec736baf273c7cfc711aba9c1131166003",
+        "normal.png": "f108418379432296ee5ce8dc34135afca4064cb6e329a79f1cd7d71072cdc429",
+        "basecolor.png": "27856cc96fd3177bab32bbd2fe7022cb5158897063d78770296e36a40de84c49"
+      },
+      "balance_after": 4800,
+      "complete": true
+    },
+    "wc_gtmnr:multiview": {
+      "status": "SUCCEEDED",
+      "task_id": "01a14a77-b321-7494-a732-4aaa2f063943",
+      "reserved_credits": 10,
+      "balance_before": 4870,
+      "settings": {
+        "ai_model": "meshy-7",
+        "texture_resolution": "4k",
+        "enable_pbr": true,
+        "enable_original_uv": true,
+        "remove_lighting": true,
+        "target_formats": [
+          "glb"
+        ]
+      },
+      "variant": "multiview",
+      "conditioning": {
+        "native_reference_views": [
+          "front",
+          "three_quarter",
+          "side",
+          "top"
+        ]
+      },
+      "balance_after_submit": 4860,
+      "consumed_credits": 10,
+      "map_origins": {
+        "basecolor": "Meshy generated",
+        "normal": "Meshy generated",
+        "metallic": "Meshy generated",
+        "roughness": "Meshy generated",
+        "emission": "neutral black fallback; Meshy 7 supplies no emission"
+      },
+      "metrics": {
+        "map_sizes": {
+          "basecolor": [
+            4096,
+            4096
+          ],
+          "normal": [
+            4096,
+            4096
+          ],
+          "metallic": [
+            2048,
+            2048
+          ],
+          "roughness": [
+            2048,
+            2048
+          ],
+          "emission": [
+            4096,
+            4096
+          ]
+        },
+        "uv_coverage_fraction": 0.4407844543457031,
+        "coverage_iou": 1.0,
+        "edge_precision": 0.6991434689507494,
+        "edge_recall": 0.2548113933795227,
+        "edge_f1": 0.3734971716803424,
+        "palette_delta_e": 4.980599060723474,
+        "flat_panel_samples": 300,
+        "flat_panel_gradient_p95": 0.3521336177869416,
+        "wrapped_triangles_unmeasured": 0,
+        "thresholds": {
+          "coverage_iou_min": 0.98,
+          "edge_f1_min": 0.2,
+          "palette_delta_e_max": 25.0,
+          "flat_panel_gradient_p95_max": 0.18
+        },
+        "checks": {
+          "sizes": false,
+          "coverage": true,
+          "edges": true,
+          "palette": true,
+          "lighting": false,
+          "uv_range": true
+        },
+        "accepted": false,
+        "limitations": "Opaque coverage detects alpha holes only; edge/palette/gradient gates are heuristics. UV preservation relies on native geometry being retained for preview/runtime."
+      },
+      "map_sha256": {
+        "emission.png": "762b0a6da544ac84210872d26da7899b4a1aedcc14629dd00c78b395ee4ebbdf",
+        "roughness.png": "311bdd7d41371ca2d9ae388c529c887c0b124f2e7a9d5d0d70d814bdaea62b88",
+        "metallic.png": "71386a3fb7a0fa6cbe10ad3c3f3bc4f9b1c70010db22833bd2e2d5fc217d5af2",
+        "normal.png": "ecc316f7a9025578c9ded5f948422b91f237e09943ac73b896ba6d124f26496c",
+        "basecolor.png": "0b77b28167d912e428ab0fd7f0eb8c41897fcd431eebd5b496016c812b27c570"
+      },
+      "balance_after": 4800,
+      "complete": true
+    },
+    "wc_gtpod:multiview": {
+      "status": "SUCCEEDED",
+      "task_id": "01a14a77-c08f-72ce-9958-bb5e50c0b327",
+      "reserved_credits": 10,
+      "balance_before": 4860,
+      "settings": {
+        "ai_model": "meshy-7",
+        "texture_resolution": "4k",
+        "enable_pbr": true,
+        "enable_original_uv": true,
+        "remove_lighting": true,
+        "target_formats": [
+          "glb"
+        ]
+      },
+      "variant": "multiview",
+      "conditioning": {
+        "native_reference_views": [
+          "front",
+          "three_quarter",
+          "side",
+          "top"
+        ]
+      },
+      "balance_after_submit": 4850,
+      "consumed_credits": 10,
+      "map_origins": {
+        "basecolor": "Meshy generated",
+        "normal": "Meshy generated",
+        "metallic": "Meshy generated",
+        "roughness": "Meshy generated",
+        "emission": "neutral black fallback; Meshy 7 supplies no emission"
+      },
+      "metrics": {
+        "map_sizes": {
+          "basecolor": [
+            4096,
+            4096
+          ],
+          "normal": [
+            4096,
+            4096
+          ],
+          "metallic": [
+            2048,
+            2048
+          ],
+          "roughness": [
+            2048,
+            2048
+          ],
+          "emission": [
+            4096,
+            4096
+          ]
+        },
+        "uv_coverage_fraction": 0.49819183349609375,
+        "coverage_iou": 1.0,
+        "edge_precision": 0.39802158273381294,
+        "edge_recall": 0.33777842907385697,
+        "edge_f1": 0.3654338211357884,
+        "palette_delta_e": 5.914156279458255,
+        "flat_panel_samples": 108,
+        "flat_panel_gradient_p95": 0.3123919464457133,
+        "wrapped_triangles_unmeasured": 0,
+        "thresholds": {
+          "coverage_iou_min": 0.98,
+          "edge_f1_min": 0.2,
+          "palette_delta_e_max": 25.0,
+          "flat_panel_gradient_p95_max": 0.18
+        },
+        "checks": {
+          "sizes": false,
+          "coverage": true,
+          "edges": true,
+          "palette": true,
+          "lighting": false,
+          "uv_range": true
+        },
+        "accepted": false,
+        "limitations": "Opaque coverage detects alpha holes only; edge/palette/gradient gates are heuristics. UV preservation relies on native geometry being retained for preview/runtime."
+      },
+      "map_sha256": {
+        "emission.png": "762b0a6da544ac84210872d26da7899b4a1aedcc14629dd00c78b395ee4ebbdf",
+        "roughness.png": "422af610189c52e5a21d0f98e1147f79cbd850bbb788cbebb7ed1594b3c8bd6e",
+        "metallic.png": "401beb97c474a3dc7bb934b059b50f8aad9e4b9659fa2f415a3a3a7c8abc0f58",
+        "normal.png": "c0270cb3e31c4893ed0f3ebec6bb159b3141c16597f89d08cead7fe300a48432",
+        "basecolor.png": "14f0604d91d76c4343a95c67a9b485dfe7050dc532ff2592c7e9b14322323812"
+      },
+      "balance_after": 4800,
+      "complete": true
+    },
+    "faohshbmb:multiview": {
+      "status": "SUCCEEDED",
+      "task_id": "01a14a77-ce34-72b7-8fb9-4aa3861e64b9",
+      "reserved_credits": 10,
+      "balance_before": 4850,
+      "settings": {
+        "ai_model": "meshy-7",
+        "texture_resolution": "4k",
+        "enable_pbr": true,
+        "enable_original_uv": true,
+        "remove_lighting": true,
+        "target_formats": [
+          "glb"
+        ]
+      },
+      "variant": "multiview",
+      "conditioning": {
+        "native_reference_views": [
+          "front",
+          "three_quarter",
+          "side",
+          "top"
+        ]
+      },
+      "balance_after_submit": 4840,
+      "consumed_credits": 10,
+      "map_origins": {
+        "basecolor": "Meshy generated",
+        "normal": "Meshy generated",
+        "metallic": "Meshy generated",
+        "roughness": "Meshy generated",
+        "emission": "neutral black fallback; Meshy 7 supplies no emission"
+      },
+      "metrics": {
+        "map_sizes": {
+          "basecolor": [
+            4096,
+            4096
+          ],
+          "normal": [
+            4096,
+            4096
+          ],
+          "metallic": [
+            2048,
+            2048
+          ],
+          "roughness": [
+            2048,
+            2048
+          ],
+          "emission": [
+            4096,
+            4096
+          ]
+        },
+        "uv_coverage_fraction": 0.3832359313964844,
+        "coverage_iou": 1.0,
+        "edge_precision": 0.2757181832771626,
+        "edge_recall": 0.7213333333333334,
+        "edge_f1": 0.398945717228415,
+        "palette_delta_e": 7.389633442967452,
+        "flat_panel_samples": 1002,
+        "flat_panel_gradient_p95": 0.3968609708401942,
+        "wrapped_triangles_unmeasured": 0,
+        "thresholds": {
+          "coverage_iou_min": 0.98,
+          "edge_f1_min": 0.2,
+          "palette_delta_e_max": 25.0,
+          "flat_panel_gradient_p95_max": 0.18
+        },
+        "checks": {
+          "sizes": false,
+          "coverage": true,
+          "edges": true,
+          "palette": true,
+          "lighting": false,
+          "uv_range": true
+        },
+        "accepted": false,
+        "limitations": "Opaque coverage detects alpha holes only; edge/palette/gradient gates are heuristics. UV preservation relies on native geometry being retained for preview/runtime."
+      },
+      "map_sha256": {
+        "emission.png": "762b0a6da544ac84210872d26da7899b4a1aedcc14629dd00c78b395ee4ebbdf",
+        "roughness.png": "ecca6950d4ee265c3ad80b75a2168cde00adc3327ffbdb0003a490278891ba0f",
+        "metallic.png": "90a427101ea0b2ee6ce47df01bedeb2ea73cb0346c758ab3950031b7cc36e3c2",
+        "normal.png": "394ba033c6cf5c8455974af9440686b2086ce5a38ba34e1edc0f92cafc897456",
+        "basecolor.png": "10abd7d815fa796930cb812b09606754e6091b37b6e4b67a03b833f567b7d98b"
+      },
+      "balance_after": 4800,
+      "complete": true
+    },
+    "faohshsctb:multiview": {
+      "status": "SUCCEEDED",
+      "task_id": "01a14a77-dcc0-70f6-a86e-aa7cf2be994a",
+      "reserved_credits": 10,
+      "balance_before": 4840,
+      "settings": {
+        "ai_model": "meshy-7",
+        "texture_resolution": "4k",
+        "enable_pbr": true,
+        "enable_original_uv": true,
+        "remove_lighting": true,
+        "target_formats": [
+          "glb"
+        ]
+      },
+      "variant": "multiview",
+      "conditioning": {
+        "native_reference_views": [
+          "front",
+          "three_quarter",
+          "side",
+          "top"
+        ]
+      },
+      "balance_after_submit": 4830,
+      "consumed_credits": 10,
+      "map_origins": {
+        "basecolor": "Meshy generated",
+        "normal": "Meshy generated",
+        "metallic": "Meshy generated",
+        "roughness": "Meshy generated",
+        "emission": "neutral black fallback; Meshy 7 supplies no emission"
+      },
+      "metrics": {
+        "map_sizes": {
+          "basecolor": [
+            4096,
+            4096
+          ],
+          "normal": [
+            4096,
+            4096
+          ],
+          "metallic": [
+            2048,
+            2048
+          ],
+          "roughness": [
+            2048,
+            2048
+          ],
+          "emission": [
+            4096,
+            4096
+          ]
+        },
+        "uv_coverage_fraction": 0.4866485595703125,
+        "coverage_iou": 1.0,
+        "edge_precision": 0.29270411117544876,
+        "edge_recall": 0.11928876884987621,
+        "edge_f1": 0.16949959454284882,
+        "palette_delta_e": 13.161725874380611,
+        "flat_panel_samples": 630,
+        "flat_panel_gradient_p95": 0.2644286282523779,
+        "wrapped_triangles_unmeasured": 0,
+        "thresholds": {
+          "coverage_iou_min": 0.98,
+          "edge_f1_min": 0.2,
+          "palette_delta_e_max": 25.0,
+          "flat_panel_gradient_p95_max": 0.18
+        },
+        "checks": {
+          "sizes": false,
+          "coverage": true,
+          "edges": false,
+          "palette": true,
+          "lighting": false,
+          "uv_range": true
+        },
+        "accepted": false,
+        "limitations": "Opaque coverage detects alpha holes only; edge/palette/gradient gates are heuristics. UV preservation relies on native geometry being retained for preview/runtime."
+      },
+      "map_sha256": {
+        "emission.png": "762b0a6da544ac84210872d26da7899b4a1aedcc14629dd00c78b395ee4ebbdf",
+        "roughness.png": "b47fd410564c9e472edc52cd8933502c3594cde73d9f39885b6f129860dfc647",
+        "metallic.png": "55473072c81a91dbe37a17d080bf9487f0f10098f4bf1a89a6417d9155668d6f",
+        "normal.png": "29f27f92a451f5f5f6e2e5667ba138804ebf5e133cddfb3a7ac1c53408c5e93f",
+        "basecolor.png": "f2cc3de9ec52283e7e816d231084825c5b497ef69fa498df39192b94757325ca"
+      },
+      "balance_after": 4800,
+      "complete": true
+    },
+    "drgas:multiview": {
+      "status": "SUCCEEDED",
+      "task_id": "01a14a77-ea5a-7489-b2c9-7788c1c7090c",
+      "reserved_credits": 10,
+      "balance_before": 4830,
+      "settings": {
+        "ai_model": "meshy-7",
+        "texture_resolution": "4k",
+        "enable_pbr": true,
+        "enable_original_uv": true,
+        "remove_lighting": true,
+        "target_formats": [
+          "glb"
+        ]
+      },
+      "variant": "multiview",
+      "conditioning": {
+        "native_reference_views": [
+          "front",
+          "three_quarter",
+          "side",
+          "top"
+        ]
+      },
+      "balance_after_submit": 4820,
+      "consumed_credits": 10,
+      "map_origins": {
+        "basecolor": "Meshy generated",
+        "normal": "Meshy generated",
+        "metallic": "Meshy generated",
+        "roughness": "Meshy generated",
+        "emission": "neutral black fallback; Meshy 7 supplies no emission"
+      },
+      "metrics": {
+        "map_sizes": {
+          "basecolor": [
+            4096,
+            4096
+          ],
+          "normal": [
+            4096,
+            4096
+          ],
+          "metallic": [
+            2048,
+            2048
+          ],
+          "roughness": [
+            2048,
+            2048
+          ],
+          "emission": [
+            4096,
+            4096
+          ]
+        },
+        "uv_coverage_fraction": 0.59368896484375,
+        "coverage_iou": 1.0,
+        "edge_precision": 0.5713080168776371,
+        "edge_recall": 0.5135294117647059,
+        "edge_f1": 0.5408800657086444,
+        "palette_delta_e": 7.994111143868471,
+        "flat_panel_samples": 57,
+        "flat_panel_gradient_p95": 0.1793075011021831,
+        "wrapped_triangles_unmeasured": 0,
+        "thresholds": {
+          "coverage_iou_min": 0.98,
+          "edge_f1_min": 0.2,
+          "palette_delta_e_max": 25.0,
+          "flat_panel_gradient_p95_max": 0.18
+        },
+        "checks": {
+          "sizes": false,
+          "coverage": true,
+          "edges": true,
+          "palette": true,
+          "lighting": true,
+          "uv_range": true
+        },
+        "accepted": false,
+        "limitations": "Opaque coverage detects alpha holes only; edge/palette/gradient gates are heuristics. UV preservation relies on native geometry being retained for preview/runtime."
+      },
+      "map_sha256": {
+        "emission.png": "762b0a6da544ac84210872d26da7899b4a1aedcc14629dd00c78b395ee4ebbdf",
+        "roughness.png": "e2b8fb4fc1e21270634bb1b155ea19f0b6dac8ab1ba52d672311fc3aceb3d733",
+        "metallic.png": "775bca4b9fb758a3757b09d0fc7c712732dd51ba9413d32fb017cc4f17388803",
+        "normal.png": "f46ea8f9c85844fb7557d39aae9ea3f5e9faf2ea3ffd4128f4478f8ac332b197",
+        "basecolor.png": "17662b67964d55f9109366dfe10e79f1fbc29d51a83a8cd57dc24e821c28a06e"
+      },
+      "balance_after": 4800,
+      "complete": true
+    },
+    "rainfigv2:multiview": {
+      "status": "SUCCEEDED",
+      "task_id": "01a14a77-f799-7612-9ad0-2a06886b9d00",
+      "reserved_credits": 10,
+      "balance_before": 4820,
+      "settings": {
+        "ai_model": "meshy-7",
+        "texture_resolution": "4k",
+        "enable_pbr": true,
+        "enable_original_uv": true,
+        "remove_lighting": true,
+        "target_formats": [
+          "glb"
+        ]
+      },
+      "variant": "multiview",
+      "conditioning": {
+        "native_reference_views": [
+          "front",
+          "three_quarter",
+          "side",
+          "top"
+        ]
+      },
+      "balance_after_submit": 4810,
+      "consumed_credits": 10,
+      "map_origins": {
+        "basecolor": "Meshy generated",
+        "normal": "Meshy generated",
+        "metallic": "Meshy generated",
+        "roughness": "Meshy generated",
+        "emission": "neutral black fallback; Meshy 7 supplies no emission"
+      },
+      "metrics": {
+        "map_sizes": {
+          "basecolor": [
+            4096,
+            4096
+          ],
+          "normal": [
+            4096,
+            4096
+          ],
+          "metallic": [
+            2048,
+            2048
+          ],
+          "roughness": [
+            2048,
+            2048
+          ],
+          "emission": [
+            4096,
+            4096
+          ]
+        },
+        "uv_coverage_fraction": 0.4270286560058594,
+        "coverage_iou": 1.0,
+        "edge_precision": 0.6311163199531205,
+        "edge_recall": 0.3939875604699378,
+        "edge_f1": 0.4851254278122067,
+        "palette_delta_e": 11.241651721793053,
+        "flat_panel_samples": 358,
+        "flat_panel_gradient_p95": 0.3392917224915797,
+        "wrapped_triangles_unmeasured": 14,
+        "thresholds": {
+          "coverage_iou_min": 0.98,
+          "edge_f1_min": 0.2,
+          "palette_delta_e_max": 25.0,
+          "flat_panel_gradient_p95_max": 0.18
+        },
+        "checks": {
+          "sizes": false,
+          "coverage": true,
+          "edges": true,
+          "palette": true,
+          "lighting": false,
+          "uv_range": false
+        },
+        "accepted": false,
+        "limitations": "Opaque coverage detects alpha holes only; edge/palette/gradient gates are heuristics. UV preservation relies on native geometry being retained for preview/runtime."
+      },
+      "map_sha256": {
+        "emission.png": "762b0a6da544ac84210872d26da7899b4a1aedcc14629dd00c78b395ee4ebbdf",
+        "roughness.png": "11e2f9ff4cd9648b791aa27bc6c9770e8a945c9f81d99ed7961848ad933e81af",
+        "metallic.png": "a4f94b40a71f3057b7a0291564d899b4324fb730803d37593c0460acacb54e79",
+        "normal.png": "2a559f0fd6e98ce6aa7e1fc792f9868ad83a1d36d1130f9544c1aef003bc6ed2",
+        "basecolor.png": "7f3c4a7750111e00a96bf20978263a5adefec1e0f32cd0feab2b0c5e67654778"
+      },
+      "balance_after": 4800,
+      "complete": true
+    },
+    "wc_gcfig:multiview": {
+      "status": "SUCCEEDED",
+      "task_id": "01a14a78-05d9-71da-8e4f-4887642e631d",
+      "reserved_credits": 10,
+      "balance_before": 4810,
+      "settings": {
+        "ai_model": "meshy-7",
+        "texture_resolution": "4k",
+        "enable_pbr": true,
+        "enable_original_uv": true,
+        "remove_lighting": true,
+        "target_formats": [
+          "glb"
+        ]
+      },
+      "variant": "multiview",
+      "conditioning": {
+        "native_reference_views": [
+          "front",
+          "three_quarter",
+          "side",
+          "top"
+        ]
+      },
+      "balance_after_submit": 4800,
+      "consumed_credits": 10,
+      "map_origins": {
+        "basecolor": "Meshy generated",
+        "normal": "Meshy generated",
+        "metallic": "Meshy generated",
+        "roughness": "Meshy generated",
+        "emission": "neutral black fallback; Meshy 7 supplies no emission"
+      },
+      "metrics": {
+        "map_sizes": {
+          "basecolor": [
+            4096,
+            4096
+          ],
+          "normal": [
+            4096,
+            4096
+          ],
+          "metallic": [
+            2048,
+            2048
+          ],
+          "roughness": [
+            2048,
+            2048
+          ],
+          "emission": [
+            4096,
+            4096
+          ]
+        },
+        "uv_coverage_fraction": 0.60589599609375,
+        "coverage_iou": 1.0,
+        "edge_precision": 0.7356590278791417,
+        "edge_recall": 0.6690856313497823,
+        "edge_f1": 0.7007948126271798,
+        "palette_delta_e": 4.689982876069089,
+        "flat_panel_samples": 86,
+        "flat_panel_gradient_p95": 0.41775970408267626,
+        "wrapped_triangles_unmeasured": 0,
+        "thresholds": {
+          "coverage_iou_min": 0.98,
+          "edge_f1_min": 0.2,
+          "palette_delta_e_max": 25.0,
+          "flat_panel_gradient_p95_max": 0.18
+        },
+        "checks": {
+          "sizes": false,
+          "coverage": true,
+          "edges": true,
+          "palette": true,
+          "lighting": false,
+          "uv_range": true
+        },
+        "accepted": false,
+        "limitations": "Opaque coverage detects alpha holes only; edge/palette/gradient gates are heuristics. UV preservation relies on native geometry being retained for preview/runtime."
+      },
+      "map_sha256": {
+        "emission.png": "762b0a6da544ac84210872d26da7899b4a1aedcc14629dd00c78b395ee4ebbdf",
+        "roughness.png": "a079a526bd7f1ac10e7f0b5523f4214f4953956e5d3e9a3121074d5cedab45b2",
+        "metallic.png": "2ed945b79abc62388ef0a81ec587d38217efd5169aaaafc438add67d93f6a3d2",
+        "normal.png": "ce5f8fc8d93935dcda164f0e6ff8ea53d447f419944bf3b4ac2919693ce324a6",
+        "basecolor.png": "c1fb428f77bd04858d373ad924ce66b140833282d2ae4f40e75f7fc0dbf2c00d"
+      },
+      "balance_after": 4800,
+      "complete": true
+    },
+    "wc_icint:text": {
+      "status": "SUCCEEDED",
+      "task_id": "01a14abb-c2d5-7499-89e8-ce2697b4c26d",
+      "reserved_credits": 10,
+      "balance_before": 4800,
+      "settings": {
+        "ai_model": "meshy-7",
+        "texture_resolution": "4k",
+        "enable_pbr": true,
+        "enable_original_uv": true,
+        "remove_lighting": true,
+        "target_formats": [
+          "glb"
+        ]
+      },
+      "variant": "text",
+      "conditioning": {
+        "text_style_prompt": "Military space interceptor hull. Keep the original layout and colours exactly: pale grey-green painted armour panels, charcoal intakes and fins, yellow-and-black hazard stripes, small red warning marks, white hull numbers 3 and 88, blue-white engine glow plates. Add crisp recessed panel seams, small rivets and access hatches, fine stencilled maintenance text, subtle paint chipping, worn bare-metal edges, slightly dusty matte paint, brushed metal on the nose cone. Even neutral lighting, no baked shadows, no highlights."
+      },
+      "balance_after_submit": 4790,
+      "consumed_credits": 10,
+      "map_origins": {
+        "basecolor": "Meshy generated",
+        "normal": "Meshy generated",
+        "metallic": "Meshy generated",
+        "roughness": "Meshy generated",
+        "emission": "neutral black fallback; Meshy 7 supplies no emission"
+      },
+      "metrics": {
+        "map_sizes": {
+          "basecolor": [
+            4096,
+            4096
+          ],
+          "normal": [
+            4096,
+            4096
+          ],
+          "metallic": [
+            2048,
+            2048
+          ],
+          "roughness": [
+            2048,
+            2048
+          ],
+          "emission": [
+            4096,
+            4096
+          ]
+        },
+        "uv_coverage_fraction": 0.6244621276855469,
+        "coverage_iou": 1.0,
+        "edge_precision": 0.16654211593893456,
+        "edge_recall": 0.20551164281136508,
+        "edge_f1": 0.18398601298293538,
+        "palette_delta_e": 16.022415914666862,
+        "flat_panel_samples": 202,
+        "flat_panel_gradient_p95": 0.33028671650737557,
+        "wrapped_triangles_unmeasured": 0,
+        "thresholds": {
+          "coverage_iou_min": 0.98,
+          "edge_f1_min": 0.2,
+          "palette_delta_e_max": 25.0,
+          "flat_panel_gradient_p95_max": 0.18
+        },
+        "checks": {
+          "sizes": false,
+          "coverage": true,
+          "edges": false,
+          "palette": true,
+          "lighting": false,
+          "uv_range": true
+        },
+        "accepted": false,
+        "limitations": "Opaque coverage detects alpha holes only; edge/palette/gradient gates are heuristics. UV preservation relies on native geometry being retained for preview/runtime."
+      },
+      "map_sha256": {
+        "metallic.png": "fb91987bca2c7b0a6eb6ecb7754a3616f7753742c9619c704837ce02d6bb9e8e",
+        "normal.png": "dbfb08bb3eec4af0d2bcc3f373dbcb3f3fd25b16e8979b30dc6052b97b07af25",
+        "emission.png": "762b0a6da544ac84210872d26da7899b4a1aedcc14629dd00c78b395ee4ebbdf",
+        "basecolor.png": "8ce96c08ae5040bde1c808c2674e4007b7926ad2128def5f45ace6d9e3ee4735",
+        "roughness.png": "86de689491bcd3f73a53d8806282721d77c0a6d19e719c57f2f5dfa64fe07f38"
+      },
+      "balance_after": 4770,
+      "complete": true
+    },
+    "faohshbmb:text": {
+      "status": "SUCCEEDED",
+      "task_id": "01a14abb-d1ab-759d-aeb6-57524e1628b0",
+      "reserved_credits": 10,
+      "balance_before": 4790,
+      "settings": {
+        "ai_model": "meshy-7",
+        "texture_resolution": "4k",
+        "enable_pbr": true,
+        "enable_original_uv": true,
+        "remove_lighting": true,
+        "target_formats": [
+          "glb"
+        ]
+      },
+      "variant": "text",
+      "conditioning": {
+        "text_style_prompt": "Biomechanical alien bomber hull. Keep the original palette and pattern exactly: pale bone-grey cracked chitin plates, deep crimson ribbed membranes and red armour bands, near-black joints, a glowing yellow-green core orb and a glowing red eye. Add fine organic detail: crackled carapace micro-texture, layered ribbed tissue, faint veins in the red areas, slight wet sheen on membranes, matte dry bone plates. Even neutral lighting, no baked shadows, no highlights."
+      },
+      "balance_after_submit": 4780,
+      "consumed_credits": 10,
+      "map_origins": {
+        "basecolor": "Meshy generated",
+        "normal": "Meshy generated",
+        "metallic": "Meshy generated",
+        "roughness": "Meshy generated",
+        "emission": "neutral black fallback; Meshy 7 supplies no emission"
+      },
+      "metrics": {
+        "map_sizes": {
+          "basecolor": [
+            4096,
+            4096
+          ],
+          "normal": [
+            4096,
+            4096
+          ],
+          "metallic": [
+            2048,
+            2048
+          ],
+          "roughness": [
+            2048,
+            2048
+          ],
+          "emission": [
+            4096,
+            4096
+          ]
+        },
+        "uv_coverage_fraction": 0.3832359313964844,
+        "coverage_iou": 1.0,
+        "edge_precision": 0.09093664746892997,
+        "edge_recall": 0.42488888888888887,
+        "edge_f1": 0.1498102299284066,
+        "palette_delta_e": 18.914495605756116,
+        "flat_panel_samples": 1002,
+        "flat_panel_gradient_p95": 0.5750947112922858,
+        "wrapped_triangles_unmeasured": 0,
+        "thresholds": {
+          "coverage_iou_min": 0.98,
+          "edge_f1_min": 0.2,
+          "palette_delta_e_max": 25.0,
+          "flat_panel_gradient_p95_max": 0.18
+        },
+        "checks": {
+          "sizes": false,
+          "coverage": true,
+          "edges": false,
+          "palette": true,
+          "lighting": false,
+          "uv_range": true
+        },
+        "accepted": false,
+        "limitations": "Opaque coverage detects alpha holes only; edge/palette/gradient gates are heuristics. UV preservation relies on native geometry being retained for preview/runtime."
+      },
+      "map_sha256": {
+        "metallic.png": "728a982cc9457823d40c3ef8da2f190b3d9da0e99140b569f3af9216a8eecdc9",
+        "normal.png": "237019f6133da4e3c40992c251960352b5c2ee057f948904b74a0974eff03291",
+        "emission.png": "762b0a6da544ac84210872d26da7899b4a1aedcc14629dd00c78b395ee4ebbdf",
+        "basecolor.png": "a7d75051f65bfdac69f791a8d1d4c482d22e81d1b539a0acb489a4c4cd298026",
+        "roughness.png": "c9ed8f7ab55a03cc76be68c2999444720b9884488e5d696bfb88ea8089d182ab"
+      },
+      "balance_after": 4770,
+      "complete": true
+    },
+    "drgas:text": {
+      "status": "SUCCEEDED",
+      "task_id": "01a14abb-de5e-7468-ae87-e4ab4c1b9d03",
+      "reserved_credits": 10,
+      "balance_before": 4780,
+      "settings": {
+        "ai_model": "meshy-7",
+        "texture_resolution": "4k",
+        "enable_pbr": true,
+        "enable_original_uv": true,
+        "remove_lighting": true,
+        "target_formats": [
+          "glb"
+        ]
+      },
+      "variant": "text",
+      "conditioning": {
+        "text_style_prompt": "Dark alien warship hull. Keep the original identity exactly: very dark charcoal-black armour with glowing emerald-green triangular panel grids, green circuit lines and small amber indicator lights. Add crisp triangular and hexagonal plate seams, fine engraved circuitry, subtle metallic sheen on the dark armour, emissive glow only on the green panels and lights. Even neutral lighting, no baked shadows, no highlights."
+      },
+      "balance_after_submit": 4770,
+      "consumed_credits": 10,
+      "map_origins": {
+        "basecolor": "Meshy generated",
+        "normal": "Meshy generated",
+        "metallic": "Meshy generated",
+        "roughness": "Meshy generated",
+        "emission": "neutral black fallback; Meshy 7 supplies no emission"
+      },
+      "metrics": {
+        "map_sizes": {
+          "basecolor": [
+            4096,
+            4096
+          ],
+          "normal": [
+            4096,
+            4096
+          ],
+          "metallic": [
+            2048,
+            2048
+          ],
+          "roughness": [
+            2048,
+            2048
+          ],
+          "emission": [
+            4096,
+            4096
+          ]
+        },
+        "uv_coverage_fraction": 0.59368896484375,
+        "coverage_iou": 1.0,
+        "edge_precision": 0.0,
+        "edge_recall": 0.0,
+        "edge_f1": 0.0,
+        "palette_delta_e": 20.72387641555908,
+        "flat_panel_samples": 57,
+        "flat_panel_gradient_p95": 0.006497273089329568,
+        "wrapped_triangles_unmeasured": 0,
+        "thresholds": {
+          "coverage_iou_min": 0.98,
+          "edge_f1_min": 0.2,
+          "palette_delta_e_max": 25.0,
+          "flat_panel_gradient_p95_max": 0.18
+        },
+        "checks": {
+          "sizes": false,
+          "coverage": true,
+          "edges": false,
+          "palette": true,
+          "lighting": true,
+          "uv_range": true
+        },
+        "accepted": false,
+        "limitations": "Opaque coverage detects alpha holes only; edge/palette/gradient gates are heuristics. UV preservation relies on native geometry being retained for preview/runtime."
+      },
+      "map_sha256": {
+        "metallic.png": "a44c30f41b8b72bd86ba4faee16f864916123c40f6a140a7fd207ee19a7d1f09",
+        "normal.png": "c93767b6b9ed97ef728dbc03b96d836fbc44b66a459d831cd7843aea76286730",
+        "emission.png": "762b0a6da544ac84210872d26da7899b4a1aedcc14629dd00c78b395ee4ebbdf",
+        "basecolor.png": "163bffc0ed9e68bfc105da2edc603cec58ec65d67cdf9fd3da1d7321279d58cd",
+        "roughness.png": "9b75210ba0d1fce9649e6a279307724a01e937a41037decac5f38ff242252cfc"
+      },
+      "balance_after": 4770,
+      "complete": true
+    },
+    "wc_icint:text6": {
+      "status": "SUCCEEDED",
+      "task_id": "01a14abe-8849-7233-9841-c4e46cc7dc37",
+      "reserved_credits": 10,
+      "balance_before": 4770,
+      "settings": {
+        "ai_model": "meshy-6",
+        "texture_resolution": "4k",
+        "enable_pbr": true,
+        "enable_original_uv": true,
+        "remove_lighting": true,
+        "target_formats": [
+          "glb"
+        ]
+      },
+      "variant": "text6",
+      "conditioning": {
+        "text_style_prompt": "Military space interceptor hull. Keep the original layout and colours exactly: pale grey-green painted armour panels, charcoal intakes and fins, yellow-and-black hazard stripes, small red warning marks, white hull numbers 3 and 88, blue-white engine glow plates. Add crisp recessed panel seams, small rivets and access hatches, fine stencilled maintenance text, subtle paint chipping, worn bare-metal edges, slightly dusty matte paint, brushed metal on the nose cone. Even neutral lighting, no baked shadows, no highlights."
+      },
+      "balance_after_submit": 4760,
+      "consumed_credits": 10,
+      "map_origins": {
+        "basecolor": "Meshy generated",
+        "normal": "Meshy generated",
+        "metallic": "Meshy generated",
+        "roughness": "Meshy generated",
+        "emission": "Meshy generated"
+      },
+      "metrics": {
+        "map_sizes": {
+          "basecolor": [
+            4096,
+            4096
+          ],
+          "normal": [
+            4096,
+            4096
+          ],
+          "metallic": [
+            2048,
+            2048
+          ],
+          "roughness": [
+            2048,
+            2048
+          ],
+          "emission": [
+            2048,
+            2048
+          ]
+        },
+        "uv_coverage_fraction": 0.6244621276855469,
+        "coverage_iou": 1.0,
+        "edge_precision": 0.1357308584686775,
+        "edge_recall": 0.1881008331553087,
+        "edge_f1": 0.15768121665181978,
+        "palette_delta_e": 11.157875715533013,
+        "flat_panel_samples": 202,
+        "flat_panel_gradient_p95": 0.7078671233027696,
+        "wrapped_triangles_unmeasured": 0,
+        "thresholds": {
+          "coverage_iou_min": 0.98,
+          "edge_f1_min": 0.2,
+          "palette_delta_e_max": 25.0,
+          "flat_panel_gradient_p95_max": 0.18
+        },
+        "checks": {
+          "sizes": false,
+          "coverage": true,
+          "edges": false,
+          "palette": true,
+          "lighting": false,
+          "uv_range": true
+        },
+        "accepted": false,
+        "limitations": "Opaque coverage detects alpha holes only; edge/palette/gradient gates are heuristics. UV preservation relies on native geometry being retained for preview/runtime."
+      },
+      "map_sha256": {
+        "metallic.png": "3c7fc940cd612f201415d460948ed0b69581dadc4985a9a0d870adff83d4c483",
+        "normal.png": "cc12bbb6e2bdb4f3a10bcc1df55219292e4093be1c7c70d837447eeb57b56796",
+        "emission.png": "24ad6f95f83e4f93eead771d2c30f6b09c94d4e2439328103334333af5cda4d7",
+        "basecolor.png": "87abaafdc51e34c9718780045bc66c9bfebb6cf34aebf01ad248a981415c6e94",
+        "roughness.png": "cda095ad8447473aa0707d47a44d239c49c0faff872d15137ff90d381dda5d35"
+      },
+      "balance_after": 4760,
+      "complete": true
+    },
+    "faohshbmb:text6": {
+      "status": "SUCCEEDED",
+      "task_id": "01a14ace-6fa1-749f-908d-7431710ae2a0",
+      "reserved_credits": 10,
+      "balance_before": 4760,
+      "settings": {
+        "ai_model": "meshy-6",
+        "texture_resolution": "4k",
+        "enable_pbr": true,
+        "enable_original_uv": true,
+        "remove_lighting": true,
+        "target_formats": [
+          "glb"
+        ]
+      },
+      "variant": "text6",
+      "conditioning": {
+        "text_style_prompt": "Biomechanical alien bomber hull. Keep the original palette and pattern exactly: pale bone-grey cracked chitin plates, deep crimson ribbed membranes and red armour bands, near-black joints, a glowing yellow-green core orb and a glowing red eye. Add fine organic detail: crackled carapace micro-texture, layered ribbed tissue, faint veins in the red areas, slight wet sheen on membranes, matte dry bone plates. Even neutral lighting, no baked shadows, no highlights."
+      },
+      "balance_after_submit": 4750,
+      "consumed_credits": 10,
+      "map_origins": {
+        "basecolor": "Meshy generated",
+        "normal": "Meshy generated",
+        "metallic": "Meshy generated",
+        "roughness": "Meshy generated",
+        "emission": "Meshy generated"
+      },
+      "metrics": {
+        "map_sizes": {
+          "basecolor": [
+            4096,
+            4096
+          ],
+          "normal": [
+            4096,
+            4096
+          ],
+          "metallic": [
+            2048,
+            2048
+          ],
+          "roughness": [
+            2048,
+            2048
+          ],
+          "emission": [
+            2048,
+            2048
+          ]
+        },
+        "uv_coverage_fraction": 0.3832359313964844,
+        "coverage_iou": 1.0,
+        "edge_precision": 0.11060275962236747,
+        "edge_recall": 0.536,
+        "edge_f1": 0.1833678507410386,
+        "palette_delta_e": 28.647344561955816,
+        "flat_panel_samples": 1002,
+        "flat_panel_gradient_p95": 0.9418387106601175,
+        "wrapped_triangles_unmeasured": 0,
+        "thresholds": {
+          "coverage_iou_min": 0.98,
+          "edge_f1_min": 0.2,
+          "palette_delta_e_max": 25.0,
+          "flat_panel_gradient_p95_max": 0.18
+        },
+        "checks": {
+          "sizes": false,
+          "coverage": true,
+          "edges": false,
+          "palette": false,
+          "lighting": false,
+          "uv_range": true
+        },
+        "accepted": false,
+        "limitations": "Opaque coverage detects alpha holes only; edge/palette/gradient gates are heuristics. UV preservation relies on native geometry being retained for preview/runtime."
+      },
+      "map_sha256": {
+        "metallic.png": "87919b66d6aff1809f31a6c2ed239ceae479534fc0ccc973fc18bdd44cb27ae2",
+        "normal.png": "dd4b3c0ce0ee6525a05950ed91e354a3499a05c58313161c68e42b8511a353bc",
+        "emission.png": "0341871e804f8dabd6ea0090c688fa3eebcad8daa8f8ab04a6d2aff03f062c96",
+        "basecolor.png": "2699bd7f3a5d6e1ad3c919195916e9f030d1f09d914dbac3cf00ba069eb65d69",
+        "roughness.png": "ae2c27ea40eae9282f1b711a39aead00bc8da6e11603f3946badd4edf3b9321b"
+      },
+      "balance_after": 4740,
+      "complete": true
+    },
+    "drgas:text6": {
+      "status": "SUCCEEDED",
+      "task_id": "01a14ace-7658-7442-8ffe-b62643c0fe4d",
+      "reserved_credits": 10,
+      "balance_before": 4750,
+      "settings": {
+        "ai_model": "meshy-6",
+        "texture_resolution": "4k",
+        "enable_pbr": true,
+        "enable_original_uv": true,
+        "remove_lighting": true,
+        "target_formats": [
+          "glb"
+        ]
+      },
+      "variant": "text6",
+      "conditioning": {
+        "text_style_prompt": "Dark alien warship hull. Keep the original identity exactly: very dark charcoal-black armour with glowing emerald-green triangular panel grids, green circuit lines and small amber indicator lights. Add crisp triangular and hexagonal plate seams, fine engraved circuitry, subtle metallic sheen on the dark armour, emissive glow only on the green panels and lights. Even neutral lighting, no baked shadows, no highlights."
+      },
+      "balance_after_submit": 4740,
+      "consumed_credits": 10,
+      "map_origins": {
+        "basecolor": "Meshy generated",
+        "normal": "Meshy generated",
+        "metallic": "Meshy generated",
+        "roughness": "Meshy generated",
+        "emission": "Meshy generated"
+      },
+      "metrics": {
+        "map_sizes": {
+          "basecolor": [
+            4096,
+            4096
+          ],
+          "normal": [
+            4096,
+            4096
+          ],
+          "metallic": [
+            2048,
+            2048
+          ],
+          "roughness": [
+            2048,
+            2048
+          ],
+          "emission": [
+            2048,
+            2048
+          ]
+        },
+        "uv_coverage_fraction": 0.59368896484375,
+        "coverage_iou": 1.0,
+        "edge_precision": 0.4384057971014493,
+        "edge_recall": 0.04352941176470588,
+        "edge_f1": 0.07919548566273373,
+        "palette_delta_e": 22.132457206611953,
+        "flat_panel_samples": 57,
+        "flat_panel_gradient_p95": 0.43662443961410696,
+        "wrapped_triangles_unmeasured": 0,
+        "thresholds": {
+          "coverage_iou_min": 0.98,
+          "edge_f1_min": 0.2,
+          "palette_delta_e_max": 25.0,
+          "flat_panel_gradient_p95_max": 0.18
+        },
+        "checks": {
+          "sizes": false,
+          "coverage": true,
+          "edges": false,
+          "palette": true,
+          "lighting": false,
+          "uv_range": true
+        },
+        "accepted": false,
+        "limitations": "Opaque coverage detects alpha holes only; edge/palette/gradient gates are heuristics. UV preservation relies on native geometry being retained for preview/runtime."
+      },
+      "map_sha256": {
+        "metallic.png": "20f3e95bafdba186f5a0e64b04e6d2cee9e6cdea96d62072109f9591181225c0",
+        "normal.png": "589607d07fb9536b5e1bb220a917e52cbe1b8cf233607ff35f0c2b511eb87031",
+        "emission.png": "75f4ec76e23d78ab8b8c26b50c3f6760f5be8c6a4cb8d27d3c43303c2a83dabd",
+        "basecolor.png": "56f5dd40aaf491384848d0657bbfb3a1ffd4aff0dc9ea4e21c9055c9f81d7a39",
+        "roughness.png": "9364a6dad20b5a9ac94958bcab5af3c3a88f9402efde9835d76bc854a0273421"
+      },
+      "balance_after": 4740,
+      "complete": true
+    },
+    "wc_icfig:text6": {
+      "status": "SUCCEEDED",
+      "task_id": "01a14fde-245b-7327-aaa5-08da77c71df0",
+      "reserved_credits": 10,
+      "balance_before": 4740,
+      "settings": {
+        "ai_model": "meshy-6",
+        "texture_resolution": "4k",
+        "enable_pbr": true,
+        "enable_original_uv": true,
+        "remove_lighting": true,
+        "target_formats": [
+          "glb"
+        ]
+      },
+      "variant": "text6",
+      "conditioning": {
+        "text_style_prompt": "Iron Coalition fighter, preserve the original grey metal and muted faction markings; fine machined panel detail, restrained wear, no painted highlights or shadows. Do not invent features: no cockpit canopy, windows, lights, text, numbers, decals or panel shapes that are not already in the original texture and geometry; only refine the existing surfaces."
+      },
+      "balance_after_submit": 4730,
+      "consumed_credits": 10,
+      "map_origins": {
+        "basecolor": "Meshy generated",
+        "normal": "Meshy generated",
+        "metallic": "Meshy generated",
+        "roughness": "Meshy generated",
+        "emission": "Meshy generated"
+      },
+      "metrics": {
+        "map_sizes": {
+          "basecolor": [
+            4096,
+            4096
+          ],
+          "normal": [
+            4096,
+            4096
+          ],
+          "metallic": [
+            2048,
+            2048
+          ],
+          "roughness": [
+            2048,
+            2048
+          ],
+          "emission": [
+            2048,
+            2048
+          ]
+        },
+        "uv_coverage_fraction": 0.7069282531738281,
+        "coverage_iou": 1.0,
+        "edge_precision": 0.21508129560875688,
+        "edge_recall": 0.22397774134247528,
+        "edge_f1": 0.21943938623822656,
+        "palette_delta_e": 11.319771747836915,
+        "flat_panel_samples": 137,
+        "flat_panel_gradient_p95": 0.45253590640107827,
+        "wrapped_triangles_unmeasured": 0,
+        "thresholds": {
+          "coverage_iou_min": 0.98,
+          "edge_f1_min": 0.2,
+          "palette_delta_e_max": 25.0,
+          "flat_panel_gradient_p95_max": 0.18
+        },
+        "checks": {
+          "sizes": false,
+          "coverage": true,
+          "edges": true,
+          "palette": true,
+          "lighting": false,
+          "uv_range": true
+        },
+        "accepted": false,
+        "limitations": "Opaque coverage detects alpha holes only; edge/palette/gradient gates are heuristics. UV preservation relies on native geometry being retained for preview/runtime."
+      },
+      "map_sha256": {
+        "metallic.png": "0df5d2ab82a85ce90b521fc91bfb74a4cdb043bd49fbf24c09ad9a1f94ee5ec3",
+        "normal.png": "1ecdfadcc4d2fb9c55210de1be42b9578d0b54efb7f8f406ccb7210188d3160b",
+        "emission.png": "e9cc823ca21b881e8058ff749e3607ab0b79963e859335a2d9f45f47e804dbe2",
+        "basecolor.png": "a3934f9cde189aa83506752e51a547a1485eb51ea365db642336311377af66e2",
+        "roughness.png": "b17f02a78607785355f3b961ec36a11db415c6fdcc087ee1d4386e98227de189"
+      },
+      "balance_after": 4570,
+      "complete": true
+    },
+    "wc_gtsct:text6": {
+      "status": "SUCCEEDED",
+      "task_id": "01a14fde-30a4-73e2-a292-d1bbe38e6222",
+      "reserved_credits": 10,
+      "balance_before": 4730,
+      "settings": {
+        "ai_model": "meshy-6",
+        "texture_resolution": "4k",
+        "enable_pbr": true,
+        "enable_original_uv": true,
+        "remove_lighting": true,
+        "target_formats": [
+          "glb"
+        ]
+      },
+      "variant": "text6",
+      "conditioning": {
+        "text_style_prompt": "Ga'Taraan scout, preserve original colours, markings and alien material identity; fine surface detail without baked lighting. Do not invent features: no cockpit canopy, windows, lights, text, numbers, decals or panel shapes that are not already in the original texture and geometry; only refine the existing surfaces."
+      },
+      "balance_after_submit": 4720,
+      "consumed_credits": 10,
+      "map_origins": {
+        "basecolor": "Meshy generated",
+        "normal": "Meshy generated",
+        "metallic": "Meshy generated",
+        "roughness": "Meshy generated",
+        "emission": "Meshy generated"
+      },
+      "metrics": {
+        "map_sizes": {
+          "basecolor": [
+            4096,
+            4096
+          ],
+          "normal": [
+            4096,
+            4096
+          ],
+          "metallic": [
+            2048,
+            2048
+          ],
+          "roughness": [
+            2048,
+            2048
+          ],
+          "emission": [
+            2048,
+            2048
+          ]
+        },
+        "uv_coverage_fraction": 0.4001960754394531,
+        "coverage_iou": 1.0,
+        "edge_precision": 0.1509433962264151,
+        "edge_recall": 0.3069838833461243,
+        "edge_f1": 0.2023779408044523,
+        "palette_delta_e": 38.37053045438314,
+        "flat_panel_samples": 248,
+        "flat_panel_gradient_p95": 0.7199554645780555,
+        "wrapped_triangles_unmeasured": 0,
+        "thresholds": {
+          "coverage_iou_min": 0.98,
+          "edge_f1_min": 0.2,
+          "palette_delta_e_max": 25.0,
+          "flat_panel_gradient_p95_max": 0.18
+        },
+        "checks": {
+          "sizes": false,
+          "coverage": true,
+          "edges": true,
+          "palette": false,
+          "lighting": false,
+          "uv_range": true
+        },
+        "accepted": false,
+        "limitations": "Opaque coverage detects alpha holes only; edge/palette/gradient gates are heuristics. UV preservation relies on native geometry being retained for preview/runtime."
+      },
+      "map_sha256": {
+        "metallic.png": "d540431ea4b04b951a5f5c30338c049486f3f44d763bd1598fefe3949d17917b",
+        "normal.png": "6a0c25b96c6d4c31b9743fbec0f37f35703a08fb72465b02ab79378a48db9145",
+        "emission.png": "410c184b103c39299f19b2dbfe1794e7bafe7d79a3c5f27431da83af58588dd7",
+        "basecolor.png": "5c397aea9ba0e63c1de413ed7309d139548fb2c5e5a94e1ccd5c6fdb69e163f1",
+        "roughness.png": "bcfd2c83e9d5bb82724c15d688200e8416ece5e46ca7502a0c8abecdf7a0d834"
+      },
+      "balance_after": 4570,
+      "complete": true
+    },
+    "wc_gtmnr:text6": {
+      "status": "SUCCEEDED",
+      "task_id": "01a14fde-3df1-75e9-8c28-4b5cfcea3747",
+      "reserved_credits": 10,
+      "balance_before": 4720,
+      "settings": {
+        "ai_model": "meshy-6",
+        "texture_resolution": "4k",
+        "enable_pbr": true,
+        "enable_original_uv": true,
+        "remove_lighting": true,
+        "target_formats": [
+          "glb"
+        ]
+      },
+      "variant": "text6",
+      "conditioning": {
+        "text_style_prompt": "Ga'Taraan miner, preserve original palette and markings; industrial panel seams, restrained work wear, no baked lighting. Do not invent features: no cockpit canopy, windows, lights, text, numbers, decals or panel shapes that are not already in the original texture and geometry; only refine the existing surfaces."
+      },
+      "balance_after_submit": 4710,
+      "consumed_credits": 10,
+      "map_origins": {
+        "basecolor": "Meshy generated",
+        "normal": "Meshy generated",
+        "metallic": "Meshy generated",
+        "roughness": "Meshy generated",
+        "emission": "Meshy generated"
+      },
+      "metrics": {
+        "map_sizes": {
+          "basecolor": [
+            4096,
+            4096
+          ],
+          "normal": [
+            4096,
+            4096
+          ],
+          "metallic": [
+            2048,
+            2048
+          ],
+          "roughness": [
+            2048,
+            2048
+          ],
+          "emission": [
+            2048,
+            2048
+          ]
+        },
+        "uv_coverage_fraction": 0.4407844543457031,
+        "coverage_iou": 1.0,
+        "edge_precision": 0.1937799043062201,
+        "edge_recall": 0.08720994171340592,
+        "edge_f1": 0.12028572846432656,
+        "palette_delta_e": 16.175751142526646,
+        "flat_panel_samples": 300,
+        "flat_panel_gradient_p95": 0.3104714494397828,
+        "wrapped_triangles_unmeasured": 0,
+        "thresholds": {
+          "coverage_iou_min": 0.98,
+          "edge_f1_min": 0.2,
+          "palette_delta_e_max": 25.0,
+          "flat_panel_gradient_p95_max": 0.18
+        },
+        "checks": {
+          "sizes": false,
+          "coverage": true,
+          "edges": false,
+          "palette": true,
+          "lighting": false,
+          "uv_range": true
+        },
+        "accepted": false,
+        "limitations": "Opaque coverage detects alpha holes only; edge/palette/gradient gates are heuristics. UV preservation relies on native geometry being retained for preview/runtime."
+      },
+      "map_sha256": {
+        "metallic.png": "c038b9661bdb90b1f87e0b18dd0fb138ab483188559b14b1e474e5d0210668c0",
+        "normal.png": "085eab764c5e9a92a9280ea92c863f2a15bbaa792b70fa1c3605e022d0462632",
+        "emission.png": "3221756144b2db31b17b064bf938f6020dc414c85b2fe11e3df01b4f1f76a370",
+        "basecolor.png": "f3acf1f0fd07dd2b3e39acc62c57e6a4130c9eda443859d513be1664e1c92e17",
+        "roughness.png": "b231cf580294253775e81e96991bda4afcbe23929e2c9795cddbbf321a7ad859"
+      },
+      "balance_after": 4570,
+      "complete": true
+    },
+    "wc_gtpod:text6": {
+      "status": "SUCCEEDED",
+      "task_id": "01a14fde-4ad1-71cc-bd3d-4220001c6fee",
+      "reserved_credits": 10,
+      "balance_before": 4710,
+      "settings": {
+        "ai_model": "meshy-6",
+        "texture_resolution": "4k",
+        "enable_pbr": true,
+        "enable_original_uv": true,
+        "remove_lighting": true,
+        "target_formats": [
+          "glb"
+        ]
+      },
+      "variant": "text6",
+      "conditioning": {
+        "text_style_prompt": "Ga'Taraan lifepod, preserve original colours and markings, subtle small scale panel detail, neutral albedo without baked shadows. Do not invent features: no cockpit canopy, windows, lights, text, numbers, decals or panel shapes that are not already in the original texture and geometry; only refine the existing surfaces."
+      },
+      "balance_after_submit": 4700,
+      "consumed_credits": 10,
+      "map_origins": {
+        "basecolor": "Meshy generated",
+        "normal": "Meshy generated",
+        "metallic": "Meshy generated",
+        "roughness": "Meshy generated",
+        "emission": "Meshy generated"
+      },
+      "metrics": {
+        "map_sizes": {
+          "basecolor": [
+            4096,
+            4096
+          ],
+          "normal": [
+            4096,
+            4096
+          ],
+          "metallic": [
+            2048,
+            2048
+          ],
+          "roughness": [
+            2048,
+            2048
+          ],
+          "emission": [
+            2048,
+            2048
+          ]
+        },
+        "uv_coverage_fraction": 0.49819183349609375,
+        "coverage_iou": 1.0,
+        "edge_precision": 0.12853208812260536,
+        "edge_recall": 0.25278429073856973,
+        "edge_f1": 0.1704143568668946,
+        "palette_delta_e": 23.114236068285546,
+        "flat_panel_samples": 108,
+        "flat_panel_gradient_p95": 0.9348819784442458,
+        "wrapped_triangles_unmeasured": 0,
+        "thresholds": {
+          "coverage_iou_min": 0.98,
+          "edge_f1_min": 0.2,
+          "palette_delta_e_max": 25.0,
+          "flat_panel_gradient_p95_max": 0.18
+        },
+        "checks": {
+          "sizes": false,
+          "coverage": true,
+          "edges": false,
+          "palette": true,
+          "lighting": false,
+          "uv_range": true
+        },
+        "accepted": false,
+        "limitations": "Opaque coverage detects alpha holes only; edge/palette/gradient gates are heuristics. UV preservation relies on native geometry being retained for preview/runtime."
+      },
+      "map_sha256": {
+        "metallic.png": "d2c4c6e3cb68fcefaad132683e4ded599a6b497b931fb134814a4c9dc156dd74",
+        "normal.png": "aa3dc215f61d8d746aa3c7d4ff6af271a1bd807c9ba42a7ef8b7dff0acaa2164",
+        "emission.png": "3a09ed7104ddec21efb537cda32afce2a9d005a99e627043481b350607094599",
+        "basecolor.png": "91794ad950077ee6d3c88e79ef96ac7e2acdff825c8ea7783056560e9755021c",
+        "roughness.png": "96214f59ec8c73c3bfddfee8c0be227ed312d60a9402100af4f9b04fadfe6d2c"
+      },
+      "balance_after": 4570,
+      "complete": true
+    },
+    "faohshsctb:text6": {
+      "status": "SUCCEEDED",
+      "task_id": "01a14fde-578e-7440-8b39-93ba73ebe044",
+      "reserved_credits": 10,
+      "balance_before": 4700,
+      "settings": {
+        "ai_model": "meshy-6",
+        "texture_resolution": "4k",
+        "enable_pbr": true,
+        "enable_original_uv": true,
+        "remove_lighting": true,
+        "target_formats": [
+          "glb"
+        ]
+      },
+      "variant": "text6",
+      "conditioning": {
+        "text_style_prompt": "Omicron scout, preserve original palette and identity; subtle panel seams and material detail, no painted highlights or shadows. Do not invent features: no cockpit canopy, windows, lights, text, numbers, decals or panel shapes that are not already in the original texture and geometry; only refine the existing surfaces."
+      },
+      "balance_after_submit": 4690,
+      "consumed_credits": 10,
+      "map_origins": {
+        "basecolor": "Meshy generated",
+        "normal": "Meshy generated",
+        "metallic": "Meshy generated",
+        "roughness": "Meshy generated",
+        "emission": "Meshy generated"
+      },
+      "metrics": {
+        "map_sizes": {
+          "basecolor": [
+            4096,
+            4096
+          ],
+          "normal": [
+            4096,
+            4096
+          ],
+          "metallic": [
+            2048,
+            2048
+          ],
+          "roughness": [
+            2048,
+            2048
+          ],
+          "emission": [
+            2048,
+            2048
+          ]
+        },
+        "uv_coverage_fraction": 0.4866485595703125,
+        "coverage_iou": 1.0,
+        "edge_precision": 0.1828397673188789,
+        "edge_recall": 0.2715507539950484,
+        "edge_f1": 0.21853570594804997,
+        "palette_delta_e": 16.84903842471466,
+        "flat_panel_samples": 630,
+        "flat_panel_gradient_p95": 0.7606404069795142,
+        "wrapped_triangles_unmeasured": 0,
+        "thresholds": {
+          "coverage_iou_min": 0.98,
+          "edge_f1_min": 0.2,
+          "palette_delta_e_max": 25.0,
+          "flat_panel_gradient_p95_max": 0.18
+        },
+        "checks": {
+          "sizes": false,
+          "coverage": true,
+          "edges": true,
+          "palette": true,
+          "lighting": false,
+          "uv_range": true
+        },
+        "accepted": false,
+        "limitations": "Opaque coverage detects alpha holes only; edge/palette/gradient gates are heuristics. UV preservation relies on native geometry being retained for preview/runtime."
+      },
+      "map_sha256": {
+        "metallic.png": "d47fc482894c2102ac358ede41e06fdf9bfcac1a2b138ece6aadbe6bd73aa6c8",
+        "normal.png": "7588f17cce688370088812c82f50021e0a63a76b670417b5accca3f5b3504f85",
+        "emission.png": "bc23d52a892db5f719da217c3eb15a53bf6dee061dc947a6956163bf5ce319bc",
+        "basecolor.png": "c21856b915c14450f48f0f2aa297bee729c8b0001c97cab9b6ca6de127b09089",
+        "roughness.png": "f3ffb34a459211d7e90a43d5b1eef1e750313c492c5195ac49c891021e918c38"
+      },
+      "balance_after": 4570,
+      "complete": true
+    },
+    "rainfigv2:text6": {
+      "status": "SUCCEEDED",
+      "task_id": "01a14fde-65d8-7271-9ddb-b8e12228fcfd",
+      "reserved_credits": 10,
+      "balance_before": 4690,
+      "settings": {
+        "ai_model": "meshy-6",
+        "texture_resolution": "4k",
+        "enable_pbr": true,
+        "enable_original_uv": true,
+        "remove_lighting": true,
+        "target_formats": [
+          "glb"
+        ]
+      },
+      "variant": "text6",
+      "conditioning": {
+        "text_style_prompt": "Technoflux fighter, preserve original native palette and faction markings; refined technological panels, restrained wear, no baked lighting. Do not invent features: no cockpit canopy, windows, lights, text, numbers, decals or panel shapes that are not already in the original texture and geometry; only refine the existing surfaces."
+      },
+      "balance_after_submit": 4680,
+      "consumed_credits": 10,
+      "map_origins": {
+        "basecolor": "Meshy generated",
+        "normal": "Meshy generated",
+        "metallic": "Meshy generated",
+        "roughness": "Meshy generated",
+        "emission": "Meshy generated"
+      },
+      "metrics": {
+        "map_sizes": {
+          "basecolor": [
+            4096,
+            4096
+          ],
+          "normal": [
+            4096,
+            4096
+          ],
+          "metallic": [
+            2048,
+            2048
+          ],
+          "roughness": [
+            2048,
+            2048
+          ],
+          "emission": [
+            2048,
+            2048
+          ]
+        },
+        "uv_coverage_fraction": 0.4270286560058594,
+        "coverage_iou": 1.0,
+        "edge_precision": 0.2482754483834203,
+        "edge_recall": 0.32218382861091915,
+        "edge_f1": 0.28044187459521924,
+        "palette_delta_e": 36.132485916568974,
+        "flat_panel_samples": 358,
+        "flat_panel_gradient_p95": 0.8799684716912153,
+        "wrapped_triangles_unmeasured": 14,
+        "thresholds": {
+          "coverage_iou_min": 0.98,
+          "edge_f1_min": 0.2,
+          "palette_delta_e_max": 25.0,
+          "flat_panel_gradient_p95_max": 0.18
+        },
+        "checks": {
+          "sizes": false,
+          "coverage": true,
+          "edges": true,
+          "palette": false,
+          "lighting": false,
+          "uv_range": false
+        },
+        "accepted": false,
+        "limitations": "Opaque coverage detects alpha holes only; edge/palette/gradient gates are heuristics. UV preservation relies on native geometry being retained for preview/runtime."
+      },
+      "map_sha256": {
+        "metallic.png": "657ede9f0870d070dea58046893034c325bf9ffaceb7bdba7767ee3457b2a792",
+        "normal.png": "676a957b921158de5c193d6dee85a60c9ea2d70c037c2bdb0a91a10c40800217",
+        "emission.png": "ffef6bf5d466dcb0abee2919b31594f11d64229cfb2ce490cdca1b1174440940",
+        "basecolor.png": "26783fcf555eef6bf025610a1fc965be03c2d84d2566a0d5c63fa64e2a904bbe",
+        "roughness.png": "cf5cb29536ef424b472080a197c45c8fa815efb8905b88e598a8cc1c1566810f"
+      },
+      "balance_after": 4570,
+      "complete": true
+    },
+    "wc_gcfig:text6": {
+      "status": "SUCCEEDED",
+      "task_id": "01a14fde-7393-71de-ba57-4494e1426c17",
+      "reserved_credits": 10,
+      "balance_before": 4680,
+      "settings": {
+        "ai_model": "meshy-6",
+        "texture_resolution": "4k",
+        "enable_pbr": true,
+        "enable_original_uv": true,
+        "remove_lighting": true,
+        "target_formats": [
+          "glb"
+        ]
+      },
+      "variant": "text6",
+      "conditioning": {
+        "text_style_prompt": "Gigacorp fighter, preserve original native palette and corporate markings; fine engineered panel detail, no baked lighting. Do not invent features: no cockpit canopy, windows, lights, text, numbers, decals or panel shapes that are not already in the original texture and geometry; only refine the existing surfaces."
+      },
+      "balance_after_submit": 4670,
+      "consumed_credits": 10,
+      "map_origins": {
+        "basecolor": "Meshy generated",
+        "normal": "Meshy generated",
+        "metallic": "Meshy generated",
+        "roughness": "Meshy generated",
+        "emission": "Meshy generated"
+      },
+      "metrics": {
+        "map_sizes": {
+          "basecolor": [
+            4096,
+            4096
+          ],
+          "normal": [
+            4096,
+            4096
+          ],
+          "metallic": [
+            2048,
+            2048
+          ],
+          "roughness": [
+            2048,
+            2048
+          ],
+          "emission": [
+            2048,
+            2048
+          ]
+        },
+        "uv_coverage_fraction": 0.60589599609375,
+        "coverage_iou": 1.0,
+        "edge_precision": 0.4210947320306251,
+        "edge_recall": 0.44617803580067733,
+        "edge_f1": 0.4332736536701288,
+        "palette_delta_e": 32.0215983673179,
+        "flat_panel_samples": 86,
+        "flat_panel_gradient_p95": 1.209225138761837,
+        "wrapped_triangles_unmeasured": 0,
+        "thresholds": {
+          "coverage_iou_min": 0.98,
+          "edge_f1_min": 0.2,
+          "palette_delta_e_max": 25.0,
+          "flat_panel_gradient_p95_max": 0.18
+        },
+        "checks": {
+          "sizes": false,
+          "coverage": true,
+          "edges": true,
+          "palette": false,
+          "lighting": false,
+          "uv_range": true
+        },
+        "accepted": false,
+        "limitations": "Opaque coverage detects alpha holes only; edge/palette/gradient gates are heuristics. UV preservation relies on native geometry being retained for preview/runtime."
+      },
+      "map_sha256": {
+        "metallic.png": "e776d49eac24ac49c24448b78b5067ece6ebfd43a6b18bc9ac2e7f16dc18dec3",
+        "normal.png": "d2b3186e00f3f083444ab07325be34c4d2a6aaf968fc4dd1e540271ff5a1b3a1",
+        "emission.png": "abd4a882db5020863453fcb340ef6898373f55cd033b9aed82f8acc5555168e9",
+        "basecolor.png": "c7dd978936279d29408ac8cb3e1243acc109b5233ac8024de5886e961b540728",
+        "roughness.png": "849b1310a2a82fb96d9808c93b17455ee6ff5b93adb74c96bed1b4987b09e8cb"
+      },
+      "balance_after": 4570,
+      "complete": true
+    },
+    "fig04:text6": {
+      "status": "SUCCEEDED",
+      "task_id": "01a14fde-7efd-7143-9886-8cd0e6290358",
+      "reserved_credits": 10,
+      "balance_before": 4670,
+      "settings": {
+        "ai_model": "meshy-6",
+        "texture_resolution": "4k",
+        "enable_pbr": true,
+        "enable_original_uv": true,
+        "remove_lighting": true,
+        "target_formats": [
+          "glb"
+        ]
+      },
+      "variant": "text6",
+      "conditioning": {
+        "text_style_prompt": "Classic fighter (Adv/Enh Fighter) fighter: compact multirole fighter hull with angular armour plates and visible weapon hardpoints; preserve the original colours, faction markings and glowing details exactly; fine machined panel detail, restrained wear, no painted highlights or shadows. Do not invent features: no cockpit canopy, windows, lights, text, numbers, decals or panel shapes that are not already in the original texture and geometry; only refine the existing surfaces."
+      },
+      "balance_after_submit": 4660,
+      "consumed_credits": 10,
+      "map_origins": {
+        "basecolor": "Meshy generated",
+        "normal": "Meshy generated",
+        "metallic": "Meshy generated",
+        "roughness": "Meshy generated",
+        "emission": "Meshy generated"
+      },
+      "metrics": {
+        "map_sizes": {
+          "basecolor": [
+            4096,
+            4096
+          ],
+          "normal": [
+            4096,
+            4096
+          ],
+          "metallic": [
+            2048,
+            2048
+          ],
+          "roughness": [
+            2048,
+            2048
+          ],
+          "emission": [
+            2048,
+            2048
+          ]
+        },
+        "uv_coverage_fraction": 0.446563720703125,
+        "coverage_iou": 1.0,
+        "edge_precision": 0.33536276002029425,
+        "edge_recall": 0.4035836177474403,
+        "edge_f1": 0.3663240527834327,
+        "palette_delta_e": 24.51404217323614,
+        "flat_panel_samples": 208,
+        "flat_panel_gradient_p95": 0.37622622300344905,
+        "wrapped_triangles_unmeasured": 2,
+        "thresholds": {
+          "coverage_iou_min": 0.98,
+          "edge_f1_min": 0.2,
+          "palette_delta_e_max": 25.0,
+          "flat_panel_gradient_p95_max": 0.18
+        },
+        "checks": {
+          "sizes": false,
+          "coverage": true,
+          "edges": true,
+          "palette": true,
+          "lighting": false,
+          "uv_range": false
+        },
+        "accepted": false,
+        "limitations": "Opaque coverage detects alpha holes only; edge/palette/gradient gates are heuristics. UV preservation relies on native geometry being retained for preview/runtime."
+      },
+      "map_sha256": {
+        "metallic.png": "c058f72d385dd68e2a95bb0d95ddfcb99eaeaf0bb054e4b400346dda46187a63",
+        "normal.png": "a2ee908bd9ee1a9d8b1a9859d6fff26cf06d695aaa2a63b6181ba4fc1eac62ca",
+        "emission.png": "b735e1f6a2e0de6d0a1d1107fbf2e02390a955862ee8912c725b40e2af8edc29",
+        "basecolor.png": "baca145ef79cbec05a68a9e43d9c50c4cb749ce4026e31cb3af5b186ab44a393",
+        "roughness.png": "97c69b335a8a049d7446d482db7e39be80284558793674ba26dddd7da27b32dc"
+      },
+      "balance_after": 4570,
+      "complete": true
+    },
+    "fig03:text6": {
+      "status": "SUCCEEDED",
+      "task_id": "01a14fde-8a4e-7685-b07f-65132b3c454e",
+      "reserved_credits": 10,
+      "balance_before": 4660,
+      "settings": {
+        "ai_model": "meshy-6",
+        "texture_resolution": "4k",
+        "enable_pbr": true,
+        "enable_original_uv": true,
+        "remove_lighting": true,
+        "target_formats": [
+          "glb"
+        ]
+      },
+      "variant": "text6",
+      "conditioning": {
+        "text_style_prompt": "Classic interceptor interceptor: slim fast interceptor with swept fins and large engine nacelles; preserve the original colours, faction markings and glowing details exactly; fine machined panel detail, restrained wear, no painted highlights or shadows. Do not invent features: no cockpit canopy, windows, lights, text, numbers, decals or panel shapes that are not already in the original texture and geometry; only refine the existing surfaces."
+      },
+      "balance_after_submit": 4650,
+      "consumed_credits": 10,
+      "map_origins": {
+        "basecolor": "Meshy generated",
+        "normal": "Meshy generated",
+        "metallic": "Meshy generated",
+        "roughness": "Meshy generated",
+        "emission": "Meshy generated"
+      },
+      "metrics": {
+        "map_sizes": {
+          "basecolor": [
+            4096,
+            4096
+          ],
+          "normal": [
+            4096,
+            4096
+          ],
+          "metallic": [
+            2048,
+            2048
+          ],
+          "roughness": [
+            2048,
+            2048
+          ],
+          "emission": [
+            2048,
+            2048
+          ]
+        },
+        "uv_coverage_fraction": 0.6727180480957031,
+        "coverage_iou": 1.0,
+        "edge_precision": 0.2668420283501388,
+        "edge_recall": 0.36663070381417784,
+        "edge_f1": 0.3088766909570384,
+        "palette_delta_e": 31.063361581855634,
+        "flat_panel_samples": 642,
+        "flat_panel_gradient_p95": 0.7326292318934119,
+        "wrapped_triangles_unmeasured": 3,
+        "thresholds": {
+          "coverage_iou_min": 0.98,
+          "edge_f1_min": 0.2,
+          "palette_delta_e_max": 25.0,
+          "flat_panel_gradient_p95_max": 0.18
+        },
+        "checks": {
+          "sizes": false,
+          "coverage": true,
+          "edges": true,
+          "palette": false,
+          "lighting": false,
+          "uv_range": false
+        },
+        "accepted": false,
+        "limitations": "Opaque coverage detects alpha holes only; edge/palette/gradient gates are heuristics. UV preservation relies on native geometry being retained for preview/runtime."
+      },
+      "map_sha256": {
+        "metallic.png": "be7864c11c617f22913cb996bfa833ab7811d570f4ace7a39f120cb1e8603262",
+        "normal.png": "9f42a5c5dd86cb7c92ba4cf942d93ea9061d02819fb470f5a392b8a547b6849d",
+        "emission.png": "c6be4d6289d6de07dc5b001e63fc6f2dc9e53b2c85a6a958e2f8aa57a96c2a28",
+        "basecolor.png": "5d14bed145fc7ee349cd651bed1b1d4ac1645950673da7fd75cd0a06fc57f529",
+        "roughness.png": "cfa2db8c0bbeb541e7abf2e20979649720c386a6dc9cb70b89e9b8c80f0bb9bf"
+      },
+      "balance_after": 4570,
+      "complete": true
+    },
+    "fig05:text6": {
+      "status": "SUCCEEDED",
+      "task_id": "01a14fde-998f-745f-b751-44d7b1b65098",
+      "reserved_credits": 10,
+      "balance_before": 4650,
+      "settings": {
+        "ai_model": "meshy-6",
+        "texture_resolution": "4k",
+        "enable_pbr": true,
+        "enable_original_uv": true,
+        "remove_lighting": true,
+        "target_formats": [
+          "glb"
+        ]
+      },
+      "variant": "text6",
+      "conditioning": {
+        "text_style_prompt": "Classic scout scout: light scout craft with sensor dish detail and thin hull plating; preserve the original colours, faction markings and glowing details exactly; fine machined panel detail, restrained wear, no painted highlights or shadows. Do not invent features: no cockpit canopy, windows, lights, text, numbers, decals or panel shapes that are not already in the original texture and geometry; only refine the existing surfaces."
+      },
+      "balance_after_submit": 4640,
+      "consumed_credits": 10,
+      "map_origins": {
+        "basecolor": "Meshy generated",
+        "normal": "Meshy generated",
+        "metallic": "Meshy generated",
+        "roughness": "Meshy generated",
+        "emission": "Meshy generated"
+      },
+      "metrics": {
+        "map_sizes": {
+          "basecolor": [
+            4096,
+            4096
+          ],
+          "normal": [
+            4096,
+            4096
+          ],
+          "metallic": [
+            2048,
+            2048
+          ],
+          "roughness": [
+            2048,
+            2048
+          ],
+          "emission": [
+            2048,
+            2048
+          ]
+        },
+        "uv_coverage_fraction": 0.6282196044921875,
+        "coverage_iou": 1.0,
+        "edge_precision": 0.22401960784313726,
+        "edge_recall": 0.14264150943396225,
+        "edge_f1": 0.1742998834610553,
+        "palette_delta_e": 22.270190110177865,
+        "flat_panel_samples": 159,
+        "flat_panel_gradient_p95": 0.42610572058646057,
+        "wrapped_triangles_unmeasured": 0,
+        "thresholds": {
+          "coverage_iou_min": 0.98,
+          "edge_f1_min": 0.2,
+          "palette_delta_e_max": 25.0,
+          "flat_panel_gradient_p95_max": 0.18
+        },
+        "checks": {
+          "sizes": false,
+          "coverage": true,
+          "edges": false,
+          "palette": true,
+          "lighting": false,
+          "uv_range": true
+        },
+        "accepted": false,
+        "limitations": "Opaque coverage detects alpha holes only; edge/palette/gradient gates are heuristics. UV preservation relies on native geometry being retained for preview/runtime."
+      },
+      "map_sha256": {
+        "metallic.png": "15d369cdf4a702feadb642af8ebf57650b06f1d093fb8626bb96b10ac9ba2697",
+        "normal.png": "446e6b740824d6a277dc113c89706dd644017a8220454554947d6985050c087e",
+        "emission.png": "d3fbb4fec43348a8387acb82b28a5cfce783dee7068cce18566035e072b40945",
+        "basecolor.png": "bae620137ea3a01c0527535ac1279b36c4038d25531f2a5370e30e004bad9643",
+        "roughness.png": "7f83a211a013e9e46dd92df5b8389a344a1795a0566bdf8677b63e91766b569e"
+      },
+      "balance_after": 4570,
+      "complete": true
+    },
+    "bom04:text6": {
+      "status": "SUCCEEDED",
+      "task_id": "01a14fde-a4ed-725e-8a57-8c060ea79e9c",
+      "reserved_credits": 10,
+      "balance_before": 4640,
+      "settings": {
+        "ai_model": "meshy-6",
+        "texture_resolution": "4k",
+        "enable_pbr": true,
+        "enable_original_uv": true,
+        "remove_lighting": true,
+        "target_formats": [
+          "glb"
+        ]
+      },
+      "variant": "text6",
+      "conditioning": {
+        "text_style_prompt": "Classic bomber/gunship bomber: heavy armoured bomber with thick hull plates and a large ordnance bay; preserve the original colours, faction markings and glowing details exactly; fine machined panel detail, restrained wear, no painted highlights or shadows. Do not invent features: no cockpit canopy, windows, lights, text, numbers, decals or panel shapes that are not already in the original texture and geometry; only refine the existing surfaces."
+      },
+      "balance_after_submit": 4630,
+      "consumed_credits": 10,
+      "map_origins": {
+        "basecolor": "Meshy generated",
+        "normal": "Meshy generated",
+        "metallic": "Meshy generated",
+        "roughness": "Meshy generated",
+        "emission": "Meshy generated"
+      },
+      "metrics": {
+        "map_sizes": {
+          "basecolor": [
+            4096,
+            4096
+          ],
+          "normal": [
+            4096,
+            4096
+          ],
+          "metallic": [
+            2048,
+            2048
+          ],
+          "roughness": [
+            2048,
+            2048
+          ],
+          "emission": [
+            2048,
+            2048
+          ]
+        },
+        "uv_coverage_fraction": 0.4658660888671875,
+        "coverage_iou": 1.0,
+        "edge_precision": 0.3893280632411067,
+        "edge_recall": 0.1317617343717112,
+        "edge_f1": 0.1968894462614043,
+        "palette_delta_e": 20.54749006229477,
+        "flat_panel_samples": 236,
+        "flat_panel_gradient_p95": 0.3094918895084183,
+        "wrapped_triangles_unmeasured": 10,
+        "thresholds": {
+          "coverage_iou_min": 0.98,
+          "edge_f1_min": 0.2,
+          "palette_delta_e_max": 25.0,
+          "flat_panel_gradient_p95_max": 0.18
+        },
+        "checks": {
+          "sizes": false,
+          "coverage": true,
+          "edges": false,
+          "palette": true,
+          "lighting": false,
+          "uv_range": false
+        },
+        "accepted": false,
+        "limitations": "Opaque coverage detects alpha holes only; edge/palette/gradient gates are heuristics. UV preservation relies on native geometry being retained for preview/runtime."
+      },
+      "map_sha256": {
+        "metallic.png": "f8c993d1bf62ab2fde4670bf0bc7addb10ddf16b1cab6ab0861a276baeb73719",
+        "normal.png": "9024ace2a3beaa4e395bac655e5079f8fd452f8139a673fb841b4ddbc73bae36",
+        "emission.png": "388bd6df5c6fc3d69e613157d928949463da92d0e9015f4ba1f69ddb07602f88",
+        "basecolor.png": "11fdb18017fc66d42a85fa5cb653bd71247c35267bb3fd5540ef0bc1fe29aab6",
+        "roughness.png": "0c0f0a3f86f4925f5731e7397c363222cc30bc5a4180b3eca040da7ab1d690b8"
+      },
+      "balance_after": 4570,
+      "complete": true
+    },
+    "cap04:text6": {
+      "status": "SUCCEEDED",
+      "task_id": "01a14fde-b2b4-70ca-937a-02feb91b2cc2",
+      "reserved_credits": 10,
+      "balance_before": 4630,
+      "settings": {
+        "ai_model": "meshy-6",
+        "texture_resolution": "4k",
+        "enable_pbr": true,
+        "enable_original_uv": true,
+        "remove_lighting": true,
+        "target_formats": [
+          "glb"
+        ]
+      },
+      "variant": "text6",
+      "conditioning": {
+        "text_style_prompt": "Classic corvette/assault ship capital: mid-size warship hull with layered armour, turret mounts and bridge structure; preserve the original colours, faction markings and glowing details exactly; fine machined panel detail, restrained wear, no painted highlights or shadows. Do not invent features: no cockpit canopy, windows, lights, text, numbers, decals or panel shapes that are not already in the original texture and geometry; only refine the existing surfaces."
+      },
+      "balance_after_submit": 4620,
+      "consumed_credits": 10,
+      "map_origins": {
+        "basecolor": "Meshy generated",
+        "normal": "Meshy generated",
+        "metallic": "Meshy generated",
+        "roughness": "Meshy generated",
+        "emission": "Meshy generated"
+      },
+      "metrics": {
+        "map_sizes": {
+          "basecolor": [
+            4096,
+            4096
+          ],
+          "normal": [
+            4096,
+            4096
+          ],
+          "metallic": [
+            2048,
+            2048
+          ],
+          "roughness": [
+            2048,
+            2048
+          ],
+          "emission": [
+            2048,
+            2048
+          ]
+        },
+        "uv_coverage_fraction": 0.675048828125,
+        "coverage_iou": 1.0,
+        "edge_precision": 0.5310810810810811,
+        "edge_recall": 0.2528574952717704,
+        "edge_f1": 0.3425978412062302,
+        "palette_delta_e": 22.681998908687767,
+        "flat_panel_samples": 33,
+        "flat_panel_gradient_p95": 0.578085589356676,
+        "wrapped_triangles_unmeasured": 0,
+        "thresholds": {
+          "coverage_iou_min": 0.98,
+          "edge_f1_min": 0.2,
+          "palette_delta_e_max": 25.0,
+          "flat_panel_gradient_p95_max": 0.18
+        },
+        "checks": {
+          "sizes": false,
+          "coverage": true,
+          "edges": true,
+          "palette": true,
+          "lighting": false,
+          "uv_range": true
+        },
+        "accepted": false,
+        "limitations": "Opaque coverage detects alpha holes only; edge/palette/gradient gates are heuristics. UV preservation relies on native geometry being retained for preview/runtime."
+      },
+      "map_sha256": {
+        "metallic.png": "9008192eca36ce4049eafa47569ebecb7a70941ce40c47d31b52496c66c04738",
+        "normal.png": "5f605e2ab44a47efcb8be8fc7128d66bab92fec541195d095de38ca1ed8ce08c",
+        "emission.png": "b6b5db94bf692b548603bf721539ad81065310dec83790223e7229540112ac41",
+        "basecolor.png": "d459a742d7959f92f8b2a732b0e61bd40c0819cebd3578f97620eddce5e8c5d2",
+        "roughness.png": "22f524c59fb70a7ca18eeba7073b386b0dfa90f31b74fdc0473aa5cf95b62497"
+      },
+      "balance_after": 4570,
+      "complete": true
+    },
+    "cap06a:text6": {
+      "status": "SUCCEEDED",
+      "task_id": "01a14fde-bf83-77f3-a276-88403eccdadb",
+      "reserved_credits": 10,
+      "balance_before": 4620,
+      "settings": {
+        "ai_model": "meshy-6",
+        "texture_resolution": "4k",
+        "enable_pbr": true,
+        "enable_original_uv": true,
+        "remove_lighting": true,
+        "target_formats": [
+          "glb"
+        ]
+      },
+      "variant": "text6",
+      "conditioning": {
+        "text_style_prompt": "Classic destroyer capital: large capital destroyer with long spine, armour belts and turret emplacements; preserve the original colours, faction markings and glowing details exactly; fine machined panel detail, restrained wear, no painted highlights or shadows. Do not invent features: no cockpit canopy, windows, lights, text, numbers, decals or panel shapes that are not already in the original texture and geometry; only refine the existing surfaces."
+      },
+      "balance_after_submit": 4610,
+      "consumed_credits": 10,
+      "map_origins": {
+        "basecolor": "Meshy generated",
+        "normal": "Meshy generated",
+        "metallic": "Meshy generated",
+        "roughness": "Meshy generated",
+        "emission": "Meshy generated"
+      },
+      "metrics": {
+        "map_sizes": {
+          "basecolor": [
+            4096,
+            4096
+          ],
+          "normal": [
+            4096,
+            4096
+          ],
+          "metallic": [
+            2048,
+            2048
+          ],
+          "roughness": [
+            2048,
+            2048
+          ],
+          "emission": [
+            2048,
+            2048
+          ]
+        },
+        "uv_coverage_fraction": 0.507843017578125,
+        "coverage_iou": 1.0,
+        "edge_precision": 0.4839476813317479,
+        "edge_recall": 0.09695138698159846,
+        "edge_f1": 0.16154062380534753,
+        "palette_delta_e": 15.612791468502863,
+        "flat_panel_samples": 101,
+        "flat_panel_gradient_p95": 0.15666697450378197,
+        "wrapped_triangles_unmeasured": 0,
+        "thresholds": {
+          "coverage_iou_min": 0.98,
+          "edge_f1_min": 0.2,
+          "palette_delta_e_max": 25.0,
+          "flat_panel_gradient_p95_max": 0.18
+        },
+        "checks": {
+          "sizes": false,
+          "coverage": true,
+          "edges": false,
+          "palette": true,
+          "lighting": true,
+          "uv_range": true
+        },
+        "accepted": false,
+        "limitations": "Opaque coverage detects alpha holes only; edge/palette/gradient gates are heuristics. UV preservation relies on native geometry being retained for preview/runtime."
+      },
+      "map_sha256": {
+        "metallic.png": "81904a5a50e9ff7987d3a7c27165f663866ba53566c143861a2370cfdb18cbb4",
+        "normal.png": "90ade20e8e42cca7efc98930de98a50ce8cec6c8d2d7b8803ac18fc2b7b815db",
+        "emission.png": "701e09f10aef7d303c27651f14b336a85646023528011321bb4d0670c96d1960",
+        "basecolor.png": "552fe3a94f2a968d2ff4697a7fc37f77d6aef4a0026b582be46fd8625cb5a7c4",
+        "roughness.png": "2757b1ada521c326f78db386fdb405ece01382c0797aaf69ec86391ae7e582a3"
+      },
+      "balance_after": 4570,
+      "complete": true
+    },
+    "utl101:text6": {
+      "status": "SUCCEEDED",
+      "task_id": "01a14fde-cc4d-72cf-b8f0-9d0366b6365f",
+      "reserved_credits": 10,
+      "balance_before": 4610,
+      "settings": {
+        "ai_model": "meshy-6",
+        "texture_resolution": "4k",
+        "enable_pbr": true,
+        "enable_original_uv": true,
+        "remove_lighting": true,
+        "target_formats": [
+          "glb"
+        ]
+      },
+      "variant": "text6",
+      "conditioning": {
+        "text_style_prompt": "Classic mining ship miner: industrial mining vessel with ore hoppers, scoop arms and heavy-duty utility plating; preserve the original colours, faction markings and glowing details exactly; fine machined panel detail, restrained wear, no painted highlights or shadows. Do not invent features: no cockpit canopy, windows, lights, text, numbers, decals or panel shapes that are not already in the original texture and geometry; only refine the existing surfaces."
+      },
+      "balance_after_submit": 4600,
+      "consumed_credits": 10,
+      "map_origins": {
+        "basecolor": "Meshy generated",
+        "normal": "Meshy generated",
+        "metallic": "Meshy generated",
+        "roughness": "Meshy generated",
+        "emission": "Meshy generated"
+      },
+      "metrics": {
+        "map_sizes": {
+          "basecolor": [
+            4096,
+            4096
+          ],
+          "normal": [
+            4096,
+            4096
+          ],
+          "metallic": [
+            2048,
+            2048
+          ],
+          "roughness": [
+            2048,
+            2048
+          ],
+          "emission": [
+            2048,
+            2048
+          ]
+        },
+        "uv_coverage_fraction": 0.624420166015625,
+        "coverage_iou": 1.0,
+        "edge_precision": 0.4680451127819549,
+        "edge_recall": 0.13469078032123435,
+        "edge_f1": 0.209184029647124,
+        "palette_delta_e": 14.98033528080439,
+        "flat_panel_samples": 73,
+        "flat_panel_gradient_p95": 0.2126746950387209,
+        "wrapped_triangles_unmeasured": 0,
+        "thresholds": {
+          "coverage_iou_min": 0.98,
+          "edge_f1_min": 0.2,
+          "palette_delta_e_max": 25.0,
+          "flat_panel_gradient_p95_max": 0.18
+        },
+        "checks": {
+          "sizes": false,
+          "coverage": true,
+          "edges": true,
+          "palette": true,
+          "lighting": false,
+          "uv_range": true
+        },
+        "accepted": false,
+        "limitations": "Opaque coverage detects alpha holes only; edge/palette/gradient gates are heuristics. UV preservation relies on native geometry being retained for preview/runtime."
+      },
+      "map_sha256": {
+        "metallic.png": "6b1a74866789c1ab209ded45a45bb1bbd6ea8cffd3f02e5c7aeac603461b39e3",
+        "normal.png": "3f2a16642353a934eccb2ec3ddf578363dd951e9e34972c3ff2eed186e4d2fef",
+        "emission.png": "5b075821af7e39a6fcd961c29d2c0fbae092fd9989e2e9b9d229402705b9d120",
+        "basecolor.png": "27e04f0ce9e4d1d77bf5a225be25a2ad988feb42fa56ded1f693b4a17711c915",
+        "roughness.png": "9a3e4b0cd65128baabe7608909b5ab020179d933a890c4caeb0b642320accca3"
+      },
+      "balance_after": 4570,
+      "complete": true
+    },
+    "utl102:text6": {
+      "status": "SUCCEEDED",
+      "task_id": "01a14fde-d82b-764b-a65a-3c2ffd61fff7",
+      "reserved_credits": 10,
+      "balance_before": 4600,
+      "settings": {
+        "ai_model": "meshy-6",
+        "texture_resolution": "4k",
+        "enable_pbr": true,
+        "enable_original_uv": true,
+        "remove_lighting": true,
+        "target_formats": [
+          "glb"
+        ]
+      },
+      "variant": "text6",
+      "conditioning": {
+        "text_style_prompt": "Classic large constructor constructor: bulky industrial constructor with cargo modules, cranes and reinforced framework; preserve the original colours, faction markings and glowing details exactly; fine machined panel detail, restrained wear, no painted highlights or shadows. Do not invent features: no cockpit canopy, windows, lights, text, numbers, decals or panel shapes that are not already in the original texture and geometry; only refine the existing surfaces."
+      },
+      "balance_after_submit": 4590,
+      "consumed_credits": 10,
+      "map_origins": {
+        "basecolor": "Meshy generated",
+        "normal": "Meshy generated",
+        "metallic": "Meshy generated",
+        "roughness": "Meshy generated",
+        "emission": "Meshy generated"
+      },
+      "metrics": {
+        "map_sizes": {
+          "basecolor": [
+            4096,
+            4096
+          ],
+          "normal": [
+            4096,
+            4096
+          ],
+          "metallic": [
+            2048,
+            2048
+          ],
+          "roughness": [
+            2048,
+            2048
+          ],
+          "emission": [
+            2048,
+            2048
+          ]
+        },
+        "uv_coverage_fraction": 0.663238525390625,
+        "coverage_iou": 1.0,
+        "edge_precision": 0.4608569001092366,
+        "edge_recall": 0.4851564284083124,
+        "edge_f1": 0.47269458246364654,
+        "palette_delta_e": 34.73558376384267,
+        "flat_panel_samples": 84,
+        "flat_panel_gradient_p95": 0.7363118086726193,
+        "wrapped_triangles_unmeasured": 0,
+        "thresholds": {
+          "coverage_iou_min": 0.98,
+          "edge_f1_min": 0.2,
+          "palette_delta_e_max": 25.0,
+          "flat_panel_gradient_p95_max": 0.18
+        },
+        "checks": {
+          "sizes": false,
+          "coverage": true,
+          "edges": true,
+          "palette": false,
+          "lighting": false,
+          "uv_range": true
+        },
+        "accepted": false,
+        "limitations": "Opaque coverage detects alpha holes only; edge/palette/gradient gates are heuristics. UV preservation relies on native geometry being retained for preview/runtime."
+      },
+      "map_sha256": {
+        "metallic.png": "a95bcbba73f8fab427959dfdd5e3ed2d2719af1dc1e22ac7f927fb670d9021f2",
+        "normal.png": "d5405f755b925664816bb973390c5f04ca1477f0080a54313752708014a2a38d",
+        "emission.png": "bbc399101bfc6ad5a3b4f64b79048a126f40b5f72dca25308c634178aad75b1d",
+        "basecolor.png": "14394dcfa833df2c8fad0751db5d705cdf562ffdc7e19e04382e93764fb1feff",
+        "roughness.png": "58db1c548b4cd8d9910b28bbdb12355f63a1a6911966c8e07487897629f47870"
+      },
+      "balance_after": 4570,
+      "complete": true
+    },
+    "wc_gtfig:text6": {
+      "status": "SUCCEEDED",
+      "task_id": "01a14fde-e495-757c-a7a6-30c6aeaa0c96",
+      "reserved_credits": 10,
+      "balance_before": 4590,
+      "settings": {
+        "ai_model": "meshy-6",
+        "texture_resolution": "4k",
+        "enable_pbr": true,
+        "enable_original_uv": true,
+        "remove_lighting": true,
+        "target_formats": [
+          "glb"
+        ]
+      },
+      "variant": "text6",
+      "conditioning": {
+        "text_style_prompt": "Ga'Taraan fighter: agile fighter hull with layered armour and engine pods; preserve the original colours, faction markings and glowing details exactly; fine machined panel detail, restrained wear, no painted highlights or shadows. Do not invent features: no cockpit canopy, windows, lights, text, numbers, decals or panel shapes that are not already in the original texture and geometry; only refine the existing surfaces."
+      },
+      "balance_after_submit": 4580,
+      "consumed_credits": 10,
+      "map_origins": {
+        "basecolor": "Meshy generated",
+        "normal": "Meshy generated",
+        "metallic": "Meshy generated",
+        "roughness": "Meshy generated",
+        "emission": "Meshy generated"
+      },
+      "metrics": {
+        "map_sizes": {
+          "basecolor": [
+            4096,
+            4096
+          ],
+          "normal": [
+            4096,
+            4096
+          ],
+          "metallic": [
+            2048,
+            2048
+          ],
+          "roughness": [
+            2048,
+            2048
+          ],
+          "emission": [
+            2048,
+            2048
+          ]
+        },
+        "uv_coverage_fraction": 0.45263671875,
+        "coverage_iou": 1.0,
+        "edge_precision": 0.1930465367965368,
+        "edge_recall": 0.17937100213219617,
+        "edge_f1": 0.18595767998977628,
+        "palette_delta_e": 2.261601758072868,
+        "flat_panel_samples": 158,
+        "flat_panel_gradient_p95": 0.5589687542898581,
+        "wrapped_triangles_unmeasured": 0,
+        "thresholds": {
+          "coverage_iou_min": 0.98,
+          "edge_f1_min": 0.2,
+          "palette_delta_e_max": 25.0,
+          "flat_panel_gradient_p95_max": 0.18
+        },
+        "checks": {
+          "sizes": false,
+          "coverage": true,
+          "edges": false,
+          "palette": true,
+          "lighting": false,
+          "uv_range": true
+        },
+        "accepted": false,
+        "limitations": "Opaque coverage detects alpha holes only; edge/palette/gradient gates are heuristics. UV preservation relies on native geometry being retained for preview/runtime."
+      },
+      "map_sha256": {
+        "metallic.png": "89bfbe82b7603a0eceb9b3a5d0e5cad780838367a385e27abab3b532145b4849",
+        "normal.png": "f31fed4d778ee91ae347377316baa37680b91f7c74ab8c84a97a5eb24ae2b986",
+        "emission.png": "91ee8b05ed7a86985cb3c97813d02aaab6437248a883c96c450824c28b7789bf",
+        "basecolor.png": "969b994a3243801c46e7e8e30be29e368352403c7f55f1ab1f81f458069d05c0",
+        "roughness.png": "eb5f938a74a09e3fb9b8ccb8c704839a7f875d1abe8c00242b8ef86b936c0437"
+      },
+      "balance_after": 4570,
+      "complete": true
+    },
+    "wc_gtpt:text6": {
+      "status": "SUCCEEDED",
+      "task_id": "01a14fde-f0ef-77d0-a353-ca27f8d500a4",
+      "reserved_credits": 10,
+      "balance_before": 4590,
+      "settings": {
+        "ai_model": "meshy-6",
+        "texture_resolution": "4k",
+        "enable_pbr": true,
+        "enable_original_uv": true,
+        "remove_lighting": true,
+        "target_formats": [
+          "glb"
+        ]
+      },
+      "variant": "text6",
+      "conditioning": {
+        "text_style_prompt": "Ga'Taraan PT bomber bomber: agile patrol torpedo bomber with forward launch tubes and armoured nose; preserve the original colours, faction markings and glowing details exactly; fine machined panel detail, restrained wear, no painted highlights or shadows. Do not invent features: no cockpit canopy, windows, lights, text, numbers, decals or panel shapes that are not already in the original texture and geometry; only refine the existing surfaces."
+      },
+      "balance_after_submit": 4570,
+      "consumed_credits": 10,
+      "map_origins": {
+        "basecolor": "Meshy generated",
+        "normal": "Meshy generated",
+        "metallic": "Meshy generated",
+        "roughness": "Meshy generated",
+        "emission": "Meshy generated"
+      },
+      "metrics": {
+        "map_sizes": {
+          "basecolor": [
+            4096,
+            4096
+          ],
+          "normal": [
+            4096,
+            4096
+          ],
+          "metallic": [
+            2048,
+            2048
+          ],
+          "roughness": [
+            2048,
+            2048
+          ],
+          "emission": [
+            2048,
+            2048
+          ]
+        },
+        "uv_coverage_fraction": 0.28499603271484375,
+        "coverage_iou": 1.0,
+        "edge_precision": 0.18635379883813646,
+        "edge_recall": 0.2918765743073048,
+        "edge_f1": 0.22747324916347741,
+        "palette_delta_e": 14.164869589398497,
+        "flat_panel_samples": 57,
+        "flat_panel_gradient_p95": 0.5539660351894563,
+        "wrapped_triangles_unmeasured": 0,
+        "thresholds": {
+          "coverage_iou_min": 0.98,
+          "edge_f1_min": 0.2,
+          "palette_delta_e_max": 25.0,
+          "flat_panel_gradient_p95_max": 0.18
+        },
+        "checks": {
+          "sizes": false,
+          "coverage": true,
+          "edges": true,
+          "palette": true,
+          "lighting": false,
+          "uv_range": true
+        },
+        "accepted": false,
+        "limitations": "Opaque coverage detects alpha holes only; edge/palette/gradient gates are heuristics. UV preservation relies on native geometry being retained for preview/runtime."
+      },
+      "map_sha256": {
+        "metallic.png": "64774cc786451005d2b34cca68c2292fee25bb5ead832f98fc0a38e2d3050c1a",
+        "normal.png": "a9de594296a49fb316e0e31b362bc9f97452799b6b712d7c332413b534a392ae",
+        "emission.png": "8093c621ce39b9d90ae523e475f90ad28d64a74b38e6603bb6c14f06965714c5",
+        "basecolor.png": "070d776f457704f68f058400dda3e52e27c3c6465700854103f5aa57edef68ac",
+        "roughness.png": "3011d6e72c8064f7d9a4403509395755419713aaa3233748bd322669fd26a14b"
+      },
+      "balance_after": 4570,
+      "complete": true
+    }
+  },
+  "models": {
+    "wc_icfig": {
+      "model": "wc_icfig",
+      "civ": "Iron Coalition",
+      "class": "fighter",
+      "reason": "Rig faction; compact angular fighter panels",
+      "prompt": "Iron Coalition fighter, preserve the original grey metal and muted faction markings; fine machined panel detail, restrained wear, no painted highlights or shadows. Do not invent features: no cockpit canopy, windows, lights, text, numbers, decals or panel shapes that are not already in the original texture and geometry; only refine the existing surfaces.",
+      "native": {
+        "Model": "wc_icfig",
+        "Texture": "fig02bmp",
+        "ModelSha256": "a16077c8945f959266717b2d3a64043d33fe8ea155353dc4f8ea6baf5a1d6a03",
+        "TextureSha256": "b3e6c695e2d93273b060dbafb1784b6ef1a48d89b94b8789ee9204e546cd69df",
+        "Hulls": [
+          {
+            "HullId": 414,
+            "Name": "Enh Fighter",
+            "Length": 14.94
+          }
+        ],
+        "geometry": {
+          "vertices": 578,
+          "triangles": 498,
+          "native_uv_min": [
+            0.0,
+            0.0039059997
+          ],
+          "native_uv_max": [
+            0.99515104,
+            0.999215
+          ]
+        },
+        "glb_sha256": "4d7e7071c35db9074446f909cf3c1fc4632ee83b87a1ce1c4fc2b8fe7ae7718e",
+        "reference_sha256": {
+          "front": "134028e85a14c95bc94ebc2a32b0c422e73c2adbdcff0dd652748232912910cb",
+          "three_quarter": "b3e3fc42108386405f33562f8d3dc7eaa37d805fc3e85e0fa6dc02c58f4a08ba",
+          "side": "134a9d69ad0540ddd25558b4c198ce267cb380fba89329665a17c4e7bf67c32a",
+          "top": "4043f188664827a663bbe7b009feaafed2e563c1a1ccfa7c6ee94c3559844cea"
+        }
+      }
+    },
+    "wc_icint": {
+      "model": "wc_icint",
+      "civ": "Iron Coalition",
+      "class": "interceptor",
+      "reason": "Rig faction; distinct interceptor hull and thin surfaces",
+      "prompt": "Military space interceptor hull. Keep the original layout and colours exactly: pale grey-green painted armour panels, charcoal intakes and fins, yellow-and-black hazard stripes, small red warning marks, white hull numbers 3 and 88, blue-white engine glow plates. Add crisp recessed panel seams, small rivets and access hatches, fine stencilled maintenance text, subtle paint chipping, worn bare-metal edges, slightly dusty matte paint, brushed metal on the nose cone. Even neutral lighting, no baked shadows, no highlights.",
+      "prompt_v1": "Iron Coalition interceptor, preserve original grey metal palette and markings; fine panel seams, restrained wear, physically neutral albedo.",
+      "native": {
+        "Model": "wc_icint",
+        "Texture": "fig16bmp",
+        "ModelSha256": "cbcebbb213a52fecc23eee690fbf1b0e983620ff3354adcca298c282e78551de",
+        "TextureSha256": "03de079d08442341537a4d27a5ec05bf55dffaf6d1eb32231f39ce23fd29a578",
+        "Hulls": [
+          {
+            "HullId": 412,
+            "Name": "Interceptor",
+            "Length": 14.84
+          },
+          {
+            "HullId": 415,
+            "Name": "Lt Interceptor",
+            "Length": 14.84
+          }
+        ],
+        "geometry": {
+          "vertices": 405,
+          "triangles": 556,
+          "native_uv_min": [
+            0.0,
+            0.005
+          ],
+          "native_uv_max": [
+            0.998333,
+            1.0
+          ]
+        },
+        "glb_sha256": "53ca7a4d01d7e69dcdb08503ba131484d548a16757ff7b7e91d7062d493b8a10",
+        "reference_sha256": {
+          "front": "009cff762feea23b18c41a20cb92fc9c68f21429c565d1129a6f4c9a82123089",
+          "three_quarter": "8f32d2a066c87bb7fca6ed064f30191c03eb56ff12e2eb45ba9011699bf14076",
+          "side": "825d15bad25d2268a7cb78ffd09b568067ac1e48933ba5e62cd3072be8f33b04",
+          "top": "798adf8a6decdeb160bd75932f078573c0675c2c264c7443777e774ee3f490ad"
+        }
+      }
+    },
+    "wc_gtsct": {
+      "model": "wc_gtsct",
+      "civ": "Ga'Taraan",
+      "class": "scout",
+      "reason": "Rig faction; small scout surfaces",
+      "prompt": "Ga'Taraan scout, preserve original colours, markings and alien material identity; fine surface detail without baked lighting. Do not invent features: no cockpit canopy, windows, lights, text, numbers, decals or panel shapes that are not already in the original texture and geometry; only refine the existing surfaces.",
+      "native": {
+        "Model": "wc_gtsct",
+        "Texture": "fig403bmp",
+        "ModelSha256": "100101d9393658a86dbb9bbf9fb50d7bf398a4dc7b406a3aae56a68ae606fae2",
+        "TextureSha256": "7f723c310724aeeb25557faa506d8d8fbc7bc208c78b6986122cbb53db88b675",
+        "Hulls": [
+          {
+            "HullId": 120,
+            "Name": "Hvy Scout",
+            "Length": 14.3
+          },
+          {
+            "HullId": 119,
+            "Name": "Adv Scout",
+            "Length": 14.3
+          },
+          {
+            "HullId": 114,
+            "Name": "Scout",
+            "Length": 14.3
+          }
+        ],
+        "geometry": {
+          "vertices": 410,
+          "triangles": 644,
+          "native_uv_min": [
+            0.029693108,
+            0.029925065
+          ],
+          "native_uv_max": [
+            0.9988598,
+            0.9921776
+          ]
+        },
+        "glb_sha256": "230d0c503a26670c332520f27847242e22cd76930e3935640e05fc9745ea7929",
+        "reference_sha256": {
+          "front": "e7cd33df66a679a47065e32b4f401ff1c8a056cc23043250981f9718e11c95ef",
+          "three_quarter": "b8241d9fe1ace166f188c07c430282f74afd8e5bb4087b4635d5739f30d69cda",
+          "side": "c4af1574d38f22db4c86792b42f9ee92d18e77bb332f3b5f97b663546e2cdf3f",
+          "top": "cb175c661c414cf2566ecf40672c0feba8f7716f8c2c2271ef3e565cb84eeb07"
+        }
+      }
+    },
+    "wc_gtmnr": {
+      "model": "wc_gtmnr",
+      "civ": "Ga'Taraan",
+      "class": "miner",
+      "reason": "Utility ship with industrial surfaces",
+      "prompt": "Ga'Taraan miner, preserve original palette and markings; industrial panel seams, restrained work wear, no baked lighting. Do not invent features: no cockpit canopy, windows, lights, text, numbers, decals or panel shapes that are not already in the original texture and geometry; only refine the existing surfaces.",
+      "native": {
+        "Model": "wc_gtmnr",
+        "Texture": "utl401bmp",
+        "ModelSha256": "170818fa91418e724f6fdfc7b0a8e619e34eb9d26ab90ec5c9950993c02e0257",
+        "TextureSha256": "32521b6e108f90b7f63d7b7f0d224da7c820c2ec6005a745dd4aa31e5ca41801",
+        "Hulls": [
+          {
+            "HullId": 109,
+            "Name": "Adv Miner",
+            "Length": 20
+          },
+          {
+            "HullId": 108,
+            "Name": "Enh Miner",
+            "Length": 20
+          },
+          {
+            "HullId": 107,
+            "Name": "Miner",
+            "Length": 20
+          }
+        ],
+        "geometry": {
+          "vertices": 490,
+          "triangles": 720,
+          "native_uv_min": [
+            0.005887224,
+            0.0045866757
+          ],
+          "native_uv_max": [
+            0.9935404,
+            0.9856871
+          ]
+        },
+        "glb_sha256": "7278094ce7ca641aeafe348625bcf29983833a22f647fd76bc37448cf4d9c6aa",
+        "reference_sha256": {
+          "front": "1a2cc4a844706df129128428a61a24aa2d285fdfe26bece2c0ddd5fab80cdfe5",
+          "three_quarter": "feb45a8abfa511e11383becc9578cbf6e56f996b0aec8b223d3ecffab3c587ab",
+          "side": "34c48240646367316f7a8228a3587f8418caaf94fd75231138879925dc80b8a4",
+          "top": "3cb4328abd6c0628a16f3259cf8398359fd2997c19584622b0d4bc68c111089c"
+        }
+      }
+    },
+    "wc_gtpod": {
+      "model": "wc_gtpod",
+      "civ": "Ga'Taraan",
+      "class": "lifepod",
+      "reason": "Civilization lifepod 113; smallest hull class",
+      "prompt": "Ga'Taraan lifepod, preserve original colours and markings, subtle small scale panel detail, neutral albedo without baked shadows. Do not invent features: no cockpit canopy, windows, lights, text, numbers, decals or panel shapes that are not already in the original texture and geometry; only refine the existing surfaces.",
+      "native": {
+        "Model": "wc_gtpod",
+        "Texture": "fig404bmp",
+        "ModelSha256": "bcaa96f9920588c658dfd72828adc54c23cbae70a6337d21c56bbdc0689afdf7",
+        "TextureSha256": "09a2b9e0eedb2e4187938ed7c09072f86d59f87d7dc2bd8011f7f41dc703943f",
+        "Hulls": [
+          {
+            "HullId": 113,
+            "Name": "Lifepod",
+            "Length": 5
+          }
+        ],
+        "geometry": {
+          "vertices": 180,
+          "triangles": 244,
+          "native_uv_min": [
+            0.046776768,
+            0.040146712
+          ],
+          "native_uv_max": [
+            0.99059975,
+            0.99295
+          ]
+        },
+        "glb_sha256": "eee56e17fd098cb44498b734ee5b4359075dc140db71d3ac810bc7328c1d3639",
+        "reference_sha256": {
+          "front": "cfd97f6a0cb1350d27880dc9422d14b11559b42d2667d9785a4fd63448f1872a",
+          "three_quarter": "ce62076beccad6bd08253c897f920218e7b97e6a952d1c73eb2cfd7408fdcc52",
+          "side": "5b07ecf73e2a52f54d78ef8d9e30227bf712c94ed0745f5d7839b02f696f614e",
+          "top": "3e998d9a274901705ff2c973e171aff36892522718146c5f8217baa9b6d3c7aa"
+        }
+      }
+    },
+    "faohshbmb": {
+      "model": "faohshbmb",
+      "civ": "Omicron",
+      "class": "bomber",
+      "reason": "Dedicated single-atlas bomber family",
+      "prompt": "Biomechanical alien bomber hull. Keep the original palette and pattern exactly: pale bone-grey cracked chitin plates, deep crimson ribbed membranes and red armour bands, near-black joints, a glowing yellow-green core orb and a glowing red eye. Add fine organic detail: crackled carapace micro-texture, layered ribbed tissue, faint veins in the red areas, slight wet sheen on membranes, matte dry bone plates. Even neutral lighting, no baked shadows, no highlights.",
+      "prompt_v1": "Omicron bomber, preserve original hull colours and faction markings; refined surface detail and restrained wear, no baked lighting.",
+      "native": {
+        "Model": "faohshbmb",
+        "Texture": "faohshbmbbmp",
+        "ModelSha256": "38cff843403e238acbf37e90f8d957e23f1474490319f7f12b44d108d80e695d",
+        "TextureSha256": "394e7f2da8def1ea4645ca2f5cc22c2a2ce67fdfa437e2c90cf0f816201ad2dc",
+        "Hulls": [
+          {
+            "HullId": 790,
+            "Name": "Gunship",
+            "Length": 40
+          },
+          {
+            "HullId": 789,
+            "Name": "Hvy Bomber",
+            "Length": 40
+          },
+          {
+            "HullId": 704,
+            "Name": "Bomber",
+            "Length": 40
+          },
+          {
+            "HullId": 793,
+            "Name": "Hvy Troop Transport",
+            "Length": 40
+          },
+          {
+            "HullId": 795,
+            "Name": "Troop Transport",
+            "Length": 40
+          }
+        ],
+        "geometry": {
+          "vertices": 1642,
+          "triangles": 1750,
+          "native_uv_min": [
+            0.00012599281,
+            0.00051646086
+          ],
+          "native_uv_max": [
+            0.99971366,
+            0.7494977
+          ]
+        },
+        "glb_sha256": "7d34d8236586a49811cc223a167d35fcc08ecb00e13259fcc233dd6b861c5eff",
+        "reference_sha256": {
+          "front": "2cdd4989d835b2ec41f8cc320849b30340f0e1c5d2142cb69e7b3efed82ee8c1",
+          "three_quarter": "570a71c3b6076588cbfbdf47cece733ec22125a49e3dfda6bbdae03d5ada6420",
+          "side": "d6f5aae6a5eb86e25a83207f0bae9e31b60a430356b85e5263fd732ab1073436",
+          "top": "330e1021e6f93a31ef3a07cb93d1890a37bdd5aa969a249ddf0c5338dd0ccfb8"
+        }
+      }
+    },
+    "faohshsctb": {
+      "model": "faohshsctb",
+      "civ": "Omicron",
+      "class": "scout",
+      "reason": "Dedicated scout with a different silhouette and UV density",
+      "prompt": "Omicron scout, preserve original palette and identity; subtle panel seams and material detail, no painted highlights or shadows. Do not invent features: no cockpit canopy, windows, lights, text, numbers, decals or panel shapes that are not already in the original texture and geometry; only refine the existing surfaces.",
+      "native": {
+        "Model": "faohshsctb",
+        "Texture": "faohshsctbbmp",
+        "ModelSha256": "19b9e514f95dffd15ec7a99fb0bb875c96d44c81edd96b213c12fcbfebd37371",
+        "TextureSha256": "3bc003f4ea74077d2bf701f0919789c0065a60bb4221135fda3d58f8ce8ff81d",
+        "Hulls": [
+          {
+            "HullId": 733,
+            "Name": "Hvy Scout",
+            "Length": 16.5
+          },
+          {
+            "HullId": 785,
+            "Name": "Adv Scout",
+            "Length": 16.5
+          },
+          {
+            "HullId": 710,
+            "Name": "Scout",
+            "Length": 16.5
+          }
+        ],
+        "geometry": {
+          "vertices": 1221,
+          "triangles": 1350,
+          "native_uv_min": [
+            0.00025332463,
+            0.00030053535
+          ],
+          "native_uv_max": [
+            0.99988633,
+            0.6676967
+          ]
+        },
+        "glb_sha256": "7122c77fd442eb1e8efd08d65deac2fa6ac498225e3a4ac9eafb3c0172df633c",
+        "reference_sha256": {
+          "front": "47efd0d78ab4b943358003273ae4b0266365fbd0baf624cbe92aaf6ad7ce41eb",
+          "three_quarter": "e8223fe43b633790f4542c083e091b7da13db25a7ef25c9957a3000cc7f8506b",
+          "side": "826b29f3fea8ea151442f66549089db846f8c33a6933f5a0edf1071586f403a5",
+          "top": "821b3f066ee0a8c4e86119836c5e298ff22c1d927519e33abeb058cd47bbbfb5"
+        }
+      }
+    },
+    "drgas": {
+      "model": "drgas",
+      "civ": "Dreghklar",
+      "class": "capital",
+      "reason": "Corvette/assault family, larger hull panels",
+      "prompt": "Dark alien warship hull. Keep the original identity exactly: very dark charcoal-black armour with glowing emerald-green triangular panel grids, green circuit lines and small amber indicator lights. Add crisp triangular and hexagonal plate seams, fine engraved circuitry, subtle metallic sheen on the dark armour, emissive glow only on the green panels and lights. Even neutral lighting, no baked shadows, no highlights.",
+      "prompt_v1": "Dreghklar assault ship, preserve original dark hull and green accent identity, intricate alien panels with neutral unlit albedo.",
+      "native": {
+        "Model": "drgas",
+        "Texture": "drgasbmp",
+        "ModelSha256": "a3d1cd465acaf3fa31d917cc226dabc4653163ebb40293cbcfda748864a2d318",
+        "TextureSha256": "f2fb15d4b554a2138ece171cdd62b29d84017c3559abaa3ddd237d8b19d46018",
+        "Hulls": [
+          {
+            "HullId": 50,
+            "Name": "Corvette",
+            "Length": 75
+          },
+          {
+            "HullId": 32,
+            "Name": "Assault Ship",
+            "Length": 157
+          }
+        ],
+        "geometry": {
+          "vertices": 204,
+          "triangles": 151,
+          "native_uv_min": [
+            0.015625,
+            0.03125
+          ],
+          "native_uv_max": [
+            0.96875006,
+            0.984375
+          ]
+        },
+        "glb_sha256": "4b18a453c775e90844d32b690385ced0af31a0913bf183a9ba9eb38f3d1aa464",
+        "reference_sha256": {
+          "front": "b41beb3b9dc79b7a5eb5e1de4ad0fb194462512dc2654a1bffed18f4b2c8c752",
+          "three_quarter": "4d6bc0d3a071662300dfa0cf1e7458da983c27c457225ffe2b1ee8659972b95b",
+          "side": "4d2f3e259405c66c1c0a4f416b0ed9a907bd8b84eccca578fde034ab667f3bb6",
+          "top": "49b6cc941019e235f481c1c956a756d4ded42268930ab6e57668ad28121b94cd"
+        }
+      }
+    },
+    "rainfigv2": {
+      "model": "rainfigv2",
+      "civ": "Technoflux",
+      "class": "fighter",
+      "reason": "Fifth civilization; distinct native fighter family",
+      "prompt": "Technoflux fighter, preserve original native palette and faction markings; refined technological panels, restrained wear, no baked lighting. Do not invent features: no cockpit canopy, windows, lights, text, numbers, decals or panel shapes that are not already in the original texture and geometry; only refine the existing surfaces.",
+      "native": {
+        "Model": "rainfigv2",
+        "Texture": "rainfigbmp",
+        "ModelSha256": "a4d8baff6e8d0f1881c3e7a05ada7386956f2b9a0020a42f4ecabe6211264966",
+        "TextureSha256": "62c8240798bbc9bbbc80c822d200bbd6aa544d5d28da748e507dd2b641131011",
+        "Hulls": [
+          {
+            "HullId": 52,
+            "Name": "Adv Fighter",
+            "Length": 17
+          },
+          {
+            "HullId": 53,
+            "Name": "Enh Fighter",
+            "Length": 17
+          },
+          {
+            "HullId": 55,
+            "Name": "Fighter",
+            "Length": 17
+          }
+        ],
+        "geometry": {
+          "vertices": 923,
+          "triangles": 875,
+          "native_uv_min": [
+            0.004145,
+            -0.0043200254
+          ],
+          "native_uv_max": [
+            1.003845,
+            0.991961
+          ]
+        },
+        "glb_sha256": "8b4452eddbdcba1591414a53c4c7fbc4201a15fa22664debafa0185ca6a4ca30",
+        "reference_sha256": {
+          "front": "b8126267272f818c16ba9ea691257082b0670a196ec9770ce3f29a7d06c51b67",
+          "three_quarter": "9401c960861323529485d7e053622f13f0be2bcc7853f639eb651194db2aff04",
+          "side": "f395be0fef7f8e25a03ac1f8763c1ff423221385990b2adf6e501d76f14e258d",
+          "top": "65b443f7cd984d3132caf28798b3a6ac71d2c7cc58e9d430e66425f74c289a6c"
+        }
+      }
+    },
+    "wc_gcfig": {
+      "model": "wc_gcfig",
+      "civ": "Gigacorp",
+      "class": "fighter",
+      "reason": "Sixth civilization; shared imported native texture namespace",
+      "prompt": "Gigacorp fighter, preserve original native palette and corporate markings; fine engineered panel detail, no baked lighting. Do not invent features: no cockpit canopy, windows, lights, text, numbers, decals or panel shapes that are not already in the original texture and geometry; only refine the existing surfaces.",
+      "native": {
+        "Model": "wc_gcfig",
+        "Texture": "fig07bmp",
+        "ModelSha256": "1b3677e003d92808f56122cdac9504c2635105ed761614443aa80c7b7b15985d",
+        "TextureSha256": "3b94f12076590ac16d126ec0a946bdb0b4f38ebb258e830179cedcce996ed04f",
+        "Hulls": [
+          {
+            "HullId": 288,
+            "Name": "Adv Fighter",
+            "Length": 17.14
+          },
+          {
+            "HullId": 214,
+            "Name": "Enh Fighter",
+            "Length": 17.14
+          }
+        ],
+        "geometry": {
+          "vertices": 601,
+          "triangles": 463,
+          "native_uv_min": [
+            0.0,
+            0.004231
+          ],
+          "native_uv_max": [
+            0.995685,
+            1.0
+          ]
+        },
+        "glb_sha256": "eb74201e10824dc25891180104cfab7f3dd0c1cef00d0eef8e9e6777bd6cdd71",
+        "reference_sha256": {
+          "front": "fc8e54ec69656522d307d1b0df2ab102b21542213e6733e105edf41bb13c7ed5",
+          "three_quarter": "5dcaad105f6e7513a97b17dbf92f2148cb8004ada915507a5bb6032683686e2b",
+          "side": "148ac24cbf3ecb23e44ffeafc6173c0c65385ead694446ef0091f8ff3b29d848",
+          "top": "0bffdb0f0a633993b34d855fbc1c437c1c96ea07f6c4ce7f64b96185dec39927"
+        }
+      }
+    },
+    "fig04": {
+      "model": "fig04",
+      "civ": "Classic fighter (Adv/Enh Fighter)",
+      "class": "fighter",
+      "reason": "HD slice 20 (2026-10-18): class/faction coverage",
+      "prompt": "Classic fighter (Adv/Enh Fighter) fighter: compact multirole fighter hull with angular armour plates and visible weapon hardpoints; preserve the original colours, faction markings and glowing details exactly; fine machined panel detail, restrained wear, no painted highlights or shadows. Do not invent features: no cockpit canopy, windows, lights, text, numbers, decals or panel shapes that are not already in the original texture and geometry; only refine the existing surfaces.",
+      "native": {
+        "Model": "fig04",
+        "Texture": "fig04bmp",
+        "ModelSha256": "d25a451138fde6b24a0a73746ee36f6066e17b45c036c50f0191f30a485da2e6",
+        "TextureSha256": "5daa98efdac0e4b6f0d436f7914a07ae1fa07615bdc06481bf46be075ba7fb6d",
+        "Hulls": [
+          {
+            "HullId": 688,
+            "Name": "Adv Fighter",
+            "Length": 18.7
+          },
+          {
+            "HullId": 614,
+            "Name": "Enh Fighter",
+            "Length": 18.7
+          },
+          {
+            "HullId": 615,
+            "Name": "Fighter",
+            "Length": 18.7
+          },
+          {
+            "HullId": 160,
+            "Name": "Fighter/Bomber",
+            "Length": 22.85
+          }
+        ],
+        "geometry": {
+          "vertices": 468,
+          "triangles": 404,
+          "native_uv_min": [
+            0.0,
+            -0.0023369999
+          ],
+          "native_uv_max": [
+            0.998047,
+            1.0
+          ]
+        },
+        "glb_sha256": "79f1e3acbc846453d85109770fff72b919e157755695348a55123615feaeb7aa",
+        "reference_sha256": {
+          "front": "93c5691ca85531ed8dc54599b8e4b6c7f9c7f42ba66b04ff625d9cb83c761595",
+          "three_quarter": "ad004eb8843ee31349fa67954d2309fddc3c3c2a3fe9a79a2d7a97ddfce311c4",
+          "side": "c1798a0aa7015c979065a23c08cee210e343eeff58bbc9c6020d8d1ab4d87b6d",
+          "top": "4a2da420d519c2cb10c50816d6a7a51bcfd25f4cad698cb9142dcec83b398c11"
+        }
+      }
+    },
+    "fig03": {
+      "model": "fig03",
+      "civ": "Classic interceptor",
+      "class": "interceptor",
+      "reason": "HD slice 20 (2026-10-18): class/faction coverage",
+      "prompt": "Classic interceptor interceptor: slim fast interceptor with swept fins and large engine nacelles; preserve the original colours, faction markings and glowing details exactly; fine machined panel detail, restrained wear, no painted highlights or shadows. Do not invent features: no cockpit canopy, windows, lights, text, numbers, decals or panel shapes that are not already in the original texture and geometry; only refine the existing surfaces.",
+      "native": {
+        "Model": "fig03",
+        "Texture": "fig03bmp",
+        "ModelSha256": "6062e03138fd271549fd8c754f393d7456d26c29ba980863e082d5a127ed5e46",
+        "TextureSha256": "eea38aac6a24d7a39934278c3d41eb06ddca2314305163b6487cb2fa49ba36cf",
+        "Hulls": [
+          {
+            "HullId": 681,
+            "Name": "Hvy Interceptor",
+            "Length": 15.56
+          },
+          {
+            "HullId": 612,
+            "Name": "Interceptor",
+            "Length": 15.56
+          },
+          {
+            "HullId": 605,
+            "Name": "Lt Interceptor",
+            "Length": 15.56
+          }
+        ],
+        "geometry": {
+          "vertices": 966,
+          "triangles": 1573,
+          "native_uv_min": [
+            0.003063783,
+            -0.0015138388
+          ],
+          "native_uv_max": [
+            0.99924296,
+            0.99188536
+          ]
+        },
+        "glb_sha256": "caf5ba0d311a46f85e90e0a6b73325cf5ae148f2bedffd7b6c37c808a374a1e2",
+        "reference_sha256": {
+          "front": "7cc20a6d2e2bcae9c0e26d7e499905c00c3d5ff6ae2f0d953687a5f6c9faf9c7",
+          "three_quarter": "a318f803afd2da2d78f1e296cdf41904c2970497dfdfc827a67b3136fec1fe03",
+          "side": "9067d4407509bbd3d3e8258ad58460d0fddd9cc89a0ae26834a467fea7f7a6e5",
+          "top": "f3464e739520f70b03ad3537de8a07587a491c835e953487651b1771fd6addb3"
+        }
+      }
+    },
+    "fig05": {
+      "model": "fig05",
+      "civ": "Classic scout",
+      "class": "scout",
+      "reason": "HD slice 20 (2026-10-18): class/faction coverage",
+      "prompt": "Classic scout scout: light scout craft with sensor dish detail and thin hull plating; preserve the original colours, faction markings and glowing details exactly; fine machined panel detail, restrained wear, no painted highlights or shadows. Do not invent features: no cockpit canopy, windows, lights, text, numbers, decals or panel shapes that are not already in the original texture and geometry; only refine the existing surfaces.",
+      "native": {
+        "Model": "fig05",
+        "Texture": "fig05bmp",
+        "ModelSha256": "121004a915b39ec5fa076371d833d21b5444cbdb78877e777d37b50a4ca4f5f1",
+        "TextureSha256": "46144898ffaca2a30429284f64f7eedb906d3afcdaa45954552cac62e9411870",
+        "Hulls": [
+          {
+            "HullId": 85,
+            "Name": "Hvy Scout",
+            "Length": 11.4
+          },
+          {
+            "HullId": 285,
+            "Name": "Adv Scout",
+            "Length": 11.4
+          },
+          {
+            "HullId": 210,
+            "Name": "Scout",
+            "Length": 11.4
+          }
+        ],
+        "geometry": {
+          "vertices": 526,
+          "triangles": 453,
+          "native_uv_min": [
+            0.0,
+            0.0
+          ],
+          "native_uv_max": [
+            0.990798,
+            0.989318
+          ]
+        },
+        "glb_sha256": "f8023846ec7c2cae1fad12831188a5e74eb3e975514b2aeefe643f1b64ae78a8",
+        "reference_sha256": {
+          "front": "53157c329e3bd64654a02d9c894098124e1774d533f444a30f079a46c6b9039b",
+          "three_quarter": "121bf46e96376f3d1867f9f1a49741988d7c8ebc1173c905a42c5a5903b35539",
+          "side": "be6dd741b1cd58c5a5fa2f474f7c7614cd61f1a2a4e7d527206f79469ae3eaed",
+          "top": "ac3886a7d6c98f74ea813bf85d2061798466a406800db38f671f6464ce09744a"
+        }
+      }
+    },
+    "bom04": {
+      "model": "bom04",
+      "civ": "Classic bomber/gunship",
+      "class": "bomber",
+      "reason": "HD slice 20 (2026-10-18): class/faction coverage",
+      "prompt": "Classic bomber/gunship bomber: heavy armoured bomber with thick hull plates and a large ordnance bay; preserve the original colours, faction markings and glowing details exactly; fine machined panel detail, restrained wear, no painted highlights or shadows. Do not invent features: no cockpit canopy, windows, lights, text, numbers, decals or panel shapes that are not already in the original texture and geometry; only refine the existing surfaces.",
+      "native": {
+        "Model": "bom04",
+        "Texture": "bom04bmp",
+        "ModelSha256": "8a7d60682b10f73d7d45eb18076dcda6c6634ad6a48f39a9b7e0c111115420ce",
+        "TextureSha256": "f2415c0fc6b9b91de1f8dc519c954d34b66bb47a7b7021cfe02d273606eabde7",
+        "Hulls": [
+          {
+            "HullId": 690,
+            "Name": "Gunship",
+            "Length": 34.82
+          },
+          {
+            "HullId": 689,
+            "Name": "Hvy Bomber",
+            "Length": 34.82
+          },
+          {
+            "HullId": 604,
+            "Name": "Bomber",
+            "Length": 34.82
+          }
+        ],
+        "geometry": {
+          "vertices": 607,
+          "triangles": 525,
+          "native_uv_min": [
+            -0.0017169999,
+            0.0
+          ],
+          "native_uv_max": [
+            0.998047,
+            1.003828
+          ]
+        },
+        "glb_sha256": "76bc0856e4330791a273d1c810c7359cfe248ce7d250d70affd36b74ac8711f5",
+        "reference_sha256": {
+          "front": "de07465d104a81bcd75cc2ac2c197ea2c64d196240c3ed4ff26b6d3eeccba5c5",
+          "three_quarter": "fd62a820a38070fab43984e82052581c8a5cd23b875d8f86d6af984bf40b11b8",
+          "side": "28cccd68d47f9ff29c1c3e89bc0d5164c1d9c6d5dfa6c1af5ee4d9a837daabec",
+          "top": "24869b6e40dadcc66a4868ae89752d6abcb9dec4febc7165d48b83d9859643c9"
+        }
+      }
+    },
+    "cap04": {
+      "model": "cap04",
+      "civ": "Classic corvette/assault ship",
+      "class": "capital",
+      "reason": "HD slice 20 (2026-10-18): class/faction coverage",
+      "prompt": "Classic corvette/assault ship capital: mid-size warship hull with layered armour, turret mounts and bridge structure; preserve the original colours, faction markings and glowing details exactly; fine machined panel detail, restrained wear, no painted highlights or shadows. Do not invent features: no cockpit canopy, windows, lights, text, numbers, decals or panel shapes that are not already in the original texture and geometry; only refine the existing surfaces.",
+      "native": {
+        "Model": "cap04",
+        "Texture": "cap04bmp",
+        "ModelSha256": "97a171db63cf8f1d824832a0aac128d830d33b1916597976cd5cd355e243021e",
+        "TextureSha256": "2a5481782a628c2adc07724d0c4487d6b9485706d36d4fd260d556c88cb0e4b7",
+        "Hulls": [
+          {
+            "HullId": 36,
+            "Name": "Corvette",
+            "Length": 75
+          },
+          {
+            "HullId": 487,
+            "Name": "Assault Ship",
+            "Length": 150
+          },
+          {
+            "HullId": 896,
+            "Name": "Dreadnought 1",
+            "Length": 75
+          },
+          {
+            "HullId": 897,
+            "Name": "Dreadnought 2",
+            "Length": 75
+          },
+          {
+            "HullId": 898,
+            "Name": "Dreadnought 3",
+            "Length": 75
+          },
+          {
+            "HullId": 899,
+            "Name": "Dreadnought 4",
+            "Length": 75
+          }
+        ],
+        "geometry": {
+          "vertices": 400,
+          "triangles": 417,
+          "native_uv_min": [
+            0.0,
+            0.0
+          ],
+          "native_uv_max": [
+            0.997483,
+            1.0
+          ]
+        },
+        "glb_sha256": "8a3b25dcd5eaadbceac84bd656041e58396e81e660976bd7bea407c025037246",
+        "reference_sha256": {
+          "front": "cdc5696048c17e5ca039e696d29b805ce78d330e597c388400bb0312f508d1ba",
+          "three_quarter": "41637baf8db1e21b2bbcd36121cb1067455c4ec748f4cd480628fdaef1cfeab0",
+          "side": "13b6acb1f5a145f9cbd660c1a7c816d33b305de19b794dce3e0a110dd85918d2",
+          "top": "18aade9b90db93188ddeed6bc14ce8c0dd9cf4986f29de6a7fd7dc6e63c579ee"
+        }
+      }
+    },
+    "cap06a": {
+      "model": "cap06a",
+      "civ": "Classic destroyer",
+      "class": "capital",
+      "reason": "HD slice 20 (2026-10-18): class/faction coverage",
+      "prompt": "Classic destroyer capital: large capital destroyer with long spine, armour belts and turret emplacements; preserve the original colours, faction markings and glowing details exactly; fine machined panel detail, restrained wear, no painted highlights or shadows. Do not invent features: no cockpit canopy, windows, lights, text, numbers, decals or panel shapes that are not already in the original texture and geometry; only refine the existing surfaces.",
+      "native": {
+        "Model": "cap06a",
+        "Texture": "cap06abmp",
+        "ModelSha256": "7dae9f26b8d7fcacafee6dda155055c40441153701b0ca131253bc7352ec51fe",
+        "TextureSha256": "fd81a79c2069841b203cd7f5ebbb7629d0578c2b551d719dc0ab3457257f4ba0",
+        "Hulls": [
+          {
+            "HullId": 691,
+            "Name": "Destroyer",
+            "Length": 125
+          }
+        ],
+        "geometry": {
+          "vertices": 512,
+          "triangles": 431,
+          "native_uv_min": [
+            0.0,
+            0.0
+          ],
+          "native_uv_max": [
+            0.992188,
+            1.0
+          ]
+        },
+        "glb_sha256": "42536cdc52b50810f6a7061cdadbe21ca1519c0fa2643df19ef6c21cbd000665",
+        "reference_sha256": {
+          "front": "b556649ade4e2c1314b0f47c17743f5f99daab28280f260c68005b152b42eb56",
+          "three_quarter": "18578a40dc6f8fedbcff8655b121a95e30a7c491af570dbf5953d5553e4c71bf",
+          "side": "d698851720a348d2680353bcc0b1b1df64dfcdf9315173fcfa82554b867f4059",
+          "top": "a17e5bbd07f99f6704ba31e7944921355473bdf466653f37e3623b101985413a"
+        }
+      }
+    },
+    "utl101": {
+      "model": "utl101",
+      "civ": "Classic mining ship",
+      "class": "miner",
+      "reason": "HD slice 20 (2026-10-18): class/faction coverage",
+      "prompt": "Classic mining ship miner: industrial mining vessel with ore hoppers, scoop arms and heavy-duty utility plating; preserve the original colours, faction markings and glowing details exactly; fine machined panel detail, restrained wear, no painted highlights or shadows. Do not invent features: no cockpit canopy, windows, lights, text, numbers, decals or panel shapes that are not already in the original texture and geometry; only refine the existing surfaces.",
+      "native": {
+        "Model": "utl101",
+        "Texture": "utl101bmp",
+        "ModelSha256": "9d102ded267a6fe3497556138e6ba598f19983b1c17d9c861497bf6d8765b7af",
+        "TextureSha256": "4970c360dfc13beebd18574c089da3aeeba1c725179a7860c70e043af4d90c05",
+        "Hulls": [
+          {
+            "HullId": 336,
+            "Name": "Adv Miner",
+            "Length": 20.2
+          },
+          {
+            "HullId": 337,
+            "Name": "Enh Miner",
+            "Length": 20.2
+          },
+          {
+            "HullId": 338,
+            "Name": "Miner",
+            "Length": 20.2
+          }
+        ],
+        "geometry": {
+          "vertices": 430,
+          "triangles": 513,
+          "native_uv_min": [
+            0.0,
+            0.0029299997
+          ],
+          "native_uv_max": [
+            0.997573,
+            1.0
+          ]
+        },
+        "glb_sha256": "646ffb609700240b3b2cff55ee89fe71cb65082d002cd1a7082ae3e483224bb1",
+        "reference_sha256": {
+          "front": "44334c46cea535d4ac7f861ada6d9bf1460596f7ca79b1a590a2c73c9ea4005a",
+          "three_quarter": "73f0f5c95ad94cf23bc7127bbc03fe589e470c706bdccd0229e62a22b26f6380",
+          "side": "3c0757a0bd14f098ec2c12d55e59a119a933f127864b614c77ade897cf4682be",
+          "top": "e8400a515b1fae964a1a57fc81cb7123721505a7a20588a5ece0e15f35e659c2"
+        }
+      }
+    },
+    "utl102": {
+      "model": "utl102",
+      "civ": "Classic large constructor",
+      "class": "constructor",
+      "reason": "HD slice 20 (2026-10-18): class/faction coverage",
+      "prompt": "Classic large constructor constructor: bulky industrial constructor with cargo modules, cranes and reinforced framework; preserve the original colours, faction markings and glowing details exactly; fine machined panel detail, restrained wear, no painted highlights or shadows. Do not invent features: no cockpit canopy, windows, lights, text, numbers, decals or panel shapes that are not already in the original texture and geometry; only refine the existing surfaces.",
+      "native": {
+        "Model": "utl102",
+        "Texture": "utl102bmp",
+        "ModelSha256": "6ed8374929303e7a52ae6b355e158e5b22d11ee35a1200a5e9a7f951299c4f08",
+        "TextureSha256": "c11be32d723e43ce0fa4fd28461fb69b457e2cf0c3c827861bacdf1a25984ef6",
+        "Hulls": [
+          {
+            "HullId": 316,
+            "Name": "Lg Adv Constructor",
+            "Length": 85
+          },
+          {
+            "HullId": 317,
+            "Name": "Lg Enh Constructor",
+            "Length": 85
+          },
+          {
+            "HullId": 319,
+            "Name": "Lg Std Constructor",
+            "Length": 85
+          },
+          {
+            "HullId": 372,
+            "Name": "Sm Adv Constructor",
+            "Length": 42.5
+          },
+          {
+            "HullId": 371,
+            "Name": "Sm Enh Constructor",
+            "Length": 42.5
+          },
+          {
+            "HullId": 370,
+            "Name": "Sm Std Constructor",
+            "Length": 42.5
+          }
+        ],
+        "geometry": {
+          "vertices": 501,
+          "triangles": 601,
+          "native_uv_min": [
+            0.0,
+            0.0029299997
+          ],
+          "native_uv_max": [
+            0.997573,
+            1.0
+          ]
+        },
+        "glb_sha256": "4dd67e7a3a9c2c63b9f0547349736405aef47898232fa1215fd1c23b7ef558d4",
+        "reference_sha256": {
+          "front": "5690802bf8ebea842922e1ebee317f9a5a8a4ff90f6659bc5aa3bdb1db1847d6",
+          "three_quarter": "9dbcf5bf070c4a8e88bb5dd3a1e47bd7fc188ca495dc65a7f34573a40218a81c",
+          "side": "c7a516d5db2e8db5cf0a271c6590555b0f84bb514c484e472dbb372fcebb9f42",
+          "top": "9dd49ba3638b1bfbf11c6d2a9becc947e0a735ac172146a3f15c0b6bf4eea90b"
+        }
+      }
+    },
+    "wc_gtfig": {
+      "model": "wc_gtfig",
+      "civ": "Ga'Taraan",
+      "class": "fighter",
+      "reason": "HD slice 20 (2026-10-18): replaces dn_faphshfig (two atlases)",
+      "prompt": "Ga'Taraan fighter: agile fighter hull with layered armour and engine pods; preserve the original colours, faction markings and glowing details exactly; fine machined panel detail, restrained wear, no painted highlights or shadows. Do not invent features: no cockpit canopy, windows, lights, text, numbers, decals or panel shapes that are not already in the original texture and geometry; only refine the existing surfaces.",
+      "native": {
+        "Model": "wc_gtfig",
+        "Texture": "fig400bmp",
+        "ModelSha256": "0883b28f7aca0de5a52c8f149dea61555768a700904d634b8fb36c8a011f218e",
+        "TextureSha256": "6e1fdca5e66b5ffea8303f9ae94218c8c694587eb05a278600e1a586dfe8a85d",
+        "Hulls": [
+          {
+            "HullId": 121,
+            "Name": "Fighter",
+            "Length": 14
+          }
+        ],
+        "geometry": {
+          "vertices": 462,
+          "triangles": 702,
+          "native_uv_min": [
+            0.0,
+            0.0
+          ],
+          "native_uv_max": [
+            0.9986503,
+            0.9938664
+          ]
+        },
+        "glb_sha256": "1c8ba61a2242122c30d3ba1e6ce4035169d8ed24dd375aeda71541e175f9b577",
+        "reference_sha256": {
+          "front": "fdd3f46ecb134750688262e23de2b1f85c9d84e1e113112c3740d1b979c11b88",
+          "three_quarter": "f3822581b342918519b5f700c1bd730ec868e891eccb537881c63f66692c1f84",
+          "side": "fa7a8d9474e0ad5474f22d6dd305284e21cf2106dd9d3d435e9f2e96c4f9030d",
+          "top": "1ee20fa1bd2e09d3e189ad8b3342ead1e82c008acae4fa665ae642a32865d439"
+        }
+      }
+    },
+    "wc_gtpt": {
+      "model": "wc_gtpt",
+      "civ": "Ga'Taraan PT bomber",
+      "class": "bomber",
+      "reason": "HD slice 20 (2026-10-18): class/faction coverage",
+      "prompt": "Ga'Taraan PT bomber bomber: agile patrol torpedo bomber with forward launch tubes and armoured nose; preserve the original colours, faction markings and glowing details exactly; fine machined panel detail, restrained wear, no painted highlights or shadows. Do not invent features: no cockpit canopy, windows, lights, text, numbers, decals or panel shapes that are not already in the original texture and geometry; only refine the existing surfaces.",
+      "native": {
+        "Model": "wc_gtpt",
+        "Texture": "cap402bmp",
+        "ModelSha256": "9cde470c04e1cd73a7fccd4bd0d783acce8f0bf733686763d7a05544ee1aa325",
+        "TextureSha256": "de167c6e54e136d740c83dc1d7bb7cd44b0e9711e533be14ed5f5284e8a77858",
+        "Hulls": [
+          {
+            "HullId": 128,
+            "Name": "PT Bomber",
+            "Length": 22
+          }
+        ],
+        "geometry": {
+          "vertices": 212,
+          "triangles": 288,
+          "native_uv_min": [
+            0.034927428,
+            0.005988827
+          ],
+          "native_uv_max": [
+            0.9974246,
+            0.88695884
+          ]
+        },
+        "glb_sha256": "aea8e639f448ff62fbb74b60a0d487d976b629ec2c666b08747777b701a9884f",
+        "reference_sha256": {
+          "front": "65a9a57f42ea673dd931a16efc7fa16fa2d5f0d3050bf2a7990384c64e49a301",
+          "three_quarter": "32320b3e427cbdced84afa7195471651f71fac5e61379bd9c03f9336497a91f9",
+          "side": "eef09b42cc0d787aee04c9724bf665c228f7b044a83788e5652322360ca9a71c",
+          "top": "b07767bf868358cf0ccb7bf3d355ab07f22ee85ec3440d787bd5889342e69bec"
+        }
+      }
+    }
+  },
+  "balance_checks": [
+    {
+      "time": 1792250710.3106394,
+      "before_job": "wc_icfig:multiview",
+      "balance": 4900
+    },
+    {
+      "time": 1792250713.9351888,
+      "before_job": "wc_icint:multiview",
+      "balance": 4890
+    },
+    {
+      "time": 1792250717.3709695,
+      "before_job": "wc_gtsct:multiview",
+      "balance": 4880
+    },
+    {
+      "time": 1792250720.7504401,
+      "before_job": "wc_gtmnr:multiview",
+      "balance": 4870
+    },
+    {
+      "time": 1792250724.1944213,
+      "before_job": "wc_gtpod:multiview",
+      "balance": 4860
+    },
+    {
+      "time": 1792250727.6767454,
+      "before_job": "faohshbmb:multiview",
+      "balance": 4850
+    },
+    {
+      "time": 1792250731.4037185,
+      "before_job": "faohshsctb:multiview",
+      "balance": 4840
+    },
+    {
+      "time": 1792250734.8876555,
+      "before_job": "drgas:multiview",
+      "balance": 4830
+    },
+    {
+      "time": 1792250738.2767189,
+      "before_job": "rainfigv2:multiview",
+      "balance": 4820
+    },
+    {
+      "time": 1792250741.9304647,
+      "before_job": "wc_gcfig:multiview",
+      "balance": 4810
+    },
+    {
+      "time": 1792250745.3802168,
+      "before_job": "wc_icfig:text",
+      "balance": 4800
+    },
+    {
+      "time": 1792251327.156885,
+      "before_job": "wc_icfig:text",
+      "balance": 4800
+    },
+    {
+      "time": 1792255181.2212038,
+      "before_job": "wc_icint:text",
+      "balance": 4800
+    },
+    {
+      "time": 1792255185.0125036,
+      "before_job": "faohshbmb:text",
+      "balance": 4790
+    },
+    {
+      "time": 1792255188.2595968,
+      "before_job": "drgas:text",
+      "balance": 4780
+    },
+    {
+      "time": 1792255362.8260791,
+      "before_job": "wc_icint:text6",
+      "balance": 4770
+    },
+    {
+      "time": 1792256405.090937,
+      "before_job": "faohshbmb:text6",
+      "balance": 4760
+    },
+    {
+      "time": 1792256406.816337,
+      "before_job": "drgas:text6",
+      "balance": 4750
+    },
+    {
+      "time": 1792341320.479791,
+      "before_job": "wc_icfig:text6",
+      "balance": 4740
+    },
+    {
+      "time": 1792341323.620129,
+      "before_job": "wc_gtsct:text6",
+      "balance": 4730
+    },
+    {
+      "time": 1792341327.0258386,
+      "before_job": "wc_gtmnr:text6",
+      "balance": 4720
+    },
+    {
+      "time": 1792341330.324563,
+      "before_job": "wc_gtpod:text6",
+      "balance": 4710
+    },
+    {
+      "time": 1792341333.5912716,
+      "before_job": "faohshsctb:text6",
+      "balance": 4700
+    },
+    {
+      "time": 1792341337.2490087,
+      "before_job": "rainfigv2:text6",
+      "balance": 4690
+    },
+    {
+      "time": 1792341340.7742105,
+      "before_job": "wc_gcfig:text6",
+      "balance": 4680
+    },
+    {
+      "time": 1792341343.681055,
+      "before_job": "fig04:text6",
+      "balance": 4670
+    },
+    {
+      "time": 1792341346.5737572,
+      "before_job": "fig03:text6",
+      "balance": 4660
+    },
+    {
+      "time": 1792341350.482636,
+      "before_job": "fig05:text6",
+      "balance": 4650
+    },
+    {
+      "time": 1792341353.3950057,
+      "before_job": "bom04:text6",
+      "balance": 4640
+    },
+    {
+      "time": 1792341356.9312344,
+      "before_job": "cap04:text6",
+      "balance": 4630
+    },
+    {
+      "time": 1792341360.200862,
+      "before_job": "cap06a:text6",
+      "balance": 4620
+    },
+    {
+      "time": 1792341363.4769533,
+      "before_job": "utl101:text6",
+      "balance": 4610
+    },
+    {
+      "time": 1792341366.5147314,
+      "before_job": "utl102:text6",
+      "balance": 4600
+    },
+    {
+      "time": 1792341369.690944,
+      "before_job": "wc_gtfig:text6",
+      "balance": 4590
+    },
+    {
+      "time": 1792341372.8526678,
+      "before_job": "wc_gtpt:text6",
+      "balance": 4590
+    }
+  ],
+  "api_limitations": [
+    "Meshy 7 omits emission",
+    "Meshy 7 accepts but ignores remove_lighting"
+  ],
+  "pricing_source": "https://docs.meshy.ai/en/api/pricing",
+  "budget": 340
+}

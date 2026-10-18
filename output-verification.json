@@ -1,0 +1,612 @@
+[
+  {
+    "model": "wc_icfig",
+    "complete": true,
+    "map_hashes_match": true,
+    "contact_sheet_size": [
+      2048,
+      1100
+    ],
+    "embedded_map_sizes": [
+      [
+        4096,
+        4096
+      ],
+      [
+        2048,
+        2048
+      ],
+      [
+        4096,
+        4096
+      ]
+    ],
+    "hd_views": [
+      {
+        "view": "front",
+        "size": [
+          1024,
+          1024
+        ],
+        "rgb_std": 9.802914667357895,
+        "sha256": "1cfdd62d0b83c5d9929f46ab8d0a1154a60fa18ebaba7196bf015f0c7fbebad2"
+      },
+      {
+        "view": "three_quarter",
+        "size": [
+          1024,
+          1024
+        ],
+        "rgb_std": 13.747117085526655,
+        "sha256": "feeb27f0472a82e4ed86a2c47a27ad525989460ed1f6b0ce201a3fff6460dc88"
+      },
+      {
+        "view": "side",
+        "size": [
+          1024,
+          1024
+        ],
+        "rgb_std": 13.83525127851899,
+        "sha256": "a61558413c113fc2919707d4d50d9ff6981cb32e2d199c02195efe6a87739d23"
+      },
+      {
+        "view": "top",
+        "size": [
+          1024,
+          1024
+        ],
+        "rgb_std": 12.240909233877744,
+        "sha256": "977ebab7ff3daf18f381e3bc93353a616bf074c53439678415d0fe565a4ca19e"
+      }
+    ]
+  },
+  {
+    "model": "wc_icint",
+    "complete": true,
+    "map_hashes_match": true,
+    "contact_sheet_size": [
+      2048,
+      1100
+    ],
+    "embedded_map_sizes": [
+      [
+        4096,
+        4096
+      ],
+      [
+        2048,
+        2048
+      ],
+      [
+        4096,
+        4096
+      ]
+    ],
+    "hd_views": [
+      {
+        "view": "front",
+        "size": [
+          1024,
+          1024
+        ],
+        "rgb_std": 10.966572778388581,
+        "sha256": "9f3d4f308606d28d09cdb4bbaa352d58c14e4a0601474bcc76ba8da64001406c"
+      },
+      {
+        "view": "three_quarter",
+        "size": [
+          1024,
+          1024
+        ],
+        "rgb_std": 12.624910435204404,
+        "sha256": "3cef28e338e3706ccd70d584def2ad6e6af56a46429e0ae6333ee84376f4a5c3"
+      },
+      {
+        "view": "side",
+        "size": [
+          1024,
+          1024
+        ],
+        "rgb_std": 15.892107380775142,
+        "sha256": "63d052516e73a9c3801e706894412889e4eab02fcd380a4c9097a16271b95443"
+      },
+      {
+        "view": "top",
+        "size": [
+          1024,
+          1024
+        ],
+        "rgb_std": 13.90835687140327,
+        "sha256": "a15dadef81aae26d47fdfa5f78d5cd01f9e5997c25b2b7d0de0e9a6b7b82fd1a"
+      }
+    ]
+  },
+  {
+    "model": "wc_gtsct",
+    "complete": true,
+    "map_hashes_match": true,
+    "contact_sheet_size": [
+      2048,
+      1100
+    ],
+    "embedded_map_sizes": [
+      [
+        4096,
+        4096
+      ],
+      [
+        2048,
+        2048
+      ],
+      [
+        4096,
+        4096
+      ]
+    ],
+    "hd_views": [
+      {
+        "view": "front",
+        "size": [
+          1024,
+          1024
+        ],
+        "rgb_std": 10.163832271747038,
+        "sha256": "fe18186d95a32d469f827b9776439f96c1e8a1b7ae18c90720bf5053bfaa1305"
+      },
+      {
+        "view": "three_quarter",
+        "size": [
+          1024,
+          1024
+        ],
+        "rgb_std": 14.043953399116678,
+        "sha256": "bbf6c292914be2b42243cd06d2b98eabc1ace85758408d432d2793097340471b"
+      },
+      {
+        "view": "side",
+        "size": [
+          1024,
+          1024
+        ],
+        "rgb_std": 16.29863864756762,
+        "sha256": "eb0e3cff8a55107f75c09e7e88f34a1d383b29df5e632d283993088eb3fd0ec8"
+      },
+      {
+        "view": "top",
+        "size": [
+          1024,
+          1024
+        ],
+        "rgb_std": 9.899534177442671,
+        "sha256": "8f568e56536117d468ea8811aa9acb343659a2dbc54b92a28066145e50747c31"
+      }
+    ]
+  },
+  {
+    "model": "wc_gtmnr",
+    "complete": true,
+    "map_hashes_match": true,
+    "contact_sheet_size": [
+      2048,
+      1100
+    ],
+    "embedded_map_sizes": [
+      [
+        4096,
+        4096
+      ],
+      [
+        2048,
+        2048
+      ],
+      [
+        4096,
+        4096
+      ]
+    ],
+    "hd_views": [
+      {
+        "view": "front",
+        "size": [
+          1024,
+          1024
+        ],
+        "rgb_std": 11.326903813730972,
+        "sha256": "23095f21e28bff8091594aa3ad08c16d8607bb25023dbbd443747dc4c45060d8"
+      },
+      {
+        "view": "three_quarter",
+        "size": [
+          1024,
+          1024
+        ],
+        "rgb_std": 15.890601377786,
+        "sha256": "6b80d43b8570d8b719a4fa3ebde19f242024028ecfa356e72d16e5a43481c4c9"
+      },
+      {
+        "view": "side",
+        "size": [
+          1024,
+          1024
+        ],
+        "rgb_std": 18.080499559785324,
+        "sha256": "7287a1bd73c7c112b45ac855a4bd63aac60e11a838105e1ff2fae761cf9a1c53"
+      },
+      {
+        "view": "top",
+        "size": [
+          1024,
+          1024
+        ],
+        "rgb_std": 14.235580006437283,
+        "sha256": "0dce38af04f1b7ea389955fa3d0bc654641db35c98b8359dedd91f64d32b10b6"
+      }
+    ]
+  },
+  {
+    "model": "wc_gtpod",
+    "complete": true,
+    "map_hashes_match": true,
+    "contact_sheet_size": [
+      2048,
+      1100
+    ],
+    "embedded_map_sizes": [
+      [
+        4096,
+        4096
+      ],
+      [
+        2048,
+        2048
+      ],
+      [
+        4096,
+        4096
+      ]
+    ],
+    "hd_views": [
+      {
+        "view": "front",
+        "size": [
+          1024,
+          1024
+        ],
+        "rgb_std": 17.255732653071675,
+        "sha256": "6233d5fb634bc0c53c6520ca9a1c0ac244a91a3b5d7169f4dc0e4c9274e3ce3e"
+      },
+      {
+        "view": "three_quarter",
+        "size": [
+          1024,
+          1024
+        ],
+        "rgb_std": 19.13099559982753,
+        "sha256": "436c27adf843125b5d6005338ac73aec1172676b249c673322bf22cebda88ad9"
+      },
+      {
+        "view": "side",
+        "size": [
+          1024,
+          1024
+        ],
+        "rgb_std": 23.22130090767592,
+        "sha256": "16e22c679ebab5f233a3415e7a5031bc5fa505d72eeadafbbe7b9cbc48ae81af"
+      },
+      {
+        "view": "top",
+        "size": [
+          1024,
+          1024
+        ],
+        "rgb_std": 12.962765776277845,
+        "sha256": "99442f4fb290a07b0b4619b44e02eb21c20f8df374fa22e3c740d0389fab22c2"
+      }
+    ]
+  },
+  {
+    "model": "faohshbmb",
+    "complete": true,
+    "map_hashes_match": true,
+    "contact_sheet_size": [
+      2048,
+      1100
+    ],
+    "embedded_map_sizes": [
+      [
+        4096,
+        4096
+      ],
+      [
+        2048,
+        2048
+      ],
+      [
+        4096,
+        4096
+      ]
+    ],
+    "hd_views": [
+      {
+        "view": "front",
+        "size": [
+          1024,
+          1024
+        ],
+        "rgb_std": 8.922164193852508,
+        "sha256": "645191e1ba50aff9dd5e32ace5a586f09f03c1016f663f1ddb224e0f4c2aedaa"
+      },
+      {
+        "view": "three_quarter",
+        "size": [
+          1024,
+          1024
+        ],
+        "rgb_std": 9.432695736033125,
+        "sha256": "03b480f648769d233423f1619319a6fbca1a765c9b56997db5210b01e3798c2b"
+      },
+      {
+        "view": "side",
+        "size": [
+          1024,
+          1024
+        ],
+        "rgb_std": 12.565916518521545,
+        "sha256": "7ecc78471a5637a924055d76876ecc8dc84e457b9417f9256eb62a58b71f2996"
+      },
+      {
+        "view": "top",
+        "size": [
+          1024,
+          1024
+        ],
+        "rgb_std": 13.145780989349605,
+        "sha256": "6b7918084180e6d554823a32896874ebd3cb5839a74c0d0d55e26c0aa3dc8ac2"
+      }
+    ]
+  },
+  {
+    "model": "faohshsctb",
+    "complete": true,
+    "map_hashes_match": true,
+    "contact_sheet_size": [
+      2048,
+      1100
+    ],
+    "embedded_map_sizes": [
+      [
+        4096,
+        4096
+      ],
+      [
+        2048,
+        2048
+      ],
+      [
+        4096,
+        4096
+      ]
+    ],
+    "hd_views": [
+      {
+        "view": "front",
+        "size": [
+          1024,
+          1024
+        ],
+        "rgb_std": 8.002354717504325,
+        "sha256": "8e2a614b8255c13d80e55848fc2d0b8d44782b8a6199eb46bfea311c4cf3fca7"
+      },
+      {
+        "view": "three_quarter",
+        "size": [
+          1024,
+          1024
+        ],
+        "rgb_std": 12.893804365338076,
+        "sha256": "7663c25f30a0e77d3e6fab1f6115fa25e1a1251b36ff3a31cef2fdebc473744a"
+      },
+      {
+        "view": "side",
+        "size": [
+          1024,
+          1024
+        ],
+        "rgb_std": 15.776011488723473,
+        "sha256": "248d68db9ef9ad750800072f4c310c2dab46f5ea94c0647dc1b5483928116d46"
+      },
+      {
+        "view": "top",
+        "size": [
+          1024,
+          1024
+        ],
+        "rgb_std": 10.384684922390072,
+        "sha256": "40d43d6bb03bc7bf787d730180be4c07114c09c2d79b640be9ae3b223c5ec795"
+      }
+    ]
+  },
+  {
+    "model": "drgas",
+    "complete": true,
+    "map_hashes_match": true,
+    "contact_sheet_size": [
+      2048,
+      1100
+    ],
+    "embedded_map_sizes": [
+      [
+        4096,
+        4096
+      ],
+      [
+        2048,
+        2048
+      ],
+      [
+        4096,
+        4096
+      ]
+    ],
+    "hd_views": [
+      {
+        "view": "front",
+        "size": [
+          1024,
+          1024
+        ],
+        "rgb_std": 13.203561629486499,
+        "sha256": "e27e8beec5584628f9e01491891f0cab3014b087e0041c1529234ca1978776a7"
+      },
+      {
+        "view": "three_quarter",
+        "size": [
+          1024,
+          1024
+        ],
+        "rgb_std": 12.66058878993503,
+        "sha256": "84ec82f3dd434e9628f20905045489c78231e93edb8ddde4f6f5c473d3b09b60"
+      },
+      {
+        "view": "side",
+        "size": [
+          1024,
+          1024
+        ],
+        "rgb_std": 12.413185639428272,
+        "sha256": "71d322ea66e7bd485f9910b714af18080610851b5c017faf3c7e8d8980e8f0cf"
+      },
+      {
+        "view": "top",
+        "size": [
+          1024,
+          1024
+        ],
+        "rgb_std": 15.74828850957844,
+        "sha256": "d55dd1956afa85b6efebe93561b0ec7faf9c9d90fd6ea886fb6fbd887b97e578"
+      }
+    ]
+  },
+  {
+    "model": "rainfigv2",
+    "complete": true,
+    "map_hashes_match": true,
+    "contact_sheet_size": [
+      2048,
+      1100
+    ],
+    "embedded_map_sizes": [
+      [
+        4096,
+        4096
+      ],
+      [
+        2048,
+        2048
+      ],
+      [
+        4096,
+        4096
+      ]
+    ],
+    "hd_views": [
+      {
+        "view": "front",
+        "size": [
+          1024,
+          1024
+        ],
+        "rgb_std": 15.785546824312204,
+        "sha256": "278d82f0244e83ff8e251a00b8eca479604e26e527b717131b648e7612845506"
+      },
+      {
+        "view": "three_quarter",
+        "size": [
+          1024,
+          1024
+        ],
+        "rgb_std": 16.88403800893289,
+        "sha256": "39be6f310981d1d66c075ff55152558d5018456ada7d239dbba7564925e6590a"
+      },
+      {
+        "view": "side",
+        "size": [
+          1024,
+          1024
+        ],
+        "rgb_std": 14.551433166874267,
+        "sha256": "f9e0a170cef5e6ad160b144a921d5533f37b4bb572946e84081a9afb3fc96d4f"
+      },
+      {
+        "view": "top",
+        "size": [
+          1024,
+          1024
+        ],
+        "rgb_std": 21.738259343044593,
+        "sha256": "a422c69b0ed5e4623a4585b9cbafd613261a8c63a20d5bf28713e3994dacc931"
+      }
+    ]
+  },
+  {
+    "model": "wc_gcfig",
+    "complete": true,
+    "map_hashes_match": true,
+    "contact_sheet_size": [
+      2048,
+      1100
+    ],
+    "embedded_map_sizes": [
+      [
+        4096,
+        4096
+      ],
+      [
+        2048,
+        2048
+      ],
+      [
+        4096,
+        4096
+      ]
+    ],
+    "hd_views": [
+      {
+        "view": "front",
+        "size": [
+          1024,
+          1024
+        ],
+        "rgb_std": 6.632238367812273,
+        "sha256": "9c8221ff30a6247b5fd4ef4103cfe758e4790a710d989332bea8e3ca43f3ff3b"
+      },
+      {
+        "view": "three_quarter",
+        "size": [
+          1024,
+          1024
+        ],
+        "rgb_std": 12.883907066395786,
+        "sha256": "779051856322ee81be75b0cd068df762d2c417a967760f714a58dccb153be1c5"
+      },
+      {
+        "view": "side",
+        "size": [
+          1024,
+          1024
+        ],
+        "rgb_std": 15.509469649132345,
+        "sha256": "7507452ba04e9e0c2b6732e28ec2fefa433206b6e519662bb3a66da5b965b585"
+      },
+      {
+        "view": "top",
+        "size": [
+          1024,
+          1024
+        ],
+        "rgb_std": 17.781297378640907,
+        "sha256": "a5ddac319a1b6332ff84173da1ca30f4b4bf81523c8e1812515863a7efcc3281"
+      }
+    ]
+  }
+]

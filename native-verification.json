@@ -1,0 +1,382 @@
+[
+  {
+    "model": "wc_icfig",
+    "attributes_exact": true,
+    "views": [
+      {
+        "view": "front",
+        "size": [
+          1024,
+          1024
+        ],
+        "rgb_std": 9.387341796827823
+      },
+      {
+        "view": "three_quarter",
+        "size": [
+          1024,
+          1024
+        ],
+        "rgb_std": 13.5013223367549
+      },
+      {
+        "view": "side",
+        "size": [
+          1024,
+          1024
+        ],
+        "rgb_std": 11.988977369694704
+      },
+      {
+        "view": "top",
+        "size": [
+          1024,
+          1024
+        ],
+        "rgb_std": 15.241504740223961
+      }
+    ]
+  },
+  {
+    "model": "wc_icint",
+    "attributes_exact": true,
+    "views": [
+      {
+        "view": "front",
+        "size": [
+          1024,
+          1024
+        ],
+        "rgb_std": 9.30559636128522
+      },
+      {
+        "view": "three_quarter",
+        "size": [
+          1024,
+          1024
+        ],
+        "rgb_std": 12.17361348849423
+      },
+      {
+        "view": "side",
+        "size": [
+          1024,
+          1024
+        ],
+        "rgb_std": 12.741940917426437
+      },
+      {
+        "view": "top",
+        "size": [
+          1024,
+          1024
+        ],
+        "rgb_std": 15.899644614888489
+      }
+    ]
+  },
+  {
+    "model": "wc_gtsct",
+    "attributes_exact": true,
+    "views": [
+      {
+        "view": "front",
+        "size": [
+          1024,
+          1024
+        ],
+        "rgb_std": 8.41779177459662
+      },
+      {
+        "view": "three_quarter",
+        "size": [
+          1024,
+          1024
+        ],
+        "rgb_std": 13.414299630696487
+      },
+      {
+        "view": "side",
+        "size": [
+          1024,
+          1024
+        ],
+        "rgb_std": 15.340981136295152
+      },
+      {
+        "view": "top",
+        "size": [
+          1024,
+          1024
+        ],
+        "rgb_std": 9.529933149490718
+      }
+    ]
+  },
+  {
+    "model": "wc_gtmnr",
+    "attributes_exact": true,
+    "views": [
+      {
+        "view": "front",
+        "size": [
+          1024,
+          1024
+        ],
+        "rgb_std": 9.937249358828078
+      },
+      {
+        "view": "three_quarter",
+        "size": [
+          1024,
+          1024
+        ],
+        "rgb_std": 14.305188211937425
+      },
+      {
+        "view": "side",
+        "size": [
+          1024,
+          1024
+        ],
+        "rgb_std": 16.230318249834298
+      },
+      {
+        "view": "top",
+        "size": [
+          1024,
+          1024
+        ],
+        "rgb_std": 11.48719010243849
+      }
+    ]
+  },
+  {
+    "model": "wc_gtpod",
+    "attributes_exact": true,
+    "views": [
+      {
+        "view": "front",
+        "size": [
+          1024,
+          1024
+        ],
+        "rgb_std": 14.060785186984715
+      },
+      {
+        "view": "three_quarter",
+        "size": [
+          1024,
+          1024
+        ],
+        "rgb_std": 19.287837872146998
+      },
+      {
+        "view": "side",
+        "size": [
+          1024,
+          1024
+        ],
+        "rgb_std": 21.84910816379899
+      },
+      {
+        "view": "top",
+        "size": [
+          1024,
+          1024
+        ],
+        "rgb_std": 13.027603381804864
+      }
+    ]
+  },
+  {
+    "model": "faohshbmb",
+    "attributes_exact": true,
+    "views": [
+      {
+        "view": "front",
+        "size": [
+          1024,
+          1024
+        ],
+        "rgb_std": 6.361295624213544
+      },
+      {
+        "view": "three_quarter",
+        "size": [
+          1024,
+          1024
+        ],
+        "rgb_std": 9.170070409057926
+      },
+      {
+        "view": "side",
+        "size": [
+          1024,
+          1024
+        ],
+        "rgb_std": 11.510670635185676
+      },
+      {
+        "view": "top",
+        "size": [
+          1024,
+          1024
+        ],
+        "rgb_std": 12.019970715032011
+      }
+    ]
+  },
+  {
+    "model": "faohshsctb",
+    "attributes_exact": true,
+    "views": [
+      {
+        "view": "front",
+        "size": [
+          1024,
+          1024
+        ],
+        "rgb_std": 7.162754548284121
+      },
+      {
+        "view": "three_quarter",
+        "size": [
+          1024,
+          1024
+        ],
+        "rgb_std": 9.635760895536283
+      },
+      {
+        "view": "side",
+        "size": [
+          1024,
+          1024
+        ],
+        "rgb_std": 10.77919150961697
+      },
+      {
+        "view": "top",
+        "size": [
+          1024,
+          1024
+        ],
+        "rgb_std": 9.126294159567358
+      }
+    ]
+  },
+  {
+    "model": "drgas",
+    "attributes_exact": true,
+    "views": [
+      {
+        "view": "front",
+        "size": [
+          1024,
+          1024
+        ],
+        "rgb_std": 12.354489687472572
+      },
+      {
+        "view": "three_quarter",
+        "size": [
+          1024,
+          1024
+        ],
+        "rgb_std": 12.060534413467906
+      },
+      {
+        "view": "side",
+        "size": [
+          1024,
+          1024
+        ],
+        "rgb_std": 11.853480081935363
+      },
+      {
+        "view": "top",
+        "size": [
+          1024,
+          1024
+        ],
+        "rgb_std": 14.572609954359736
+      }
+    ]
+  },
+  {
+    "model": "rainfigv2",
+    "attributes_exact": true,
+    "views": [
+      {
+        "view": "front",
+        "size": [
+          1024,
+          1024
+        ],
+        "rgb_std": 14.487611966144033
+      },
+      {
+        "view": "three_quarter",
+        "size": [
+          1024,
+          1024
+        ],
+        "rgb_std": 14.013221262556426
+      },
+      {
+        "view": "side",
+        "size": [
+          1024,
+          1024
+        ],
+        "rgb_std": 12.307099220109372
+      },
+      {
+        "view": "top",
+        "size": [
+          1024,
+          1024
+        ],
+        "rgb_std": 17.941615612232212
+      }
+    ]
+  },
+  {
+    "model": "wc_gcfig",
+    "attributes_exact": true,
+    "views": [
+      {
+        "view": "front",
+        "size": [
+          1024,
+          1024
+        ],
+        "rgb_std": 5.905595722347856
+      },
+      {
+        "view": "three_quarter",
+        "size": [
+          1024,
+          1024
+        ],
+        "rgb_std": 10.639482978271571
+      },
+      {
+        "view": "side",
+        "size": [
+          1024,
+          1024
+        ],
+        "rgb_std": 11.785048533731851
+      },
+      {
+        "view": "top",
+        "size": [
+          1024,
+          1024
+        ],
+        "rgb_std": 13.143208923839634
+      }
+    ]
+  }
+]

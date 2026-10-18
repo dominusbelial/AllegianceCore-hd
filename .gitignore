@@ -1,0 +1,15 @@
+# Generated assets never go in git: they are built locally and published as release downloads.
+inputs/
+variants/
+models/
+tasks/
+validation/
+review/*
+!review/sheets/
+pipeline/bin/
+pipeline/obj/
+__pycache__/
+*.orig
+*.bak-*
+.git-local-history-*/
+.pipeline.lock

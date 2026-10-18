@@ -1,0 +1,152 @@
+[
+ {
+  "model": "wc_icfig",
+  "civ": "Iron Coalition",
+  "class": "fighter",
+  "reason": "Rig faction; compact angular fighter panels",
+  "prompt": "Iron Coalition fighter, preserve the original grey metal and muted faction markings; fine machined panel detail, restrained wear, no painted highlights or shadows. Do not invent features: no cockpit canopy, windows, lights, text, numbers, decals or panel shapes that are not already in the original texture and geometry; only refine the existing surfaces."
+ },
+ {
+  "model": "wc_icint",
+  "civ": "Iron Coalition",
+  "class": "interceptor",
+  "reason": "Rig faction; distinct interceptor hull and thin surfaces",
+  "prompt": "Military space interceptor hull. Keep the original layout and colours exactly: pale grey-green painted armour panels, charcoal intakes and fins, yellow-and-black hazard stripes, small red warning marks, white hull numbers 3 and 88, blue-white engine glow plates. Add crisp recessed panel seams, small rivets and access hatches, fine stencilled maintenance text, subtle paint chipping, worn bare-metal edges, slightly dusty matte paint, brushed metal on the nose cone. Even neutral lighting, no baked shadows, no highlights.",
+  "prompt_v1": "Iron Coalition interceptor, preserve original grey metal palette and markings; fine panel seams, restrained wear, physically neutral albedo."
+ },
+ {
+  "model": "wc_gtsct",
+  "civ": "Ga'Taraan",
+  "class": "scout",
+  "reason": "Rig faction; small scout surfaces",
+  "prompt": "Ga'Taraan scout, preserve original colours, markings and alien material identity; fine surface detail without baked lighting. Do not invent features: no cockpit canopy, windows, lights, text, numbers, decals or panel shapes that are not already in the original texture and geometry; only refine the existing surfaces."
+ },
+ {
+  "model": "wc_gtmnr",
+  "civ": "Ga'Taraan",
+  "class": "miner",
+  "reason": "Utility ship with industrial surfaces",
+  "prompt": "Ga'Taraan miner, preserve original palette and markings; industrial panel seams, restrained work wear, no baked lighting. Do not invent features: no cockpit canopy, windows, lights, text, numbers, decals or panel shapes that are not already in the original texture and geometry; only refine the existing surfaces."
+ },
+ {
+  "model": "wc_gtpod",
+  "civ": "Ga'Taraan",
+  "class": "lifepod",
+  "reason": "Civilization lifepod 113; smallest hull class",
+  "prompt": "Ga'Taraan lifepod, preserve original colours and markings, subtle small scale panel detail, neutral albedo without baked shadows. Do not invent features: no cockpit canopy, windows, lights, text, numbers, decals or panel shapes that are not already in the original texture and geometry; only refine the existing surfaces."
+ },
+ {
+  "model": "faohshbmb",
+  "civ": "Omicron",
+  "class": "bomber",
+  "reason": "Dedicated single-atlas bomber family",
+  "prompt": "Biomechanical alien bomber hull. Keep the original palette and pattern exactly: pale bone-grey cracked chitin plates, deep crimson ribbed membranes and red armour bands, near-black joints, a glowing yellow-green core orb and a glowing red eye. Add fine organic detail: crackled carapace micro-texture, layered ribbed tissue, faint veins in the red areas, slight wet sheen on membranes, matte dry bone plates. Even neutral lighting, no baked shadows, no highlights.",
+  "prompt_v1": "Omicron bomber, preserve original hull colours and faction markings; refined surface detail and restrained wear, no baked lighting."
+ },
+ {
+  "model": "faohshsctb",
+  "civ": "Omicron",
+  "class": "scout",
+  "reason": "Dedicated scout with a different silhouette and UV density",
+  "prompt": "Omicron scout, preserve original palette and identity; subtle panel seams and material detail, no painted highlights or shadows. Do not invent features: no cockpit canopy, windows, lights, text, numbers, decals or panel shapes that are not already in the original texture and geometry; only refine the existing surfaces."
+ },
+ {
+  "model": "drgas",
+  "civ": "Dreghklar",
+  "class": "capital",
+  "reason": "Corvette/assault family, larger hull panels",
+  "prompt": "Dark alien warship hull. Keep the original identity exactly: very dark charcoal-black armour with glowing emerald-green triangular panel grids, green circuit lines and small amber indicator lights. Add crisp triangular and hexagonal plate seams, fine engraved circuitry, subtle metallic sheen on the dark armour, emissive glow only on the green panels and lights. Even neutral lighting, no baked shadows, no highlights.",
+  "prompt_v1": "Dreghklar assault ship, preserve original dark hull and green accent identity, intricate alien panels with neutral unlit albedo."
+ },
+ {
+  "model": "rainfigv2",
+  "civ": "Technoflux",
+  "class": "fighter",
+  "reason": "Fifth civilization; distinct native fighter family",
+  "prompt": "Technoflux fighter, preserve original native palette and faction markings; refined technological panels, restrained wear, no baked lighting. Do not invent features: no cockpit canopy, windows, lights, text, numbers, decals or panel shapes that are not already in the original texture and geometry; only refine the existing surfaces."
+ },
+ {
+  "model": "wc_gcfig",
+  "civ": "Gigacorp",
+  "class": "fighter",
+  "reason": "Sixth civilization; shared imported native texture namespace",
+  "prompt": "Gigacorp fighter, preserve original native palette and corporate markings; fine engineered panel detail, no baked lighting. Do not invent features: no cockpit canopy, windows, lights, text, numbers, decals or panel shapes that are not already in the original texture and geometry; only refine the existing surfaces."
+ },
+ {
+  "model": "fig04",
+  "civ": "Classic fighter (Adv/Enh Fighter)",
+  "class": "fighter",
+  "reason": "HD slice 20 (2026-10-18): class/faction coverage",
+  "prompt": "Classic fighter (Adv/Enh Fighter) fighter: compact multirole fighter hull with angular armour plates and visible weapon hardpoints; preserve the original colours, faction markings and glowing details exactly; fine machined panel detail, restrained wear, no painted highlights or shadows. Do not invent features: no cockpit canopy, windows, lights, text, numbers, decals or panel shapes that are not already in the original texture and geometry; only refine the existing surfaces."
+ },
+ {
+  "model": "fig03",
+  "civ": "Classic interceptor",
+  "class": "interceptor",
+  "reason": "HD slice 20 (2026-10-18): class/faction coverage",
+  "prompt": "Classic interceptor interceptor: slim fast interceptor with swept fins and large engine nacelles; preserve the original colours, faction markings and glowing details exactly; fine machined panel detail, restrained wear, no painted highlights or shadows. Do not invent features: no cockpit canopy, windows, lights, text, numbers, decals or panel shapes that are not already in the original texture and geometry; only refine the existing surfaces."
+ },
+ {
+  "model": "fig05",
+  "civ": "Classic scout",
+  "class": "scout",
+  "reason": "HD slice 20 (2026-10-18): class/faction coverage",
+  "prompt": "Classic scout scout: light scout craft with sensor dish detail and thin hull plating; preserve the original colours, faction markings and glowing details exactly; fine machined panel detail, restrained wear, no painted highlights or shadows. Do not invent features: no cockpit canopy, windows, lights, text, numbers, decals or panel shapes that are not already in the original texture and geometry; only refine the existing surfaces."
+ },
+ {
+  "model": "bom04",
+  "civ": "Classic bomber/gunship",
+  "class": "bomber",
+  "reason": "HD slice 20 (2026-10-18): class/faction coverage",
+  "prompt": "Classic bomber/gunship bomber: heavy armoured bomber with thick hull plates and a large ordnance bay; preserve the original colours, faction markings and glowing details exactly; fine machined panel detail, restrained wear, no painted highlights or shadows. Do not invent features: no cockpit canopy, windows, lights, text, numbers, decals or panel shapes that are not already in the original texture and geometry; only refine the existing surfaces."
+ },
+ {
+  "model": "cap04",
+  "civ": "Classic corvette/assault ship",
+  "class": "capital",
+  "reason": "HD slice 20 (2026-10-18): class/faction coverage",
+  "prompt": "Classic corvette/assault ship capital: mid-size warship hull with layered armour, turret mounts and bridge structure; preserve the original colours, faction markings and glowing details exactly; fine machined panel detail, restrained wear, no painted highlights or shadows. Do not invent features: no cockpit canopy, windows, lights, text, numbers, decals or panel shapes that are not already in the original texture and geometry; only refine the existing surfaces."
+ },
+ {
+  "model": "cap06a",
+  "civ": "Classic destroyer",
+  "class": "capital",
+  "reason": "HD slice 20 (2026-10-18): class/faction coverage",
+  "prompt": "Classic destroyer capital: large capital destroyer with long spine, armour belts and turret emplacements; preserve the original colours, faction markings and glowing details exactly; fine machined panel detail, restrained wear, no painted highlights or shadows. Do not invent features: no cockpit canopy, windows, lights, text, numbers, decals or panel shapes that are not already in the original texture and geometry; only refine the existing surfaces."
+ },
+ {
+  "model": "utl101",
+  "civ": "Classic mining ship",
+  "class": "miner",
+  "reason": "HD slice 20 (2026-10-18): class/faction coverage",
+  "prompt": "Classic mining ship miner: industrial mining vessel with ore hoppers, scoop arms and heavy-duty utility plating; preserve the original colours, faction markings and glowing details exactly; fine machined panel detail, restrained wear, no painted highlights or shadows. Do not invent features: no cockpit canopy, windows, lights, text, numbers, decals or panel shapes that are not already in the original texture and geometry; only refine the existing surfaces."
+ },
+ {
+  "model": "utl102",
+  "civ": "Classic large constructor",
+  "class": "constructor",
+  "reason": "HD slice 20 (2026-10-18): class/faction coverage",
+  "prompt": "Classic large constructor constructor: bulky industrial constructor with cargo modules, cranes and reinforced framework; preserve the original colours, faction markings and glowing details exactly; fine machined panel detail, restrained wear, no painted highlights or shadows. Do not invent features: no cockpit canopy, windows, lights, text, numbers, decals or panel shapes that are not already in the original texture and geometry; only refine the existing surfaces."
+ },
+ {
+  "model": "dn_faphshfig",
+  "civ": "Phoenix fighter",
+  "class": "fighter",
+  "reason": "HD slice 20 (2026-10-18): class/faction coverage",
+  "prompt": "Phoenix fighter fighter: sleek fighter with smooth curved panels and integrated engine pods; preserve the original colours, faction markings and glowing details exactly; fine machined panel detail, restrained wear, no painted highlights or shadows."
+ },
+ {
+  "model": "wc_gtpt",
+  "civ": "Ga'Taraan PT bomber",
+  "class": "bomber",
+  "reason": "HD slice 20 (2026-10-18): class/faction coverage",
+  "prompt": "Ga'Taraan PT bomber bomber: agile patrol torpedo bomber with forward launch tubes and armoured nose; preserve the original colours, faction markings and glowing details exactly; fine machined panel detail, restrained wear, no painted highlights or shadows. Do not invent features: no cockpit canopy, windows, lights, text, numbers, decals or panel shapes that are not already in the original texture and geometry; only refine the existing surfaces."
+ },
+ {
+  "model": "wc_gtfig",
+  "civ": "Ga'Taraan",
+  "class": "fighter",
+  "reason": "HD slice 20 (2026-10-18): replaces dn_faphshfig (two atlases)",
+  "prompt": "Ga'Taraan fighter: agile fighter hull with layered armour and engine pods; preserve the original colours, faction markings and glowing details exactly; fine machined panel detail, restrained wear, no painted highlights or shadows. Do not invent features: no cockpit canopy, windows, lights, text, numbers, decals or panel shapes that are not already in the original texture and geometry; only refine the existing surfaces."
+ }
+]
