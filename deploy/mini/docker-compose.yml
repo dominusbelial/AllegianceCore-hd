@@ -6,8 +6,11 @@ services:
     image: allegiance-hd-esrgan:latest
     restart: unless-stopped
     pid: host
+    # Run as the host user so outputs stay editable on the host.
+    user: "${RUNNER_UID:-1000}:${RUNNER_GID:-1000}"
     environment:
       HD_ADDON_ROOT: /work
+      HOME: /tmp
       ESRGAN_WEIGHTS: /weights/RealESRGAN_x4plus.pth
       OMP_NUM_THREADS: ${THREADS:-12}
       MKL_NUM_THREADS: ${THREADS:-12}

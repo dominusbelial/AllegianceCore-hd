@@ -10,6 +10,7 @@ while true; do
     [ -e "$f" ] || continue
     m=$(basename "$(dirname "$f")")
     [ -e "$HD_ADDON_ROOT/variants/esrgan/$m/basecolor.png" ] && continue
+    [ -e "$HD_ADDON_ROOT/failed/$m.log" ] && continue   # failed once: skip (delete the log to retry)
     next=$m; break
   done
   if [ -z "$next" ]; then sleep 60; continue; fi
@@ -19,6 +20,6 @@ while true; do
     echo "$(date +%T) $next ok $(( $(date +%s)-t ))s"
   else
     echo "$(date +%T) $next FAILED: $(tail -1 /tmp/last.log)"; mkdir -p "$HD_ADDON_ROOT/failed" && cp /tmp/last.log "$HD_ADDON_ROOT/failed/$next.log"
-    mkdir -p "$HD_ADDON_ROOT/variants/esrgan/$next" && touch "$HD_ADDON_ROOT/variants/esrgan/$next/basecolor.png.failed"; sleep 5
+    sleep 5
   fi
 done

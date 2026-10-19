@@ -16,6 +16,20 @@ if (args.Length == 1 && args[0] == "--catalog")
     }, options));
     return;
 }
+if (args.Length == 3 && args[0] == "--stem")
+{
+    // Atlas mode (2026-10-19): HD packs are keyed by texture atlas since HD-3, so export one native atlas by stem
+    // (multi-atlas ships, stations, missiles, probes, asteroids...). Same Width/Height/Rgba fields as model mode.
+    var stemName = args[1];
+    if (!System.Text.RegularExpressions.Regex.IsMatch(stemName, "^[a-zA-Z0-9_]+$")) throw new ArgumentException("Invalid stem");
+    var stemPath = Path.Combine(art, stemName + ".mdl");
+    var stemTex = MdlTextureDecoder.Decode(File.ReadAllBytes(stemPath));
+    Directory.CreateDirectory(Path.GetDirectoryName(Path.GetFullPath(args[2]))!);
+    File.WriteAllText(args[2], JsonSerializer.Serialize(new { Texture = stemName,
+        TextureSha256 = Convert.ToHexStringLower(SHA256.HashData(File.ReadAllBytes(stemPath))),
+        Width = stemTex.Width, Height = stemTex.Height, Rgba = stemTex.Rgba }, options));
+    return;
+}
 if (args.Length != 2) throw new ArgumentException("usage: hd-native <native-model> <external-output.json> | --catalog");
 var name = args[0];
 if (Path.GetFileName(name) != name || !System.Text.RegularExpressions.Regex.IsMatch(name, "^[a-zA-Z0-9_]+$"))
